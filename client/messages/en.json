@@ -1,0 +1,273 @@
+{   "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": "{locale, select, en {EN} tr {TR} ru {RU} de {DE} other {Unknown}}"
+  
+  },
+
+  "Header": {
+    "title": "Site Title",
+    "reservation": "RESERVATION"
+  },
+  "Sidebar": {
+    "home": "Home",
+    "about": "About Us",
+    "contact": "Contact"
+  },
+
+  "heroSection": {
+    "muchoDescription": "Unique experience where luxury meets comfort",
+    "bitezDescription": "Peaceful vacation in the heart of nature",
+    "discover": "Discover"
+  },
+  "Welcome": {
+    "title": "We Are Waiting For You",
+    "description": "At InOne Hotels, we're here to offer you a unique holiday experience."
+  },
+  "Featured": {
+    "title": "INONE HOTELS",
+    "description": "Experience the magnificence of the Inone hotel chain, an oasis on the Mediterranean coast that elevates luxury with its 'Ultra All Inclusive' services."
+  },
+
+  "Contact": {
+    "title": "CONTACT US",
+    "description": "Reach us by phone or email, or through the chat in the bottom right corner. Click 'Call You Back' option for a callback.",
+    "callCenter": "Call Center",
+    "callCenterEmail": "Call Center Email",
+    "button": "CALL YOU BACK",
+    "locationTitle": "BODRUM / MUĞLA",
+    "locationDescription": "Discover the beauties of Bodrum, one of Turkey's and even the world's premier holiday destinations with its crystal clear bays and historical texture."
+  },
+
+  "footer": {
+    "aboutUs": "ABOUT US",
+    "contactUs": "CONTACT US",
+    "gallery": "GALLERY",
+    "cookiePolicy": "COOKIE POLICY",
+    "privacyPolicy": "PRIVACY POLICY",
+    "contact": "Contact",
+    "phone": "+90 252 319 40 48",
+    "email": "info@inonehotel.com",
+    "address": "Bodrum / Muğla",
+    "socialMedia": "Follow Us"
+  },
+
+  "inoneBitez": {
+    "heroSubtitle": "A unique experience where luxury and tranquility meet in the incomparable beauty of the Mediterranean",
+    "aboutTitle": "LUXURY EXPERIENCE IN BITEZ",
+    "aboutDescription1": "Located in Bitez, one of Bodrum's most prestigious bays, our hotel harmoniously blends modern luxury with the timeless beauty of the Mediterranean. In this unique location surrounded by crystal-clear waters, we create unforgettable memories for our guests.",
+    "aboutDescription2": "With every carefully designed detail, you will experience a holiday in harmony with nature. We take pride in offering accommodation that exceeds your expectations with our professional team and premium service approach.",
+    "exploreButton": "START EXPLORING",
+    "experienceTitle": "UNIQUE EXPERIENCES",
+    "feature1Title": "Private Beach",
+    "feature1Description": "Exclusive beach area for our guests only, with crystal-clear Mediterranean waters at your doorstep",
+    "feature2Title": "Gourmet Cuisine",
+    "feature2Description": "Special menus where world cuisine meets local Bodrum flavors with exquisite tastes",
+    "feature3Title": "Spa & Wellness",
+    "feature3Description": "Complete renewal experience with modern spa facilities and holistic wellness programs",
+    "feature4Title": "Premium Activities",
+    "feature4Description": "Active holiday program filled with water sports, yoga sessions, and special events",
+    "roomsTitle": "LUXURY ACCOMMODATION",
+    "roomsDescription": "Experience the pinnacle of comfort in luxury rooms and suites designed with Mediterranean views",
+    "room1Title": "Deluxe Sea View Room",
+    "room1Description": "Experience the perfect harmony of luxury and comfort in our modern designed rooms with panoramic sea views.",
+    "room2Title": "Premium Suite",
+    "room2Description": "Our suites designed for an unforgettable accommodation experience with spacious living areas and private terraces.",
+    "learnMore": "View Details",
+    "locationTitle": "BODRUM BITEZ",
+    "locationDescription": "We are located in Bitez, one of the most beautiful bays of the Bodrum peninsula, in a peaceful yet central location. Just 15 minutes from Bodrum city center and a comfortable 45-minute journey to the airport.",
+    "address": "Bitez Mahallesi, 48400 Bodrum/Muğla"
+  },
+
+  "bitezRooms": {
+    "pageTitle": "ROOMS",
+    "pageDescription": "Experience an unforgettable accommodation in our rooms where modern comfort meets the unique beauty of the Mediterranean",
+    
+    "guests": "Guest",
+    "view": "View",
+    "amenities": "Features",
+    
+    "seaView": "Sea",
+    
+    "deluxeRoom": "Deluxe Room",
+    "deluxeRoomDescription": "Our deluxe rooms, featuring spacious and airy design, offer a luxurious accommodation experience with panoramic sea views. Experience the pinnacle of comfort with premium amenities and elegant decor.",
+    "deluxeRoomFeature1": "Private balcony with sea view",
+    "deluxeRoomFeature2": "Premium bathroom amenities",
+    "deluxeRoomFeature3": "Smart TV and sound system",
+    "deluxeRoomFeature4": "Special mini bar options",
+    
+    "suiteRoom": "Suite Room",
+    "suiteRoomDescription": "Experience a special accommodation with spacious living areas and VIP amenities in our suite rooms, the perfect combination of luxury and comfort. Create unforgettable memories with panoramic sea views.",
+    "suiteRoomFeature1": "Separate bedroom and living room",
+    "suiteRoomFeature2": "Private bathroom with jacuzzi",
+    "suiteRoomFeature3": "VIP amenities and services",
+    "suiteRoomFeature4": "Large private terrace",
+    
+    "viewDetails": "VIEW DETAILS",
+    "bookNow": "BOOK NOW",
+    
+    "servicesTitle": "OUR SERVICES",
+    "servicesDescription": "Experience an unforgettable stay with our premium services designed to make your accommodation even more special",
+    
+    "beachServiceTitle": "Beach Service",
+    "beachServiceDescription": "Sunbeds, umbrellas and beach services in our private beach area",
+    
+    "roomServiceTitle": "Room Service",
+    "roomServiceDescription": "24/7 room service with delicious meals anytime you want",
+    
+    "housekeepingTitle": "Housekeeping Service",
+    "housekeepingDescription": "Daily cleaning and special housekeeping services",
+    
+    "spaServiceTitle": "Spa Service",
+    "spaServiceDescription": "Professional massage and spa treatments",
+    
+    "contactTitle": "RESERVATION",
+    "contactDescription": "Contact us to get detailed information about our rooms and make a reservation"
+  },
+
+  "deluxeRoomDetail": {
+    "home": "Home",
+    "rooms": "Rooms",
+    "deluxeRoom": "Deluxe Room",
+    "heroDescription": "Experience an unforgettable accommodation in our Deluxe Room, offering the perfect harmony of luxury and comfort with panoramic sea views.",
+    
+    "roomDetails": "Room Details",
+    "roomDescription": "Our 35 m² Deluxe Room offers the opportunity to watch the mesmerizing view of the Mediterranean from its private balcony. Experience the pinnacle of comfort with its modern design, premium amenities and elegant decor. Enjoy a luxurious vacation with jacuzzi bathroom, smart TV system and special mini bar options.",
+    
+    "size": "Size",
+    "capacity": "Capacity",
+    "view": "View",
+    "bedType": "Bed Type",
+    "bathroom": "Bathroom",
+    "climate": "Climate",
+    
+    "seaView": "Sea View",
+    "doubleBed": "Double Bed",
+    "privateBathroom": "Private Bathroom",
+    "airConditioning": "Air Conditioning",
+    
+    "amenities": "Room Amenities",
+    "privateBalcony": "Private Balcony",
+    "smartTV": "Smart TV",
+    "minibar": "Mini Bar",
+    "safe": "Safe",
+    "wifi": "Free WiFi",
+    "heating": "Heating System",
+    "bathrobes": "Bathrobes",
+    "hairdryer": "Hair Dryer",
+    "toiletries": "Toiletries",
+    "roomService": "Room Service",
+    "housekeeping": "Housekeeping",
+    "concierge": "Concierge Service",
+    "beachAccess": "Beach Access",
+    "poolAccess": "Pool Access",
+    
+    "bookNow": "BOOK NOW",
+    "virtualTour": "VIRTUAL TOUR",
+    
+    "includedServices": "Included Services",
+    "beachServiceTitle": "Beach Service",
+    "beachServiceDescription": "Sunbeds, umbrellas and beach services in private beach area",
+    "roomServiceTitle": "Room Service",
+    "roomServiceDescription": "24/7 room service with delicious meals",
+    "conciergeServiceTitle": "Concierge Service",
+    "conciergeServiceDescription": "Professional support for your special requests",
+    
+    "makeReservation": "Make Reservation",
+    "reservationDescription": "Make a reservation now to spend an unforgettable vacation in our Deluxe Room. We are waiting for you with the best price guarantee."
+  },
+
+  "suiteRoomDetail": {
+    "home": "Home",
+    "rooms": "Rooms",
+    "suiteRoom": "Suite Room",
+    "heroDescription": "Experience a special accommodation with spacious living areas and VIP amenities in our Suite Room, the perfect combination of luxury and comfort.",
+    
+    "roomDetails": "Room Details",
+    "roomDescription": "Our 55 m² Suite Room offers spacious living areas with separate bedroom and living room. Experience an unforgettable vacation with jacuzzi private bathroom, panoramic Mediterranean views from the large private terrace and VIP amenities. Discover the pinnacle of luxury with modern sound system and premium services.",
+    
+    "size": "Size",
+    "capacity": "Capacity",
+    "view": "View",
+    "bedType": "Bed Type",
+    "bathroom": "Bathroom",
+    "layout": "Layout",
+    
+    "seaView": "Sea View",
+    "kingBed": "King Size Bed",
+    "jacuzziBathroom": "Jacuzzi Bathroom",
+    "separateRooms": "Separate Rooms",
+    
+    "amenities": "Room Amenities",
+    "separateBedroom": "Separate Bedroom",
+    "livingRoom": "Living Room",
+    "privateBalcony": "Private Balcony",
+    "jacuzziBath": "Jacuzzi Bath",
+    "smartTV": "Smart TV",
+    "soundSystem": "Sound System",
+    "minibar": "Premium Mini Bar",
+    "safe": "Digital Safe",
+    "wifi": "Free WiFi",
+    "airConditioning": "Air Conditioning",
+    "heating": "Heating System",
+    "bathrobes": "Luxury Bathrobes",
+    "hairdryer": "Hair Dryer",
+    "toiletries": "Premium Toiletries",
+    "roomService": "24/7 Room Service",
+    "housekeeping": "Daily Housekeeping",
+    "concierge": "Personal Concierge",
+    "beachAccess": "Private Beach Access",
+    "poolAccess": "VIP Pool Access",
+    "vipServices": "VIP Services",
+    
+    "bookNow": "BOOK NOW",
+    "virtualTour": "VIRTUAL TOUR",
+    
+    "includedServices": "Included Services",
+    "beachServiceTitle": "VIP Beach Service",
+    "beachServiceDescription": "VIP sunbeds, private service and premium beach services in private beach area",
+    "roomServiceTitle": "Premium Room Service",
+    "roomServiceDescription": "24/7 premium room service with exquisite flavors from special menus",
+    "conciergeServiceTitle": "Personal Concierge",
+    "conciergeServiceDescription": "24/7 professional support for your special requests with personal concierge",
+    
+    "makeReservation": "Make Reservation",
+    "reservationDescription": "Make a reservation now to spend a VIP vacation in our Suite Room. We are waiting for you with special discounts and best price guarantee."
+  },
+
+  "aboutUs": {
+    "pageTitle": "ABOUT US",
+    "heroDescription": "In the heart of the Mediterranean, in the unique beauty of Bitez, we take pride in offering our guests unforgettable experiences",
+    
+    "storyTitle": "OUR STORY",
+    "storyDescription1": "Inone Bitez is a boutique hotel located in Bitez, one of Bodrum's most beautiful bays, offering the perfect harmony of nature's captivating beauty with modern luxury. Located at zero distance to the turquoise waters of the Mediterranean, we were established to create unforgettable memories for our guests.",
+    "storyDescription2": "Our hotel, which contains care in every detail, combines traditional Turkish hospitality with contemporary comfort understanding, offering our guests a unique vacation experience. With our sustainability principles and environmentally friendly approach, we always prioritize the importance of preserving natural beauties.",
+    "establishedYear": "2018",
+    "established": "Established",
+    "roomCount": "24",
+    "rooms": "Rooms",
+    
+    "valuesTitle": "OUR VALUES",
+    "valuesDescription": "The core values we embrace to provide the best service to our guests",
+    "excellenceTitle": "Excellence",
+    "excellenceDescription": "We provide service beyond expectations by aiming for excellence in every detail",
+    "hospitalityTitle": "Hospitality",
+    "hospitalityDescription": "We blend traditional Turkish hospitality with modern understanding",
+    "sustainabilityTitle": "Sustainability",
+    "sustainabilityDescription": "We pass natural beauties to future generations with environmentally friendly practices",
+    "luxuryTitle": "Luxury",
+    "luxuryDescription": "We bring together comfort and elegance to experience the true meaning of luxury",
+    
+    "locationTitle": "OUR LOCATION",
+    "locationDescription1": "Our hotel, located in Bitez, one of the most beautiful bays of the Bodrum peninsula, is situated in a peaceful yet central location. At zero distance to the crystal clear Mediterranean waters, you will experience a vacation surrounded by the unique beauties offered by nature.",
+    "locationDescription2": "You can reach Bodrum city center in just 15 minutes and Bodrum-Milas Airport with a comfortable 45-minute journey. We offer easy access to surrounding ancient cities, marina, shopping centers and entertainment venues.",
+    "beachDistance": "0 meters to private beach",
+    "cityDistance": "15 minutes to Bodrum center",
+    "airportDistance": "45 minutes to airport",
+    
+    "teamTitle": "OUR TEAM",
+    "teamDescription": "Our experienced team working passionately to provide the best service to our guests",
+    "generalManagerTitle": "General Manager",
+    "guestRelationsTitle": "Guest Relations Manager",
+    "chefTitle": "Head Chef"
+  }
+}  

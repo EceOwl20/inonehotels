@@ -1,0 +1,275 @@
+
+{
+    "LocaleSwitcher": {
+      "label": "Dili Değiştir",
+      "locale": "{locale, select, en {EN} tr {TR} ru {RU} de {DE} other {Bilinmeyen}}"
+    },
+
+    "Header": {
+        "reservation": "REZERVASYON",
+        "title": "Site Başlığı"
+      },
+      "Sidebar": {
+        "home": "Anasayfa",
+        "about": "Hakkımızda",
+        "contact": "İletişim"
+      },
+
+      "heroSection": {
+        "muchoDescription": "Lüks ve konforun buluştuğu eşsiz deneyim",
+        "bitezDescription": "Doğanın kalbinde huzurlu tatil",
+        "discover": "Keşfet"
+      },
+      "Welcome": {
+        "title": "Sizi Bekliyoruz",
+        "description": "InOne Hotels olarak benzersiz bir tatil deneyimi yaşamanız için buradayız."
+      },
+      "Featured": {
+        "title": "INONE HOTELS",
+        "description": "Akdeniz kıyılarında lüksü 'Ultra Her Şey Dahil' hizmetleriyle birleştiren Inone otel zincirinin büyüleyici atmosferini deneyimleyin."
+      },
+
+      "Contact": {
+        "title": "BİZE ULAŞIN",
+        "description": "Telefon veya e-posta ile ya da sağ alt köşedeki sohbet üzerinden bize ulaşın. Geri arama için Sizi Arayalım seçeneğine tıklayın.",
+        "callCenter": "Çağrı Merkezi",
+        "callCenterEmail": "Çağrı Merkezi E-Posta",
+        "button": "SİZİ ARAYALIM",
+        "locationTitle": "BODRUM / MUĞLA",
+        "locationDescription": "Berrak koyları, tarihi dokusuyla Türkiye'nin ve hatta dünyanın sayılı tatil beldelerinden olan Bodrum'un güzelliklerini keşfedin."
+      },
+
+      "footer": {
+        "aboutUs": "HAKKIMIZDA",
+        "contactUs": "İLETİŞİM",
+        "gallery": "GALERİ",
+        "cookiePolicy": "ÇEREZ POLİTİKASI",
+        "privacyPolicy": "GİZLİLİK POLİTİKASI",
+        "contact": "İletişim",
+        "phone": "+90 252 319 40 48",
+        "email": "info@inonehotel.com",
+        "address": "Bodrum / Muğla",
+        "socialMedia": "Bizi Takip Edin"
+      },
+
+      "inoneBitez": {
+        "heroSubtitle": "Akdeniz'in eşsiz güzelliğinde lüks ve huzurun buluştuğu özel deneyim",
+        "aboutTitle": "BİTEZ'DE LÜKS DENEYİM",
+        "aboutDescription1": "Bodrum'un en prestijli koylarından biri olan Bitez'de konumlanan otelimiz, modern lüksü Akdeniz'in zamansız güzelliğiyle harmanlıyor. Kristal berraklığındaki sularla çevrili bu eşsiz lokasyonda, misafirlerimize unutulmaz anılar sunuyoruz.",
+        "aboutDescription2": "Özenle tasarlanmış her detayıyla, doğayla iç içe bir tatil deneyimi yaşayacaksınız. Profesyonel ekibimiz ve premium hizmet anlayışımızla, beklentilerinizin ötesinde bir konaklama sunmaktan gurur duyuyoruz.",
+        "exploreButton": "KEŞFETMEYE BAŞLAYIN",
+        "experienceTitle": "EŞSİZ DENEYİMLER",
+        "feature1Title": "Özel Plaj",
+        "feature1Description": "Kristal berraklığında Akdeniz sularına sıfır, sadece misafirlerimize özel plaj alanı",
+        "feature2Title": "Gourmet Mutfak",
+        "feature2Description": "Dünya mutfağından seçkin lezzetler ve yerel Bodrum tatlarının buluştuğu özel menüler",
+        "feature3Title": "Spa & Wellness",
+        "feature3Description": "Modern spa tesisleri ve holistik wellness programlarıyla tam bir yenilenme deneyimi",
+        "feature4Title": "Premium Aktiviteler",
+        "feature4Description": "Su sporları, yoga seansları ve özel etkinliklerle dolu aktif tatil programı",
+        "roomsTitle": "LÜKS KONAKLAMA",
+        "roomsDescription": "Akdeniz manzarası eşliğinde tasarlanmış lüks odalar ve süitlerde konforun zirvesini yaşayın",
+        "room1Title": "Deluxe Deniz Manzaralı Oda",
+        "room1Description": "Panoramik deniz manzaralı, modern tasarımlı odalarımızda lüks ve konforun mükemmel uyumunu deneyimleyin.",
+        "room2Title": "Premium Süit",
+        "room2Description": "Geniş yaşam alanları ve özel teraslarıyla, unutulmaz bir konaklama deneyimi için tasarlanmış süitlerimiz.",
+        "learnMore": "Detayları Görün",
+        "locationTitle": "BODRUM BİTEZ",
+        "locationDescription": "Bodrum yarımadasının en güzel koylarından biri olan Bitez'de, hem huzurlu hem de merkezi bir konumda yer alıyoruz. Bodrum şehir merkezine sadece 15 dakika mesafede, havaalanına ise 45 dakikalık konforlu bir yolculukla ulaşabilirsiniz.",
+        "address": "Bitez Mahallesi, 48400 Bodrum/Muğla"
+      },
+
+      "bitezRooms": {
+        "pageTitle": "ODALAR",
+        "pageDescription": "Modern konfor ve Akdeniz'in eşsiz güzelliğinin buluştuğu odalarımızda unutulmaz bir konaklama deneyimi yaşayın",
+        
+        "guests": "Misafir",
+        "view": "Manzara",
+        "amenities": "Özellikler",
+        
+        "seaView": "Deniz",
+        
+        "deluxeRoom": "Deluxe Room",
+        "deluxeRoomDescription": "Geniş ve ferah tasarımıyla öne çıkan deluxe odalarımız, panoramik deniz manzarası eşliğinde lüks bir konaklama deneyimi sunar. Premium amenitiler ve zarif dekoru ile konforun zirvesini yaşayın.",
+        "deluxeRoomFeature1": "Özel balkon ile deniz manzarası",
+        "deluxeRoomFeature2": "Premium banyo amenitileri",
+        "deluxeRoomFeature3": "Smart TV ve ses sistemi",
+        "deluxeRoomFeature4": "Özel mini bar seçenekleri",
+        
+        "suiteRoom": "Suite Room",
+        "suiteRoomDescription": "Lüks ve konforun mükemmel birleşimi olan suite odalarımızda, geniş yaşam alanları ve VIP amenitiler ile özel bir konaklama deneyimi yaşayın. Panoramik deniz manzarası eşliğinde unutulmaz anılar biriktirin.",
+        "suiteRoomFeature1": "Ayrı yatak odası ve salon",
+        "suiteRoomFeature2": "Jakuzili özel banyo",
+        "suiteRoomFeature3": "VIP amenitiler ve hizmetler",
+        "suiteRoomFeature4": "Geniş özel teras",
+        
+        "viewDetails": "DETAYLARI GÖRÜN",
+        "bookNow": "REZERVASYON YAP",
+        
+        "servicesTitle": "HİZMETLERİMİZ",
+        "servicesDescription": "Konaklamanızı daha da özel kılmak için sunduğumuz premium hizmetlerimizle unutulmaz bir deneyim yaşayın",
+        
+        "beachServiceTitle": "Plaj Hizmeti",
+        "beachServiceDescription": "Özel plaj alanımızda şezlong, şemsiye ve plaj hizmetleri",
+        
+        "roomServiceTitle": "Oda Servisi",
+        "roomServiceDescription": "7/24 oda servisi ile istediğiniz her an lezzetli yemekler",
+        
+        "housekeepingTitle": "Temizlik Hizmeti",
+        "housekeepingDescription": "Günlük temizlik ve özel temizlik hizmetleri",
+        
+        "spaServiceTitle": "Spa Hizmeti",
+        "spaServiceDescription": "Profesyonel masaj ve spa tedavileri",
+        
+        "contactTitle": "REZERVASYON",
+        "contactDescription": "Odalarımız hakkında detaylı bilgi almak ve rezervasyon yapmak için bizimle iletişime geçin"
+      },
+
+      "deluxeRoomDetail": {
+        "home": "Ana Sayfa",
+        "rooms": "Odalar",
+        "deluxeRoom": "Deluxe Room",
+        "heroDescription": "Panoramik deniz manzarası ile lüks ve konforun mükemmel uyumunu sunan Deluxe Room'umuzda unutulmaz bir konaklama deneyimi yaşayın.",
+        
+        "roomDetails": "Oda Detayları",
+        "roomDescription": "35 m² genişliğindeki Deluxe Room'umuz, özel balkonundan Akdeniz'in büyüleyici manzarasını izleme imkânı sunar. Modern tasarımı, premium amenitileri ve zarif dekoru ile konforun zirvesini deneyimleyin. Jakuzili banyosu, akıllı TV sistemi ve özel mini bar seçenekleri ile lüks bir tatil geçirin.",
+        
+        "size": "Boyut",
+        "capacity": "Kapasite",
+        "view": "Manzara",
+        "bedType": "Yatak Tipi",
+        "bathroom": "Banyo",
+        "climate": "Klima",
+        
+        "seaView": "Deniz Manzarası",
+        "doubleBed": "Çift Kişilik Yatak",
+        "privateBathroom": "Özel Banyo",
+        "airConditioning": "Klima Sistemi",
+        
+        "amenities": "Oda İmkânları",
+        "privateBalcony": "Özel Balkon",
+        "smartTV": "Akıllı TV",
+        "minibar": "Mini Bar",
+        "safe": "Kasa",
+        "wifi": "Ücretsiz WiFi",
+        "heating": "Isıtma Sistemi",
+        "bathrobes": "Bornoz",
+        "hairdryer": "Saç Kurutma Makinesi",
+        "toiletries": "Banyo Amenitileri",
+        "roomService": "Oda Servisi",
+        "housekeeping": "Temizlik Hizmeti",
+        "concierge": "Concierge Hizmeti",
+        "beachAccess": "Plaj Erişimi",
+        "poolAccess": "Havuz Erişimi",
+        
+        "bookNow": "HEMEN REZERVE ET",
+        "virtualTour": "VİRTÜEL TUR",
+        
+        "includedServices": "Dahil Olan Hizmetler",
+        "beachServiceTitle": "Plaj Hizmeti",
+        "beachServiceDescription": "Özel plaj alanında şezlong, şemsiye ve plaj hizmetleri",
+        "roomServiceTitle": "Oda Servisi",
+        "roomServiceDescription": "7/24 oda servisi ile lezzetli yemekler",
+        "conciergeServiceTitle": "Concierge Hizmeti",
+        "conciergeServiceDescription": "Özel istekleriniz için profesyonel destek",
+        
+        "makeReservation": "Rezervasyon Yapın",
+        "reservationDescription": "Deluxe Room'umuzda unutulmaz bir tatil geçirmek için hemen rezervasyon yapın. En iyi fiyat garantisi ile sizleri bekliyoruz."
+      },
+
+      "suiteRoomDetail": {
+        "home": "Ana Sayfa",
+        "rooms": "Odalar",
+        "suiteRoom": "Suite Room",
+        "heroDescription": "Geniş yaşam alanları ve VIP amenitiler ile lüks ve konforun mükemmel birleşimi olan Suite Room'umuzda özel bir konaklama deneyimi yaşayın.",
+        
+        "roomDetails": "Oda Detayları",
+        "roomDescription": "55 m² genişliğindeki Suite Room'umuz, ayrı yatak odası ve salon ile geniş yaşam alanları sunmaktadır. Jakuzili özel banyosu, geniş özel terasından Akdeniz'in panoramik manzarası ve VIP amenitiler ile unutulmaz bir tatil deneyimi yaşayın. Modern ses sistemi ve premium hizmetler ile lüksün zirvesini keşfedin.",
+        
+        "size": "Boyut",
+        "capacity": "Kapasite",
+        "view": "Manzara",
+        "bedType": "Yatak Tipi",
+        "bathroom": "Banyo",
+        "layout": "Düzenleme",
+        
+        "seaView": "Deniz Manzarası",
+        "kingBed": "King Size Yatak",
+        "jacuzziBathroom": "Jakuzili Banyo",
+        "separateRooms": "Ayrı Odalar",
+        
+        "amenities": "Oda İmkânları",
+        "separateBedroom": "Ayrı Yatak Odası",
+        "livingRoom": "Oturma Salonu",
+        "privateBalcony": "Özel Balkon",
+        "jacuzziBath": "Jakuzili Banyo",
+        "smartTV": "Akıllı TV",
+        "soundSystem": "Ses Sistemi",
+        "minibar": "Premium Mini Bar",
+        "safe": "Dijital Kasa",
+        "wifi": "Ücretsiz WiFi",
+        "airConditioning": "Klima Sistemi",
+        "heating": "Isıtma Sistemi",
+        "bathrobes": "Lüks Bornoz",
+        "hairdryer": "Saç Kurutma Makinesi",
+        "toiletries": "Premium Banyo Amenitileri",
+        "roomService": "7/24 Oda Servisi",
+        "housekeeping": "Günlük Temizlik",
+        "concierge": "Özel Concierge",
+        "beachAccess": "Özel Plaj Erişimi",
+        "poolAccess": "VIP Havuz Erişimi",
+        "vipServices": "VIP Hizmetler",
+        
+        "bookNow": "HEMEN REZERVE ET",
+        "virtualTour": "VİRTÜEL TUR",
+        
+        "includedServices": "Dahil Olan Hizmetler",
+        "beachServiceTitle": "VIP Plaj Hizmeti",
+        "beachServiceDescription": "Özel plaj alanında VIP şezlong, özel servis ve premium plaj hizmetleri",
+        "roomServiceTitle": "Premium Oda Servisi",
+        "roomServiceDescription": "7/24 premium oda servisi ile özel menülerden seçkin lezzetler",
+        "conciergeServiceTitle": "Özel Concierge",
+        "conciergeServiceDescription": "Kişisel concierge ile özel istekleriniz için 7/24 profesyonel destek",
+        
+        "makeReservation": "Rezervasyon Yapın",
+        "reservationDescription": "Suite Room'umuzda VIP bir tatil geçirmek için hemen rezervasyon yapın. Özel indirimler ve en iyi fiyat garantisi ile sizleri bekliyoruz."
+      },
+
+      "aboutUs": {
+        "pageTitle": "HAKKIMIZDA",
+        "heroDescription": "Akdeniz'in kalbinde, Bitez'in eşsiz güzelliğinde misafirlerimize unutulmaz deneyimler sunmanın gururunu yaşıyoruz",
+        
+        "storyTitle": "HİKAYEMİZ",
+        "storyDescription1": "Inone Bitez, Bodrum'un en güzel koylarından biri olan Bitez'de, doğanın büyüleyici güzellikleri ile modern lüksün mükemmel uyumunu sunan bir boutique oteldir. Akdeniz'in turkuaz sularına sıfır konumumuzda, misafirlerimize unutulmaz anılar yaşatmak için kurulduk.",
+        "storyDescription2": "Her detayında özen barındıran otelimiz, geleneksel Türk misafirperverliğini çağdaş konfor anlayışıyla birleştirerek, konuklarımıza benzersiz bir tatil deneyimi sunmaktadır. Sürdürülebilirlik ilkelerimiz ve çevre dostu yaklaşımımızla, doğal güzellikleri korumanın önemini her zaman ön planda tutuyoruz.",
+        "establishedYear": "2018",
+        "established": "Kuruluş",
+        "roomCount": "24",
+        "rooms": "Oda",
+        
+        "valuesTitle": "DEĞERLERİMİZ",
+        "valuesDescription": "Misafirlerimize en iyi hizmeti sunabilmek için benimsediğimiz temel değerlerimiz",
+        "excellenceTitle": "Mükemmellik",
+        "excellenceDescription": "Her detayda mükemmelliği hedefleyerek, beklentilerin ötesinde hizmet sunuyoruz",
+        "hospitalityTitle": "Misafirperverlik",
+        "hospitalityDescription": "Geleneksel Türk misafirperverliğini modern anlayışla harmanlıyoruz",
+        "sustainabilityTitle": "Sürdürülebilirlik",
+        "sustainabilityDescription": "Çevre dostu uygulamalarla doğal güzellikleri gelecek nesillere aktarıyoruz",
+        "luxuryTitle": "Lüks",
+        "luxuryDescription": "Konfor ve şıklığı bir araya getirerek lüksün gerçek anlamını yaşatıyoruz",
+        
+        "locationTitle": "KONUMUMUZ",
+        "locationDescription1": "Bodrum yarımadasının en güzel koylarından Bitez'de yer alan otelimiz, hem huzurlu hem de merkezi bir konumda bulunmaktadır. Kristal berraklığındaki Akdeniz sularına sıfır mesafede, doğanın sunduğu eşsiz güzelliklerle çevrili bir tatil deneyimi yaşayacaksınız.",
+        "locationDescription2": "Bodrum şehir merkezine sadece 15 dakika, Bodrum-Milas Havaalanı'na ise 45 dakikalık konforlu bir yolculukla ulaşabilirsiniz. Çevredeki antik şehirler, marina, alışveriş merkezleri ve eğlence mekanlarına kolay erişim imkânı sunuyoruz.",
+        "beachDistance": "Özel plaja 0 metre",
+        "cityDistance": "Bodrum merkeze 15 dakika",
+        "airportDistance": "Havaalanına 45 dakika",
+        
+        "teamTitle": "EKİBİMİZ",
+        "teamDescription": "Misafirlerimize en iyi hizmeti sunmak için tutkuyla çalışan deneyimli ekibimiz",
+        "generalManagerTitle": "Genel Müdür",
+        "guestRelationsTitle": "Misafir İlişkileri Müdürü",
+        "chefTitle": "Baş Aşçı"
+      }
+}
+
