@@ -11,7 +11,6 @@ export default function AboutUsPage() {
       <AboutStory />
       <AboutValues />
       <AboutLocation />
-      <AboutTeam />
     </div>
   );
 }

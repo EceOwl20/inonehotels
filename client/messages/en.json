@@ -258,14 +258,14 @@
 
   "aboutUs": {
     "pageTitle": "ABOUT US",
-    "heroDescription": "In the heart of the Mediterranean, in the unique beauty of Bitez, we take pride in offering our guests unforgettable experiences",
-    
+    "heroDescription": "In the heart of the Mediterranean, we take pride in offering unforgettable experiences to our guests in the unique beauty of Bitez",
+
     "storyTitle": "OUR STORY",
-    "storyDescription1": "Inone Bitez is a boutique hotel located in Bitez, one of Bodrum's most beautiful bays, offering the perfect harmony of nature's captivating beauty with modern luxury. Located at zero distance to the turquoise waters of the Mediterranean, we were established to create unforgettable memories for our guests.",
-    "storyDescription2": "Our hotel, which contains care in every detail, combines traditional Turkish hospitality with contemporary comfort understanding, offering our guests a unique vacation experience. With our sustainability principles and environmentally friendly approach, we always prioritize the importance of preserving natural beauties.",
-    "establishedYear": "2018",
+    "storyDescription1": "Inone Bitez is a boutique hotel located in Bitez, one of Bodrum's most beautiful bays, offering the perfect harmony of nature's enchanting beauty with modern luxury. We were established to create unforgettable memories for our guests at our location right on the turquoise waters of the Mediterranean.",
+    "storyDescription2": "Our hotel, which contains care in every detail, combines traditional Turkish hospitality with contemporary comfort understanding, offering our guests a unique holiday experience. With our sustainability principles and environmentally friendly approach, we always prioritize the importance of preserving natural beauties.",
+    "establishedYear": "2025",
     "established": "Established",
-    "roomCount": "24",
+    "roomCount": "15",
     "rooms": "Rooms",
     
     "valuesTitle": "OUR VALUES",
@@ -280,9 +280,9 @@
     "luxuryDescription": "We bring together comfort and elegance to experience the true meaning of luxury",
     
     "locationTitle": "OUR LOCATION",
-    "locationDescription1": "Our hotel, located in Bitez, one of the most beautiful bays of the Bodrum peninsula, is situated in a peaceful yet central location. At zero distance to the crystal clear Mediterranean waters, you will experience a vacation surrounded by the unique beauties offered by nature.",
-    "locationDescription2": "You can reach Bodrum city center in just 15 minutes and Bodrum-Milas Airport with a comfortable 45-minute journey. We offer easy access to surrounding ancient cities, marina, shopping centers and entertainment venues.",
-    "beachDistance": "0 meters to private beach",
+    "locationDescription1": "Our facility is located in Bitez, one of the most beautiful bays of the Bodrum peninsula, in a peaceful yet central location. With our position on Atatürk Boulevard, we offer Bitez's natural beauty and our proximity to the sea together.",
+    "locationDescription2": "Just 15 minutes from Bodrum city center and a comfortable 45-minute journey to Bodrum-Milas Airport. We provide easy access to surrounding ancient cities, marina, shopping centers, and entertainment venues.",
+    "beachDistance": "Walking distance to beach",
     "cityDistance": "15 minutes to Bodrum center",
     "airportDistance": "45 minutes to airport",
     
