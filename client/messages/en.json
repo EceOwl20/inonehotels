@@ -86,17 +86,17 @@
     "feature3Description": "Complete renewal experience with modern spa facilities and holistic wellness programs",
     "feature4Title": "Premium Activities",
     "feature4Description": "Active holiday program filled with water sports, yoga sessions, and special events",
-    "roomsTitle": "LUXURY ACCOMMODATION",
-    "roomsDescription": "Experience the pinnacle of comfort in luxury rooms and suites designed with Mediterranean views",
-    "room1Title": "Deluxe Sea View Room",
-    "room1Description": "Experience the perfect harmony of luxury and comfort in our modern designed rooms with panoramic sea views.",
-    "room2Title": "Premium Suite",
-    "room2Description": "Our suites designed for an unforgettable accommodation experience with spacious living areas and private terraces.",
+    "roomsTitle": "COMFORTABLE ACCOMMODATION",
+    "roomsDescription": "Experience the pinnacle of comfort in modern rooms and suites designed in the peaceful atmosphere of Bitez",
+    "room1Title": "Deluxe Room",
+    "room1Description": "Spacious rooms with modern design and elegant details, meeting all your comfort needs for a perfect stay.",
+    "room2Title": "Suite Room",
+    "room2Description": "Our premium suites with spacious living areas and separate seating corners, offering a luxurious comfort experience.",
     "learnMore": "View Details",
     "locationTitle": "BODRUM BITEZ",
     "locationDescription": "We are located in Bitez, one of the most beautiful bays of the Bodrum peninsula, in a peaceful yet central location. Just 15 minutes from Bodrum city center and a comfortable 45-minute journey to the airport.",
     "address": "Bitez Mahallesi, 48400 Bodrum/Muğla"
-  },
+},
 
   "bitezRooms": {
     "pageTitle": "ROOMS",
@@ -147,6 +147,7 @@
 
   "deluxeRoomDetail": {
     "home": "Home",
+    "entertainment": "Entertainment",
     "rooms": "Rooms",
     "deluxeRoom": "Deluxe Room",
     "heroDescription": "Experience an unforgettable accommodation in our Deluxe Room, offering the perfect harmony of luxury and comfort with panoramic sea views.",

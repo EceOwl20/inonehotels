@@ -86,17 +86,17 @@
         "feature3Description": "Komplette Erneuerungserfahrung mit modernen Spa-Einrichtungen und ganzheitlichen Wellness-Programmen",
         "feature4Title": "Premium-Aktivitäten",
         "feature4Description": "Aktives Urlaubsprogramm voller Wassersport, Yoga-Sessions und besonderen Veranstaltungen",
-        "roomsTitle": "LUXUS-UNTERKUNFT",
-        "roomsDescription": "Erleben Sie den Gipfel des Komforts in Luxuszimmern und Suiten mit Mittelmeerblick",
-        "room1Title": "Deluxe Zimmer mit Meerblick",
-        "room1Description": "Erleben Sie die perfekte Harmonie von Luxus und Komfort in unseren modern gestalteten Zimmern mit Panorama-Meerblick.",
-        "room2Title": "Premium Suite",
-        "room2Description": "Unsere Suiten für ein unvergessliches Unterkunftserlebnis mit geräumigen Wohnbereichen und privaten Terrassen.",
+        "roomsTitle": "KOMFORTABLE UNTERKUNFT",
+        "roomsDescription": "Erleben Sie den Gipfel des Komforts in modernen Zimmern und Suiten in der friedlichen Atmosphäre von Bitez",
+        "room1Title": "Deluxe Zimmer",
+        "room1Description": "Geräumige Zimmer mit modernem Design und eleganten Details, die alle Ihre Komfortbedürfnisse erfüllen.",
+        "room2Title": "Suite Zimmer",
+        "room2Description": "Unsere Premium-Suiten mit geräumigen Wohnbereichen und separaten Sitzecken für ein luxuriöses Komforterlebnis.",
         "learnMore": "Details anzeigen",
         "locationTitle": "BODRUM BITEZ",
         "locationDescription": "Wir befinden uns in Bitez, einer der schönsten Buchten der Halbinsel Bodrum, in ruhiger und dennoch zentraler Lage. Nur 15 Minuten vom Stadtzentrum Bodrum und eine komfortable 45-minütige Fahrt zum Flughafen entfernt.",
         "address": "Bitez Mahallesi, 48400 Bodrum/Muğla"
-      },
+    },
 
       "bitezRooms": {
         "pageTitle": "ZIMMER",
@@ -147,6 +147,7 @@
 
       "deluxeRoomDetail": {
         "home": "Startseite",
+        "entertainment": "Unterhaltung",
         "rooms": "Zimmer",
         "deluxeRoom": "Deluxe Zimmer",
         "heroDescription": "Erleben Sie einen unvergesslichen Aufenthalt in unserem Deluxe Zimmer, das die perfekte Harmonie von Luxus und Komfort mit Panorama-Meerblick bietet.",

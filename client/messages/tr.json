@@ -87,17 +87,17 @@
         "feature3Description": "Modern spa tesisleri ve holistik wellness programlarıyla tam bir yenilenme deneyimi",
         "feature4Title": "Premium Aktiviteler",
         "feature4Description": "Su sporları, yoga seansları ve özel etkinliklerle dolu aktif tatil programı",
-        "roomsTitle": "LÜKS KONAKLAMA",
-        "roomsDescription": "Akdeniz manzarası eşliğinde tasarlanmış lüks odalar ve süitlerde konforun zirvesini yaşayın",
-        "room1Title": "Deluxe Deniz Manzaralı Oda",
-        "room1Description": "Panoramik deniz manzaralı, modern tasarımlı odalarımızda lüks ve konforun mükemmel uyumunu deneyimleyin.",
-        "room2Title": "Premium Süit",
-        "room2Description": "Geniş yaşam alanları ve özel teraslarıyla, unutulmaz bir konaklama deneyimi için tasarlanmış süitlerimiz.",
+        "roomsTitle": "KONFORLU KONAKLAMA",
+        "roomsDescription": "Bitez'in huzurlu atmosferinde tasarlanmış modern odalar ve süitlerde konforun zirvesini yaşayın",
+        "room1Title": "Deluxe Oda",
+        "room1Description": "Modern tasarım ve zarif detaylarla döşenmiş, tüm konfor ihtiyaçlarınızı karşılayan geniş odalarımız.",
+        "room2Title": "Süit Oda",
+        "room2Description": "Geniş yaşam alanları ve ayrı oturma köşeleriyle, premium konfor deneyimi sunan süitlerimiz.",
         "learnMore": "Detayları Görün",
         "locationTitle": "BODRUM BİTEZ",
         "locationDescription": "Bodrum yarımadasının en güzel koylarından biri olan Bitez'de, hem huzurlu hem de merkezi bir konumda yer alıyoruz. Bodrum şehir merkezine sadece 15 dakika mesafede, havaalanına ise 45 dakikalık konforlu bir yolculukla ulaşabilirsiniz.",
         "address": "Bitez Mahallesi, 48400 Bodrum/Muğla"
-      },
+    },
 
       "bitezRooms": {
         "pageTitle": "ODALAR",
@@ -148,6 +148,7 @@
 
       "deluxeRoomDetail": {
         "home": "Ana Sayfa",
+        "entertainment": "Eğlence",
         "rooms": "Odalar",
         "deluxeRoom": "Deluxe Room",
         "heroDescription": "Panoramik deniz manzarası ile lüks ve konforun mükemmel uyumunu sunan Deluxe Room'umuzda unutulmaz bir konaklama deneyimi yaşayın.",
