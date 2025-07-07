@@ -301,6 +301,10 @@
         "petFriendly": "Evcil Hayvan Dostu",
         "beachfront": "Denize Sıfır",
         "dailyCleaning": "Günlük Oda Temizliği"
+      },
+
+      "MobileBookButton": {
+        "bookNow": "REZERVASYON YAP"
       }
 }
 

@@ -300,5 +300,9 @@
         "petFriendly": "Размещение с Животными",
         "beachfront": "На Берегу Моря",
         "dailyCleaning": "Ежедневная Уборка"
+      },
+
+      "MobileBookButton": {
+        "bookNow": "ЗАБРОНИРОВАТЬ СЕЙЧАС"
       }
 }

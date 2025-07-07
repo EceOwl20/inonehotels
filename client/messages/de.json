@@ -300,6 +300,10 @@
         "petFriendly": "Haustierfreundlich",
         "beachfront": "Direkt am Strand",
         "dailyCleaning": "Tägliche Reinigung"
+      },
+
+      "MobileBookButton": {
+        "bookNow": "JETZT BUCHEN"
       }
       
 }

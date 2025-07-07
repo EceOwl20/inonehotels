@@ -300,5 +300,9 @@
     "petFriendly": "Pet Friendly",
     "beachfront": "Beachfront",
     "dailyCleaning": "Daily Housekeeping"
+  },
+
+  "MobileBookButton": {
+    "bookNow": "BOOK NOW"
   }
 }  

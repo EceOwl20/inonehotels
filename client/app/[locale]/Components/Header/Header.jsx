@@ -58,11 +58,17 @@ export default function Header() {
 
           {/* Sağ taraf - Desktop */}
           <div className="flex items-center gap-4 mr-12 text-sm text-white">
-            <div className="flex items-center gap-2 font-jost font-semibold">
+            <a 
+              href="tel:+902523194048" 
+              className="flex items-center gap-2 font-jost font-semibold hover:bg-orange-300 transition-colors cursor-pointer px-3 py-2 "
+            >
               <FaPhone className="text-white w-4 h-4 scale-x-[-1]" />
               <span>+90 252 319 40 48</span>
-            </div>
-            <Link href="/reservation" className="flex items-center gap-2 font-jost font-semibold hover:text-orange-300 transition-colors">
+            </a>
+            <Link 
+              href="/reservation" 
+              className="flex items-center gap-2 font-jost font-semibold hover:bg-orange-300 transition-colors px-3 py-2 "
+            >
               {t('reservation')}
               <Image 
                 src={zil} 

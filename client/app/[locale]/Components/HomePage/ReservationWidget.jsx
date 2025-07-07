@@ -23,7 +23,7 @@ export default function ReservationWidget() {
   };
 
   return (
-    <div className='flex flex-row bg-[#D9D9D9] w-full h-24 items-center justify-center px-4'>
+    <div className='hidden md:flex flex-row bg-[#D9D9D9] w-full h-24 items-center justify-center px-4'>
       <form onSubmit={handleSubmit} className='flex flex-row w-full max-w-xl bg-white h-16 items-center justify-center'>
         
         {/* CHECK IN */}
