@@ -1,111 +1,118 @@
 'use client';
 import { useState } from 'react';
-import { CalendarIcon, UserIcon } from 'lucide-react';
+import { UserIcon } from 'lucide-react';
+import Image from 'next/image';
+import Calendar from "./Icons/calender.svg";
+import zil from "./Icons/Vector3.png";
 
 export default function ReservationWidget() {
   const [checkIn, setCheckIn] = useState('');
   const [checkOut, setCheckOut] = useState('');
   const [adults, setAdults] = useState(2);
-  const [children, setChildren] = useState(0);
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log({ checkIn, checkOut, adults, children });
+    console.log({ checkIn, checkOut, adults });
     // Rezervasyon işlemleri burada yapılabilir
   };
 
   return (
-    <div className="w-full flex justify-center my-7 px-4 sm:px-6 lg:px-8">
-      <form
-        onSubmit={handleSubmit}
-        className="bg-white p-4 sm:p-6 rounded-xl w-full max-w-7xl"
-      >
-        <div className="flex w-full flex-col lg:flex-row items-center justify-between gap-4 lg:gap-6">
-          
-          {/* Check-in */}
-          <div className="flex flex-col w-full lg:flex-1">
-            <label className="text-sm font-medium text-gray-700 mb-2 uppercase tracking-wide">
-              CHECK-IN
-            </label>
-            <div className="relative w-full">
-              <input
-                type="date"
-                value={checkIn}
-                onChange={(e) => setCheckIn(e.target.value)}
-                className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent text-center pr-10"
-                required
-              />
-              <CalendarIcon className="absolute right-3 top-3 h-5 w-5 text-gray-400 pointer-events-none" />
-            </div>
+    <div className='flex flex-row bg-[#D9D9D9] w-full h-24 items-center justify-center px-4'>
+      <form onSubmit={handleSubmit} className='flex flex-row w-full max-w-xl bg-white h-16 items-center justify-center'>
+        
+        {/* CHECK IN */}
+        <div className='flex flex-col w-1/4 px-4 h-full justify-center border-r border-gray-200'>
+          <div className="relative">
+            <input
+              type="text"
+              value={checkIn}
+              onChange={(e) => setCheckIn(e.target.value)}
+              placeholder="Check In"
+              onFocus={(e) => {
+                e.target.type = 'date';
+                e.target.focus();
+              }}
+              onBlur={(e) => {
+                if (!e.target.value) {
+                  e.target.type = 'text';
+                }
+              }}
+              className="font-jost font-medium w-full text-sm focus:outline-none bg-transparent placeholder:text-gray-500"
+              required
+            />
+            <Image 
+              src={Calendar} 
+              alt="Calendar" 
+              width={14} 
+              height={14}
+              className="absolute right-0 top-2 text-gray-400 pointer-events-none"
+            />
           </div>
-
-          {/* Check-out */}
-          <div className="flex flex-col w-full lg:flex-1">
-            <label className="text-sm font-medium text-gray-700 mb-2 uppercase tracking-wide">
-              CHECK-OUT
-            </label>
-            <div className="relative w-full">
-              <input
-                type="date"
-                value={checkOut}
-                onChange={(e) => setCheckOut(e.target.value)}
-                className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent text-center pr-10"
-                required
-              />
-              <CalendarIcon className="absolute right-3 top-3 h-5 w-5 text-gray-400 pointer-events-none" />
-            </div>
-          </div>
-
-          {/* Misafir Sayısı */}
-          <div className="flex flex-col w-full lg:flex-1">
-            <label className="text-sm font-medium text-gray-700 mb-2 uppercase tracking-wide">
-              YETİŞKİNLER
-            </label>
-            <div className="relative w-full">
-              <select
-                value={adults}
-                onChange={(e) => setAdults(e.target.value)}
-                className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent text-center appearance-none pr-10"
-              >
-                {[1,2,3,4,5,6].map(num => (
-                  <option key={num} value={num}>{num}</option>
-                ))}
-              </select>
-              <UserIcon className="absolute right-3 top-3 h-5 w-5 text-gray-400 pointer-events-none" />
-            </div>
-          </div>
-
-          {/* Çocuk Sayısı */}
-          <div className="flex flex-col w-full lg:flex-1">
-            <label className="text-sm font-medium text-gray-700 mb-2 uppercase tracking-wide">
-              ÇOCUKLAR
-            </label>
-            <div className="relative w-full">
-              <select
-                value={children}
-                onChange={(e) => setChildren(e.target.value)}
-                className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent text-center appearance-none pr-10"
-              >
-                {[0,1,2,3,4].map(num => (
-                  <option key={num} value={num}>{num}</option>
-                ))}
-              </select>
-              <UserIcon className="absolute right-3 top-3 h-5 w-5 text-gray-400 pointer-events-none" />
-            </div>
-          </div>
-
-          {/* Rezervasyon Butonu */}
-          <div className="flex flex-col w-full lg:flex-1 lg:mt-7">
-            <button
-              type="submit"
-              className="w-full bg-gray-800 hover:bg-gray-900 text-white px-8 py-3 rounded-lg font-medium transition-colors duration-200 flex items-center justify-center gap-2 shadow-lg"
-            >
-              REZERVASYON
-              <span className="text-lg">🛎️</span>
-            </button>
-          </div>
-
         </div>
+
+        {/* CHECK OUT */}
+        <div className='flex flex-col w-1/4 px-4 h-full justify-center border-r border-gray-200'>
+          <div className="relative">
+            <input
+              type="text"
+              value={checkOut}
+              onChange={(e) => setCheckOut(e.target.value)}
+              placeholder="Check Out"
+              onFocus={(e) => {
+                e.target.type = 'date';
+                e.target.focus();
+              }}
+              onBlur={(e) => {
+                if (!e.target.value) {
+                  e.target.type = 'text';
+                }
+              }}
+              className="font-jost font-medium w-full text-sm focus:outline-none bg-transparent placeholder:text-gray-500"
+              required
+            />
+            <Image 
+              src={Calendar} 
+              alt="Calendar" 
+              width={14} 
+              height={14}
+              className="absolute right-0 top-2 text-gray-400 pointer-events-none"
+            />
+          </div>
+        </div>
+
+        {/* ADULT */}
+        <div className='flex flex-col w-1/4 px-4 h-full justify-center border-r border-gray-200'>
+          <div className="relative">
+            <select
+              value={adults}
+              onChange={(e) => setAdults(e.target.value)}
+              className="font-jost font-medium w-full text-sm appearance-none focus:outline-none bg-transparent"
+            >
+              {[1,2,3,4,5,6].map(num => (
+                <option key={num} value={num}>{num}</option>
+              ))}
+            </select>
+            <UserIcon className="absolute right-0 top-2 h-3 w-3 text-gray-400 pointer-events-none" />
+          </div>
+        </div>
+
+        {/* BOOK NOW */}
+        <div className='flex w-2/4 px-4 h-full items-center justify-center'>
+          <button
+            type="submit"
+            className="font-jost font-bold hover:bg-gray-800 text-black px-6 py-3  transition-all duration-200 flex items-center justify-center gap-2 hover:shadow-xl text-sm uppercase tracking-wide"
+          >
+            BOOK NOW
+            <Image 
+              src={zil} 
+              alt="Book" 
+              width={16} 
+              height={16}
+              className="object-contain"
+            />
+          </button>
+        </div>
+
       </form>
     </div>
   );

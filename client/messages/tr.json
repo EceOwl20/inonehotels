@@ -10,8 +10,9 @@
         "title": "Site Başlığı"
       },
       "Sidebar": {
-        "home": "Anasayfa",
-        "about": "Hakkımızda",
+        "home": "Ana Sayfa",
+        "hotels": "Otellerimiz", 
+        "sustainability": "Sürdürülebilirlik",
         "contact": "İletişim"
       },
 

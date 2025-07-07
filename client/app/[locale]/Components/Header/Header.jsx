@@ -6,7 +6,9 @@ import LocaleSwitcher from './LocaleSwitcher';
 import { useTranslations } from 'next-intl';
 import Link from 'next/link';
 import Image from 'next/image';
+import { FaPhone } from 'react-icons/fa'; // Telefon ikonu eklendi
 import Logo from "@/public/Logo/inone-logo.svg";
+import zil from "./Icons/Zil.png";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -14,13 +16,13 @@ export default function Header() {
 
   return (
     <>
-      <header className="flex items-center justify-between px-4 sm:px-6 py-3 bg-transparent backdrop-blur-2xl absolute top-0 left-0 w-full z-50 h-[80px] ">
+      <header className="flex items-center justify-between px-4 sm:px-6 py-3 bg-gradient-to-b from-black/60 via-black/30 to-transparent sticky top-0 w-full z-50 h-[80px]">
         
         {/* Mobile Layout (< md) */}
         <div className="flex md:hidden items-center justify-between w-full">
           {/* Sol taraf - Mobile */}
           <div className="flex items-center gap-3">
-            <button onClick={() => setIsOpen(true)} className="text-white text-xl">
+            <button onClick={() => setIsOpen(true)} className="font-jost font-medium text-white text-xl">
               ☰
             </button>
             <LocaleSwitcher />
@@ -41,7 +43,7 @@ export default function Header() {
         <div className="hidden md:flex items-center justify-between w-full">
           {/* Sol taraf - Desktop */}
           <div className="flex items-center ml-12 gap-4">
-            <button onClick={() => setIsOpen(true)} className="text-white text-xl">
+            <button onClick={() => setIsOpen(true)} className="font-jost font-medium text-white text-xl">
               ☰
             </button>
             <LocaleSwitcher />
@@ -55,13 +57,20 @@ export default function Header() {
           </div>
 
           {/* Sağ taraf - Desktop */}
-          <div className="flex items-center gap-4 mr-12 text-sm font-semibold text-white">
-            <div className="flex items-center gap-1">
-              <span>📞 +90 252 319 40 48</span>
+          <div className="flex items-center gap-4 mr-12 text-sm text-white">
+            <div className="flex items-center gap-2 font-jost font-semibold">
+              <FaPhone className="text-white w-4 h-4 scale-x-[-1]" />
+              <span>+90 252 319 40 48</span>
             </div>
-            <Link href="/reservation" className="flex items-center gap-1">
+            <Link href="/reservation" className="flex items-center gap-2 font-jost font-semibold hover:text-orange-300 transition-colors">
               {t('reservation')}
-              <span>🛎️</span>
+              <Image 
+                src={zil} 
+                alt="Rezervasyon" 
+                width={18} 
+                height={18}
+                className="object-contain"
+              />
             </Link>
           </div>
         </div>

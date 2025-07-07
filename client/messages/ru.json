@@ -10,7 +10,8 @@
       },
       "Sidebar": {
         "home": "Главная",
-        "about": "О нас",
+        "hotels": "Наши Отели", 
+        "sustainability": "Устойчивость",
         "contact": "Контакты"
       },
 

@@ -10,7 +10,8 @@
       },
       "Sidebar": {
         "home": "Startseite",
-        "about": "Über uns",
+        "hotels": "Unsere Hotels", 
+        "sustainability": "Nachhaltigkeit",
         "contact": "Kontakt"
       },
 

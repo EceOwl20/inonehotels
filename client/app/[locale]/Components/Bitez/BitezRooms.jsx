@@ -1,19 +1,21 @@
 'use client';
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
+import Oda1 from "@/public/bitez/Odalar/Suite/Oda1.webp"
+import dOda1 from "@/public/bitez/Odalar/Deluxe/Oda1.webp"
 
 export default function BitezRooms() {
   const t = useTranslations('inoneBitez');
 
   const rooms = [
     {
-      image: '/rooms/deluxe-room.jpg',
+      image: dOda1,
       titleKey: 'room1Title',
       descriptionKey: 'room1Description',
       alt: 'Deluxe Room'
     },
     {
-      image: '/rooms/suite.jpg',
+      image: Oda1,
       titleKey: 'room2Title',
       descriptionKey: 'room2Description',
       alt: 'Suite'

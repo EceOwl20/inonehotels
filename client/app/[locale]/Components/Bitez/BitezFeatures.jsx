@@ -1,65 +1,49 @@
-'use client';
-import Image from 'next/image';
-import { useTranslations } from 'next-intl';
+import React from 'react'
+import { RiVipDiamondFill } from "react-icons/ri";
+import { TiWiFi } from "react-icons/ti";
+import { TbGiftFilled } from "react-icons/tb";
+import { FaPaw } from "react-icons/fa";
+import { FaUmbrellaBeach } from "react-icons/fa6";
+import { GiWashingMachine } from "react-icons/gi";
 
-export default function BitezFeatures() {
-  const t = useTranslations('inoneBitez');
-
-  const features = [
-    {
-      image: '/features/beach.jpg',
-      titleKey: 'feature1Title',
-      descriptionKey: 'feature1Description',
-      alt: 'Private Beach'
-    },
-    {
-      image: '/features/dining.jpg',
-      titleKey: 'feature2Title',
-      descriptionKey: 'feature2Description',
-      alt: 'Fine Dining'
-    },
-    {
-      image: '/features/spa.jpg',
-      titleKey: 'feature3Title',
-      descriptionKey: 'feature3Description',
-      alt: 'Spa & Wellness'
-    },
-    {
-      image: '/features/activities.jpg',
-      titleKey: 'feature4Title',
-      descriptionKey: 'feature4Description',
-      alt: 'Activities'
-    }
-  ];
-
+const BitezFeatures = () => {
   return (
-    <section className="py-20 sm:py-24 bg-gray-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
-        <div className="text-center mb-16">
-          <h2 className="text-4xl sm:text-5xl font-light tracking-wide text-gray-900 mb-6">
-            {t('experienceTitle')}
-          </h2>
-          <div className="w-16 h-px bg-gray-300 mx-auto"></div>
+    <div className='flex flex-col w-full items-center justify-center text-5xl py-20 bg-white mt-8'>
+      <h2 className='font-cormorant font-light text-gray-900 mb-16'>OLANAKLAR</h2>
+      
+      <div className='flex flex-row gap-16 items-center justify-center mt-12 text-3xl'>
+        <div className='flex flex-col items-center text-center'>
+          <RiVipDiamondFill className='w-10 h-10 mb-4 text-gray-400 opacity-60' />
+          <span className='font-jost font-medium text-lg text-gray-700'>Yetişkin Oteli</span>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {features.map((feature, index) => (
-            <div key={index} className="text-center group">
-              <div className="relative h-64 mb-6 rounded-lg overflow-hidden">
-                <Image
-                  src={feature.image}
-                  alt={feature.alt}
-                  fill
-                  className="object-cover group-hover:scale-105 transition-transform duration-500"
-                />
-              </div>
-              <h3 className="text-xl font-medium mb-3">{t(feature.titleKey)}</h3>
-              <p className="text-gray-600 text-sm leading-relaxed">{t(feature.descriptionKey)}</p>
-            </div>
-          ))}
+        <div className='flex flex-col items-center text-center'>
+          <TiWiFi className='w-10 h-10 mb-4 text-gray-400 opacity-60' />
+          <span className='font-jost font-medium text-lg text-gray-700'>Güçlü Wi-Fi</span>
+        </div>
+        
+        <div className='flex flex-col items-center text-center'>
+          <TbGiftFilled className='w-10 h-10 mb-4 text-gray-400 opacity-60' />
+          <span className='font-jost font-medium text-lg text-gray-700'>Hoşgeldin Hediyesi</span>
+        </div>
+        
+        <div className='flex flex-col items-center text-center'>
+          <FaPaw className='w-10 h-10 mb-4 text-gray-400 opacity-60' />
+          <span className='font-jost font-medium text-lg text-gray-700'>Evcil Hayvan Dostu</span>
+        </div>
+        
+        <div className='flex flex-col items-center text-center'>
+          <FaUmbrellaBeach className='w-10 h-10 mb-4 text-gray-400 opacity-60' />
+          <span className='font-jost font-medium text-lg text-gray-700'>Denize Sıfır</span>
+        </div>
+        
+        <div className='flex flex-col items-center text-center'>
+          <GiWashingMachine className='w-10 h-10 mb-4 text-gray-400 opacity-60' />
+          <span className='font-jost font-medium text-lg text-gray-700'>Günlük Oda Temizliği</span>
         </div>
       </div>
-    </section>
-  );
+    </div>
+  )
 }
+
+export default BitezFeatures

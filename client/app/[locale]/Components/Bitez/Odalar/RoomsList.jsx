@@ -1,6 +1,8 @@
 'use client';
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
+import dOda1 from "@/public/bitez/Odalar/Deluxe/Oda3.webp"
+import Oda1 from "@/public/bitez/Odalar/Suite/Oda11.webp"
 
 export default function RoomsList() {
   const t = useTranslations('bitezRooms');
@@ -9,24 +11,22 @@ export default function RoomsList() {
     {
       id: 1,
       nameKey: 'deluxeRoom',
-      image: '/rooms/deluxe-room.jpg',
+      image: dOda1,
       size: '35',
-      capacity: '2-3',
-      viewKey: 'seaView'
+      capacity: '2-3'
     },
     {
       id: 2,
       nameKey: 'suiteRoom',
-      image: '/rooms/suite-room.jpg', 
+      image: Oda1, 
       size: '55',
-      capacity: '3-4',
-      viewKey: 'seaView'
+      capacity: '3-4'
     }
   ];
   
 
   return (
-    <section className="py-20 sm:py-24 lg:py-32">
+    <section className="py-20 sm:py-24 lg:py-32 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         <div className="space-y-32">
@@ -46,18 +46,14 @@ export default function RoomsList() {
                   {/* Room Stats Overlay */}
                   <div className="absolute bottom-6 left-6 right-6">
                     <div className="bg-white/95 backdrop-blur-sm rounded-xl p-4">
-                      <div className="grid grid-cols-3 gap-4 text-center">
+                      <div className="grid grid-cols-2 gap-4 text-center">
                         <div>
-                          <div className="text-2xl font-light text-gray-900">{room.size}</div>
-                          <div className="text-xs text-gray-600 uppercase tracking-wide">m²</div>
+                          <div className="font-jost font-light text-2xl text-gray-900">{room.size}</div>
+                          <div className="font-jost text-xs text-gray-600 uppercase tracking-wide">m²</div>
                         </div>
                         <div>
-                          <div className="text-2xl font-light text-gray-900">{room.capacity}</div>
-                          <div className="text-xs text-gray-600 uppercase tracking-wide">{t('guests')}</div>
-                        </div>
-                        <div>
-                          <div className="text-xs text-gray-900 font-medium">{t(room.viewKey)}</div>
-                          <div className="text-xs text-gray-600 uppercase tracking-wide">{t('view')}</div>
+                          <div className="font-jost font-light text-2xl text-gray-900">{room.capacity}</div>
+                          <div className="font-jost text-xs text-gray-600 uppercase tracking-wide">{t('guests')}</div>
                         </div>
                       </div>
                     </div>
@@ -68,24 +64,24 @@ export default function RoomsList() {
               {/* Room Content */}
               <div className={`space-y-8 ${index % 2 === 1 ? 'lg:col-start-1 lg:row-start-1' : ''}`}>
                 <div>
-                  <h2 className="text-4xl sm:text-5xl lg:text-6xl font-light tracking-wide text-gray-900 mb-6">
+                  <h2 className="font-cormorant font-light text-4xl sm:text-5xl lg:text-6xl tracking-wide text-gray-900 mb-6">
                     {t(room.nameKey)}
                   </h2>
                   <div className="w-20 h-px bg-gray-300 mb-8"></div>
                 </div>
 
-                <p className="text-lg lg:text-xl text-gray-600 leading-relaxed">
+                <p className="font-jost text-lg lg:text-xl text-gray-600 leading-relaxed">
                   {t(`${room.nameKey}Description`)}
                 </p>
 
                 {/* Room Features */}
                 <div className="space-y-4">
-                  <h3 className="text-xl font-medium text-gray-900">{t('amenities')}</h3>
+                  <h3 className="font-jost text-xl font-medium text-gray-900">{t('amenities')}</h3>
                   <div className="grid grid-cols-2 gap-3">
                     {[1, 2, 3, 4].map((num) => (
                       <div key={num} className="flex items-center text-gray-600">
                         <div className="w-2 h-2 bg-gray-400 rounded-full mr-3"></div>
-                        <span className="text-sm">{t(`${room.nameKey}Feature${num}`)}</span>
+                        <span className="font-jost text-sm">{t(`${room.nameKey}Feature${num}`)}</span>
                       </div>
                     ))}
                   </div>
@@ -93,10 +89,10 @@ export default function RoomsList() {
 
                 {/* CTA Buttons */}
                 <div className="flex flex-col sm:flex-row gap-4 pt-8">
-                  <button className="px-8 py-4 bg-gray-900 text-white font-medium tracking-wide hover:bg-gray-800 transition-colors duration-300 rounded-lg">
+                  <button className="font-jost px-8 py-4 bg-gray-900 text-white font-medium tracking-wide hover:bg-gray-800 transition-colors duration-300 rounded-lg">
                     {t('viewDetails')}
                   </button>
-                  <button className="px-8 py-4 border-2 border-gray-300 text-gray-700 font-medium tracking-wide hover:border-gray-400 transition-colors duration-300 rounded-lg">
+                  <button className="font-jost px-8 py-4 border-2 border-gray-300 text-gray-700 font-medium tracking-wide hover:border-gray-400 transition-colors duration-300 rounded-lg">
                     {t('bookNow')}
                   </button>
                 </div>

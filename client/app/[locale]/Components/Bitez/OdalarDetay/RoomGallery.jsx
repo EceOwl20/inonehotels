@@ -1,48 +1,28 @@
 'use client';
-import Image from 'next/image';
-import { useState } from 'react';
 import { useTranslations } from 'next-intl';
+import Image from 'next/image';
 
-export default function RoomGallery({ roomType, images }) {
+export default function RoomDetailHero({ roomType, heroImages }) {
   const t = useTranslations(`${roomType}Detail`);
-  const [selectedImage, setSelectedImage] = useState(0);
+  
+  
 
   return (
-    <section className="py-8">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
-        {/* Main Image */}
-        <div className="mb-6">
-          <div className="relative h-[400px] sm:h-[500px] lg:h-[600px] rounded-2xl overflow-hidden shadow-xl">
-            <Image
-              src={images[selectedImage]}
-              alt={`${t(roomType)} ${selectedImage + 1}`}
-              fill
-              className="object-cover"
-              priority
-            />
-          </div>
-        </div>
-
-        {/* Thumbnail Gallery */}
-        <div className="grid grid-cols-3 sm:grid-cols-6 gap-4">
-          {images.map((image, index) => (
-            <button
-              key={index}
-              onClick={() => setSelectedImage(index)}
-              className={`relative h-20 sm:h-24 rounded-lg overflow-hidden ${
-                selectedImage === index ? 'ring-2 ring-gray-900' : 'opacity-70 hover:opacity-100'
-              } transition-all duration-300`}
-            >
-              <Image
-                src={image}
-                alt={`${t(roomType)} thumbnail ${index + 1}`}
-                fill
-                className="object-cover"
-              />
-            </button>
-          ))}
-        </div>
+    <section className="relative h-screen w-full overflow-hidden mt-[80px]">
+      
+      
+      {/* White gradient from right */}
+      <div className="absolute inset-0 bg-gradient-to-l from-white via-white/60 to-transparent z-20"></div>
+  
+      
+      {/* Text Content */}
+      <div className="absolute inset-0 flex flex-col justify-center items-end text-right text-black z-25 px-8 pr-16">
+        <h1 className="font-cormorant font-light text-5xl sm:text-6xl lg:text-7xl tracking-wide mb-6 drop-shadow-2xl">
+          {t(roomType)}
+        </h1>
+        <p className="font-jost font-light text-lg sm:text-xl lg:text-2xl max-w-md leading-relaxed drop-shadow-lg opacity-90">
+          {t('heroDescription')}
+        </p>
       </div>
     </section>
   );
