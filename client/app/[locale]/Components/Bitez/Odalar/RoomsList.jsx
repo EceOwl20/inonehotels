@@ -1,16 +1,19 @@
 'use client';
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
+import { useRouter } from 'next/navigation';
 import dOda1 from "@/public/bitez/Odalar/Deluxe/Oda3.webp"
 import Oda1 from "@/public/bitez/Odalar/Suite/Oda11.webp"
 
 export default function RoomsList() {
   const t = useTranslations('bitezRooms');
+  const router = useRouter();
 
   const rooms = [
     {
       id: 1,
       nameKey: 'deluxeRoom',
+      roomType: 'deluxe',
       image: dOda1,
       size: '35',
       capacity: '2-3'
@@ -18,11 +21,34 @@ export default function RoomsList() {
     {
       id: 2,
       nameKey: 'suiteRoom',
+      roomType: 'suite',
       image: Oda1, 
       size: '55',
       capacity: '3-4'
     }
   ];
+
+  // Room type'a göre detail sayfa URL'leri
+  const getRoomDetailUrl = (roomType) => {
+    switch (roomType.toLowerCase()) {
+      case 'deluxe':
+        return '/inone-bitez/odalar/deluxeroom';
+      case 'suite':
+        return '/inone-bitez/odalar/suitroom';
+      default:
+        return '/rooms';
+    }
+  };
+
+  // Rezervasyon sayfasına yönlendirme
+  const handleBookNow = (roomType) => {
+    router.push(`/reservation?roomType=${roomType}`);
+  };
+
+  // Oda detay sayfasına yönlendirme
+  const handleViewDetails = (roomType) => {
+    router.push(getRoomDetailUrl(roomType));
+  };
   
 
   return (
@@ -35,13 +61,21 @@ export default function RoomsList() {
               
               {/* Room Image */}
               <div className={`relative ${index % 2 === 1 ? 'lg:col-start-2' : ''}`}>
-                <div className="relative h-[500px] lg:h-[600px] rounded-2xl overflow-hidden shadow-2xl group">
+                <div className="relative h-[500px] lg:h-[600px] rounded-2xl overflow-hidden shadow-2xl group cursor-pointer"
+                     onClick={() => handleViewDetails(room.roomType)}>
                   <Image
                     src={room.image}
                     alt={t(room.nameKey)}
                     fill
                     className="object-cover group-hover:scale-105 transition-transform duration-700"
                   />
+                  
+                  {/* Hover Overlay */}
+                  <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                    <div className="bg-white/90 backdrop-blur-sm rounded-lg px-6 py-3">
+                      <span className="font-jost text-gray-900 font-medium">{t('clickToView')}</span>
+                    </div>
+                  </div>
                   
                   {/* Room Stats Overlay */}
                   <div className="absolute bottom-6 left-6 right-6">
@@ -89,10 +123,16 @@ export default function RoomsList() {
 
                 {/* CTA Buttons */}
                 <div className="flex flex-col sm:flex-row gap-4 pt-8">
-                  <button className="font-jost px-8 py-4 bg-gray-900 text-white font-medium tracking-wide hover:bg-gray-800 transition-colors duration-300 rounded-lg">
+                  <button 
+                    onClick={() => handleViewDetails(room.roomType)}
+                    className="font-jost px-8 py-4 bg-gray-900 text-white font-medium tracking-wide hover:bg-gray-800 transition-all duration-300 rounded-lg transform hover:scale-105 hover:shadow-lg"
+                  >
                     {t('viewDetails')}
                   </button>
-                  <button className="font-jost px-8 py-4 border-2 border-gray-300 text-gray-700 font-medium tracking-wide hover:border-gray-400 transition-colors duration-300 rounded-lg">
+                  <button 
+                    onClick={() => handleBookNow(room.roomType)}
+                    className="font-jost px-8 py-4 border-2 border-gray-300 text-gray-700 font-medium tracking-wide hover:border-gray-400 hover:bg-gray-50 transition-all duration-300 rounded-lg transform hover:scale-105"
+                  >
                     {t('bookNow')}
                   </button>
                 </div>

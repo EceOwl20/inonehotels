@@ -10,10 +10,29 @@
         "title": "Site Başlığı"
       },
       "Sidebar": {
+        "mainNavigation": "Ana Menü",
+        "bitezNavigation": "Bitez Hotel",
+        "muchoNavigation": "Mucho Selection",
+        
         "home": "Ana Sayfa",
-        "hotels": "Otellerimiz", 
+        "bitezHotel": "Bitez Hotel",
+        "muchoHotel": "Mucho Selection",
         "sustainability": "Sürdürülebilirlik",
-        "contact": "İletişim"
+        "contact": "İletişim",
+        
+        "bitezHome": "Ana Sayfa",
+        "bitezRooms": "Odalar",
+        "bitezFacilities": "Olanaklar",
+        "bitezGallery": "Galeri",
+        "bitezAbout": "Hakkımızda",
+        
+        "muchoHome": "Ana Sayfa",
+        "muchoRooms": "Odalar", 
+        "muchoFacilities": "Olanaklar",
+        "muchoGallery": "Galeri",
+        "muchoAbout": "Hakkımızda",
+        
+        "backToMain": "Ana Sayfaya Dön"
       },
 
       "heroSection": {
@@ -82,6 +101,7 @@
 
       "bitezRooms": {
         "pageTitle": "ODALAR",
+        "clickToView": "Detayları Görmek İçin Tıklayın",
         "pageDescription": "Modern konfor ve Akdeniz'in eşsiz güzelliğinin buluştuğu odalarımızda unutulmaz bir konaklama deneyimi yaşayın",
         
         "guests": "Misafir",

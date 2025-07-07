@@ -9,10 +9,29 @@
         "reservation": "RESERVIERUNG"
       },
       "Sidebar": {
+        "mainNavigation": "Hauptmenü",
+        "bitezNavigation": "Bitez Hotel",
+        "muchoNavigation": "Mucho Selection",
+        
         "home": "Startseite",
-        "hotels": "Unsere Hotels", 
+        "bitezHotel": "Bitez Hotel",
+        "muchoHotel": "Mucho Selection", 
         "sustainability": "Nachhaltigkeit",
-        "contact": "Kontakt"
+        "contact": "Kontakt",
+        
+        "bitezHome": "Startseite",
+        "bitezRooms": "Zimmer",
+        "bitezFacilities": "Einrichtungen",
+        "bitezGallery": "Galerie",
+        "bitezAbout": "Über uns",
+        
+        "muchoHome": "Startseite",
+        "muchoRooms": "Zimmer",
+        "muchoFacilities": "Einrichtungen",
+        "muchoGallery": "Galerie", 
+        "muchoAbout": "Über uns",
+        
+        "backToMain": "Zurück zur Hauptseite"
       },
 
       "heroSection": {
@@ -81,6 +100,7 @@
 
       "bitezRooms": {
         "pageTitle": "ZIMMER",
+        "clickToView": "Klicken Sie für Details",
         "pageDescription": "Erleben Sie einen unvergesslichen Aufenthalt in unseren Zimmern, wo moderner Komfort auf die einzigartige Schönheit des Mittelmeers trifft",
         
         "guests": "Gast",

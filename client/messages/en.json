@@ -9,10 +9,29 @@
     "reservation": "RESERVATION"
   },
   "Sidebar": {
+    "mainNavigation": "Main Menu",
+    "bitezNavigation": "Bitez Hotel",
+    "muchoNavigation": "Mucho Selection",
+    
     "home": "Home",
-    "hotels": "Our Hotels", 
+    "bitezHotel": "Bitez Hotel",
+    "muchoHotel": "Mucho Selection",
     "sustainability": "Sustainability",
-    "contact": "Contact"
+    "contact": "Contact",
+    
+    "bitezHome": "Home",
+    "bitezRooms": "Rooms",
+    "bitezFacilities": "Facilities",
+    "bitezGallery": "Gallery",
+    "bitezAbout": "About",
+    
+    "muchoHome": "Home",
+    "muchoRooms": "Rooms",
+    "muchoFacilities": "Facilities", 
+    "muchoGallery": "Gallery",
+    "muchoAbout": "About",
+    
+    "backToMain": "Back to Main"
   },
 
   "heroSection": {
@@ -81,6 +100,7 @@
 
   "bitezRooms": {
     "pageTitle": "ROOMS",
+    "clickToView": "Click to View Details",
     "pageDescription": "Experience an unforgettable accommodation in our rooms where modern comfort meets the unique beauty of the Mediterranean",
     
     "guests": "Guest",

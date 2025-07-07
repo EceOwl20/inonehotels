@@ -11,6 +11,8 @@ import Oda5 from "@/public/bitez/Odalar/Deluxe/Oda5.webp"
 import Oda6 from "@/public/bitez/Odalar/Deluxe/Oda6.webp"
 import Oda7 from "@/public/bitez/Odalar/Deluxe/Oda7.webp"
 import ReservationWidget from '@/app/[locale]/Components/HomePage/ReservationWidget';
+import BitezFeatures from '@/app/[locale]/Components/Bitez/BitezFeatures';
+import ContactUs from '@/app/[locale]/Components/Common/ContactFrom';
 
 export default function DeluxeRoomDetailPage() {
   const roomType = 'deluxeRoom';
@@ -44,7 +46,8 @@ export default function DeluxeRoomDetailPage() {
       <ReservationWidget/>
       <RoomGallery roomType={roomType} images={roomImages} />
       <RoomDetails roomType={roomType} features={roomFeatures} amenities={amenities} />
-      <RoomServices roomType={roomType} />
+      <BitezFeatures />
+      <ContactUs />
     </div>
   );
 }

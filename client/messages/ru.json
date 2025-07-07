@@ -9,10 +9,29 @@
         "reservation": "БРОНИРОВАНИЕ"
       },
       "Sidebar": {
+        "mainNavigation": "Главное меню",
+        "bitezNavigation": "Отель Битез",
+        "muchoNavigation": "Мучо Селекшн",
+        
         "home": "Главная",
-        "hotels": "Наши Отели", 
+        "bitezHotel": "Отель Битез",
+        "muchoHotel": "Мучо Селекшн",
         "sustainability": "Устойчивость",
-        "contact": "Контакты"
+        "contact": "Контакты",
+        
+        "bitezHome": "Главная",
+        "bitezRooms": "Номера",
+        "bitezFacilities": "Удобства",
+        "bitezGallery": "Галерея",
+        "bitezAbout": "О нас",
+        
+        "muchoHome": "Главная", 
+        "muchoRooms": "Номера",
+        "muchoFacilities": "Удобства",
+        "muchoGallery": "Галерея",
+        "muchoAbout": "О нас",
+        
+        "backToMain": "Назад на главную"
       },
 
       "heroSection": {
@@ -81,6 +100,7 @@
 
       "bitezRooms": {
         "pageTitle": "НОМЕРА",
+        "clickToView": "Нажмите для просмотра деталей",
         "pageDescription": "Испытайте незабываемое размещение в наших номерах, где современный комфорт встречается с уникальной красотой Средиземноморья",
         
         "guests": "Гость",
