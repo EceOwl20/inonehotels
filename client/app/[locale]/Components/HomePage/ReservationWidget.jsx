@@ -10,10 +10,16 @@ export default function ReservationWidget() {
   const [checkOut, setCheckOut] = useState('');
   const [adults, setAdults] = useState(2);
 
+  const handleBookNow = () => {
+    // Rezervasyon sitesine yönlendir
+    window.open('https://inonebitez.rezervasyonal.com/', '_blank');
+  };
+
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log({ checkIn, checkOut, adults });
-    // Rezervasyon işlemleri burada yapılabilir
+    // Seçilen bilgilerle beraber rezervasyon sitesine yönlendir
+    handleBookNow();
   };
 
   return (
@@ -38,7 +44,6 @@ export default function ReservationWidget() {
                 }
               }}
               className="font-jost font-medium w-full text-sm focus:outline-none bg-transparent placeholder:text-gray-500"
-              required
             />
             <Image 
               src={Calendar} 
@@ -68,7 +73,6 @@ export default function ReservationWidget() {
                 }
               }}
               className="font-jost font-medium w-full text-sm focus:outline-none bg-transparent placeholder:text-gray-500"
-              required
             />
             <Image 
               src={Calendar} 
@@ -99,8 +103,9 @@ export default function ReservationWidget() {
         {/* BOOK NOW */}
         <div className='flex w-2/4 px-4 h-full items-center justify-center'>
           <button
-            type="submit"
-            className="font-jost font-bold hover:bg-gray-800 text-black px-6 py-3  transition-all duration-200 flex items-center justify-center gap-2 hover:shadow-xl text-sm uppercase tracking-wide"
+            type="button"
+            onClick={handleBookNow}
+            className="font-jost font-bold hover:bg-gray-800 text-black px-6 py-3 transition-all duration-200 flex items-center justify-center gap-2 hover:shadow-xl text-sm uppercase tracking-wide hover:text-white cursor-pointer"
           >
             BOOK NOW
             <Image 

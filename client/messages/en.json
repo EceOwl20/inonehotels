@@ -290,5 +290,15 @@
     "generalManagerTitle": "General Manager",
     "guestRelationsTitle": "Guest Relations Manager",
     "chefTitle": "Head Chef"
+  },
+
+  "bitezFeatures": {
+    "title": "AMENITIES",
+    "ageRestriction": "12+ Only",
+    "strongWifi": "Strong Wi-Fi",
+    "welcomeGift": "Welcome Gift",
+    "petFriendly": "Pet Friendly",
+    "beachfront": "Beachfront",
+    "dailyCleaning": "Daily Housekeeping"
   }
 }  

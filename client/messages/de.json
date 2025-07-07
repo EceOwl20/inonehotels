@@ -290,6 +290,16 @@
         "generalManagerTitle": "Geschäftsführer",
         "guestRelationsTitle": "Gästebetreuungsleiter",
         "chefTitle": "Küchenchef"
+      },
+
+      "bitezFeatures": {
+        "title": "AUSSTATTUNG",
+        "ageRestriction": "12+ Jahre",
+        "strongWifi": "Starkes WLAN",
+        "welcomeGift": "Willkommensgeschenk",
+        "petFriendly": "Haustierfreundlich",
+        "beachfront": "Direkt am Strand",
+        "dailyCleaning": "Tägliche Reinigung"
       }
       
 }

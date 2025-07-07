@@ -291,6 +291,16 @@
         "generalManagerTitle": "Genel Müdür",
         "guestRelationsTitle": "Misafir İlişkileri Müdürü",
         "chefTitle": "Baş Aşçı"
+      },
+
+      "bitezFeatures": {
+        "title": "OLANAKLAR",
+        "ageRestriction": "12 Yaş ve Üzeri",
+        "strongWifi": "Güçlü Wi-Fi",
+        "welcomeGift": "Hoşgeldin Hediyesi",
+        "petFriendly": "Evcil Hayvan Dostu",
+        "beachfront": "Denize Sıfır",
+        "dailyCleaning": "Günlük Oda Temizliği"
       }
 }
 

@@ -290,5 +290,15 @@
         "generalManagerTitle": "Генеральный менеджер",
         "guestRelationsTitle": "Менеджер по работе с гостями",
         "chefTitle": "Шеф-повар"
+      },
+
+      "bitezFeatures": {
+        "title": "УДОБСТВА",
+        "ageRestriction": "12+ Лет",
+        "strongWifi": "Сильный Wi-Fi",
+        "welcomeGift": "Приветственный Подарок",
+        "petFriendly": "Размещение с Животными",
+        "beachfront": "На Берегу Моря",
+        "dailyCleaning": "Ежедневная Уборка"
       }
 }
