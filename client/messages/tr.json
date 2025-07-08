@@ -306,6 +306,33 @@
 
       "MobileBookButton": {
         "bookNow": "REZERVASYON YAP"
+      },
+
+      "HotelsInfo": {
+        "title": "OTELLERİMİZ",
+        "subtitle": "İki farklı destinasyonda, iki benzersiz deneyim. Her birinde ayrı bir hikaye ve unutulmaz anılar sizi bekliyor.",
+        "muchoLocation": "Kalkan, Antalya",
+        "muchoDescription": "Ege'nin turkuaz sularına nazır, Kalkan'ın büyüleyici manzarasında yer alan Inone Mucho Selection, lüks ve konforun mükemmel uyumunu sunar. Butik otel anlayışıyla tasarlanmış her detayı, misafirlerimize özel ve unutulmaz bir tatil deneyimi yaşatır.",
+        "muchoFeatures": "Deniz manzaralı odalar, Gourmet restoran, Spa & wellness merkezi, Özel plaj, Concierge hizmetleri, Premium aktiviteler",
+        "bitezLocation": "Bitez, Bodrum",
+        "bitezDescription": "Bodrum'un en huzurlu koylarından Bitez'de konumlanan Inone Bitez, doğayla iç içe sakin bir tatil arayan misafirlerimiz için ideal bir seçim. Modern konfor ve geleneksel Ege misafirperverliğinin buluştuğu bu özel mekanda huzuru bulacaksınız.",
+        "bitezFeatures": "Huzurlu atmosfer, Özel plaj erişimi, Yoga ve wellness, Organik bahçe, Yerel lezzetler, Kişisel hizmet",
+        "visitWebsite": "OTELİ KEŞFET",
+        "exploreHotel": "OTELİ KEŞFET"
+      },
+
+      "Gallery": {
+        "title": "GALERİ",
+        "subtitle": "Inone Bitez'in büyüleyici atmosferini, modern tasarımını ve doğal güzelliklerini keşfedin",
+        "all": "Tümü",
+        "rooms": "Odalar",
+        "restaurant": "Restoran",
+        "general": "Genel",
+        "viewImage": "Görüntüle",
+        "room1Title": "Deluxe Oda",
+        "room2Title": "Süit Oda",
+        "restaurant1Title": "Ana Restoran",
+        "generalTitle": "Genel Görünüm"
       }
 }
 

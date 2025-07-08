@@ -305,6 +305,33 @@
 
       "MobileBookButton": {
         "bookNow": "JETZT BUCHEN"
+      },
+
+      "HotelsInfo": {
+        "title": "UNSERE HOTELS",
+        "subtitle": "Zwei verschiedene Destinationen, zwei einzigartige Erlebnisse. Jedes mit seiner eigenen Geschichte und unvergesslichen Erinnerungen, die auf Sie warten.",
+        "muchoLocation": "Kalkan, Antalya",
+        "muchoDescription": "Mit Blick auf das türkisfarbene Wasser der Ägäis bietet Inone Mucho Selection in Kalkans bezaubernder Landschaft die perfekte Harmonie von Luxus und Komfort. Jedes Detail, das mit einem Boutique-Hotel-Konzept entworfen wurde, bietet unseren Gästen ein besonderes und unvergessliches Urlaubserlebnis.",
+        "muchoFeatures": "Zimmer mit Meerblick, Gourmet Restaurant, Spa & Wellness Center, Privatstrand, Concierge Services, Premium Aktivitäten",
+        "bitezLocation": "Bitez, Bodrum",
+        "bitezDescription": "In Bitez, einer der friedlichsten Buchten von Bodrum gelegen, ist Inone Bitez eine ideale Wahl für unsere Gäste, die einen ruhigen Urlaub im Einklang mit der Natur suchen. Sie werden Frieden an diesem besonderen Ort finden, wo moderner Komfort auf traditionelle ägäische Gastfreundschaft trifft.",
+        "bitezFeatures": "Friedliche Atmosphäre, Privatstrand Zugang, Yoga & Wellness, Bio-Garten, Lokale Aromen, Persönlicher Service",
+        "visitWebsite": "HOTEL ERKUNDEN",
+        "exploreHotel": "HOTEL ERKUNDEN"
+      },
+
+      "Gallery": {
+        "title": "GALERIE",
+        "subtitle": "Entdecken Sie die bezaubernde Atmosphäre, das moderne Design und die natürliche Schönheit von Inone Bitez",
+        "all": "Alle",
+        "rooms": "Zimmer",
+        "restaurant": "Restaurant",
+        "general": "Allgemein",
+        "viewImage": "Ansicht",
+        "room1Title": "Deluxe Zimmer",
+        "room2Title": "Suite Zimmer",
+        "restaurant1Title": "Hauptrestaurant",
+        "generalTitle": "Allgemeine Ansicht"
       }
       
 }
