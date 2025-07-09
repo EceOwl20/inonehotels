@@ -7,6 +7,7 @@ import { getMessages, setRequestLocale } from 'next-intl/server'
 import Header from "./Components/Header/Header";
 import Footer from "./Components/Footer/Footer";
 import MobileBookNowButton from "./Components/HomePage/MobileBookNowButton";
+import Phone from "@/app/[locale]/Components/HomePage/Phone"
 
 
 export function generateStaticParams() {
@@ -36,6 +37,7 @@ export default async function RootLayout({ children, params }) {
             <Header />
         {children}
             <MobileBookNowButton />
+            <Phone />
             <Footer />
         </NextIntlClientProvider>
       </body>

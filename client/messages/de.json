@@ -308,17 +308,17 @@
       },
 
       "HotelsInfo": {
-        "title": "UNSERE HOTELS",
-        "subtitle": "Zwei verschiedene Destinationen, zwei einzigartige Erlebnisse. Jedes mit seiner eigenen Geschichte und unvergesslichen Erinnerungen, die auf Sie warten.",
-        "muchoLocation": "Kalkan, Antalya",
-        "muchoDescription": "Mit Blick auf das türkisfarbene Wasser der Ägäis bietet Inone Mucho Selection in Kalkans bezaubernder Landschaft die perfekte Harmonie von Luxus und Komfort. Jedes Detail, das mit einem Boutique-Hotel-Konzept entworfen wurde, bietet unseren Gästen ein besonderes und unvergessliches Urlaubserlebnis.",
-        "muchoFeatures": "Zimmer mit Meerblick, Gourmet Restaurant, Spa & Wellness Center, Privatstrand, Concierge Services, Premium Aktivitäten",
-        "bitezLocation": "Bitez, Bodrum",
-        "bitezDescription": "In Bitez, einer der friedlichsten Buchten von Bodrum gelegen, ist Inone Bitez eine ideale Wahl für unsere Gäste, die einen ruhigen Urlaub im Einklang mit der Natur suchen. Sie werden Frieden an diesem besonderen Ort finden, wo moderner Komfort auf traditionelle ägäische Gastfreundschaft trifft.",
-        "bitezFeatures": "Friedliche Atmosphäre, Privatstrand Zugang, Yoga & Wellness, Bio-Garten, Lokale Aromen, Persönlicher Service",
-        "visitWebsite": "HOTEL ERKUNDEN",
-        "exploreHotel": "HOTEL ERKUNDEN"
-      },
+        "title": "UNSER HOTEL",
+        "subtitle": "Ein einzigartiges Erlebnis in Bodrum. Unvergessliche Erinnerungen und friedliche Momente erwarten Sie.",
+        "muchoLocation": "Bodrum",
+        "muchoDescription": "Das Inone Hotel liegt in einer der ruhigsten Buchten von Bodrum und ist die ideale Wahl für Gäste, die einen ruhigen Urlaub im Einklang mit der Natur suchen. In diesem besonderen Ort, wo moderner Komfort auf traditionelle ägäische Gastfreundschaft trifft, werden Sie Ruhe finden.",
+        "muchoFeatures": "Ruhige Atmosphäre, Privater Strandzugang, Spa & Wellness-Center, Bio-Garten, Lokale Köstlichkeiten, Persönlicher Service",
+        "bitezLocation": "Bodrum",
+        "bitezDescription": "Mit Blick auf das türkisfarbene Wasser der Ägäis, inmitten der bezaubernden Landschaft von Bodrum gelegen, bietet das Inone Hotel die perfekte Harmonie von Luxus und Komfort. Jedes Detail, das im Boutique-Hotel-Konzept gestaltet wurde, bietet unseren Gästen ein besonderes und unvergessliches Urlaubserlebnis.",
+        "bitezFeatures": "Zimmer mit Meerblick, Gourmet-Restaurant, Spa & Wellness-Center, Privater Strand, Concierge-Services, Premium-Aktivitäten",
+        "visitWebsite": "HOTEL ENTDECKEN",
+        "exploreHotel": "HOTEL ENTDECKEN"
+    },
 
       "Gallery": {
         "title": "GALERIE",

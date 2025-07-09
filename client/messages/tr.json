@@ -309,17 +309,17 @@
       },
 
       "HotelsInfo": {
-        "title": "OTELLERİMİZ",
-        "subtitle": "İki farklı destinasyonda, iki benzersiz deneyim. Her birinde ayrı bir hikaye ve unutulmaz anılar sizi bekliyor.",
-        "muchoLocation": "Kalkan, Antalya",
-        "muchoDescription": "Ege'nin turkuaz sularına nazır, Kalkan'ın büyüleyici manzarasında yer alan Inone Mucho Selection, lüks ve konforun mükemmel uyumunu sunar. Butik otel anlayışıyla tasarlanmış her detayı, misafirlerimize özel ve unutulmaz bir tatil deneyimi yaşatır.",
-        "muchoFeatures": "Deniz manzaralı odalar, Gourmet restoran, Spa & wellness merkezi, Özel plaj, Concierge hizmetleri, Premium aktiviteler",
-        "bitezLocation": "Bitez, Bodrum",
-        "bitezDescription": "Bodrum'un en huzurlu koylarından Bitez'de konumlanan Inone Bitez, doğayla iç içe sakin bir tatil arayan misafirlerimiz için ideal bir seçim. Modern konfor ve geleneksel Ege misafirperverliğinin buluştuğu bu özel mekanda huzuru bulacaksınız.",
-        "bitezFeatures": "Huzurlu atmosfer, Özel plaj erişimi, Yoga ve wellness, Organik bahçe, Yerel lezzetler, Kişisel hizmet",
+        "title": "OTELİMİZ",
+        "subtitle": "Bodrum'da benzersiz bir deneyim. Unutulmaz anılar ve huzur dolu anlar sizi bekliyor.",
+        "muchoLocation": "Bodrum",
+        "muchoDescription": "Bodrum'un en huzurlu koylarında konumlanan Inone Hotel, doğayla iç içe sakin bir tatil arayan misafirlerimiz için ideal bir seçim. Modern konfor ve geleneksel Ege misafirperverliğinin buluştuğu bu özel mekanda huzuru bulacaksınız.",
+        "muchoFeatures": "Huzurlu atmosfer, Özel plaj erişimi, Spa & wellness merkezi, Organik bahçe, Yerel lezzetler, Kişisel hizmet",
+        "bitezLocation": "Bodrum",
+        "bitezDescription": "Ege'nin turkuaz sularına nazır, Bodrum'un büyüleyici manzarasında yer alan Inone Hotel, lüks ve konforun mükemmel uyumunu sunar. Butik otel anlayışıyla tasarlanmış her detayı, misafirlerimize özel ve unutulmaz bir tatil deneyimi yaşatır.",
+        "bitezFeatures": "Deniz manzaralı odalar, Gourmet restoran, Spa & wellness merkezi, Özel plaj, Concierge hizmetleri, Premium aktiviteler",
         "visitWebsite": "OTELİ KEŞFET",
         "exploreHotel": "OTELİ KEŞFET"
-      },
+    },
 
       "Gallery": {
         "title": "GALERİ",

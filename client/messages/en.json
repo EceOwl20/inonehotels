@@ -308,17 +308,17 @@
   },
 
   "HotelsInfo": {
-    "title": "OUR HOTELS",
-    "subtitle": "Two different destinations, two unique experiences. Each with its own story and unforgettable memories awaiting you.",
-    "muchoLocation": "Kalkan, Antalya",
-    "muchoDescription": "Overlooking the turquoise waters of the Aegean Sea, Inone Mucho Selection in Kalkan's enchanting landscape offers the perfect harmony of luxury and comfort. Every detail designed with a boutique hotel concept provides our guests with a special and unforgettable holiday experience.",
-    "muchoFeatures": "Sea view rooms, Gourmet restaurant, Spa & wellness center, Private beach, Concierge services, Premium activities",
-    "bitezLocation": "Bitez, Bodrum",
-    "bitezDescription": "Located in Bitez, one of Bodrum's most peaceful bays, Inone Bitez is an ideal choice for our guests seeking a tranquil holiday in harmony with nature. You will find peace in this special place where modern comfort meets traditional Aegean hospitality.",
-    "bitezFeatures": "Peaceful atmosphere, Private beach access, Yoga & wellness, Organic garden, Local flavors, Personal service",
-    "visitWebsite": "EXPLORE HOTEL",
-    "exploreHotel": "EXPLORE HOTEL"
-  },
+    "title": "OUR HOTEL",
+    "subtitle": "A unique experience in Bodrum. Unforgettable memories and peaceful moments await you.",
+    "muchoLocation": "Bodrum",
+    "muchoDescription": "Located in one of Bodrum's most peaceful bays, Inone Hotel is an ideal choice for guests seeking a tranquil vacation in harmony with nature. You will find peace in this special place where modern comfort meets traditional Aegean hospitality.",
+    "muchoFeatures": "Peaceful atmosphere, Private beach access, Spa & wellness center, Organic garden, Local flavors, Personal service",
+    "bitezLocation": "Bodrum",
+    "bitezDescription": "Overlooking the turquoise waters of the Aegean, located in Bodrum's enchanting landscape, Inone Hotel offers the perfect harmony of luxury and comfort. Every detail designed with a boutique hotel concept provides our guests with a special and unforgettable vacation experience.",
+    "bitezFeatures": "Sea view rooms, Gourmet restaurant, Spa & wellness center, Private beach, Concierge services, Premium activities",
+    "visitWebsite": "DISCOVER THE HOTEL",
+    "exploreHotel": "DISCOVER THE HOTEL"
+},
 
   "Gallery": {
     "title": "GALLERY",
