@@ -167,11 +167,571 @@ const galleryImages = [
   // Restaurant resimleri (ID: 19)
   {
     id: 21,
-    src: '/gallery/restaurant1.jpg',
+    src: '/bitez/Restaurant/genel1.jpg',
     alt: 'Restaurant',
     category: 'restaurant',
     titleKey: 'restaurant1Title'
   },
+  {
+    id: 31,
+    src: '/bitez/Restaurant/genel2.jpg',
+    alt: 'Restaurant',
+    category: 'restaurant',
+    titleKey: 'restaurant1Title'
+  },
+  {
+    id: 32,
+    src: '/bitez/Restaurant/genel3.jpg',
+    alt: 'Restaurant',
+    category: 'restaurant',
+    titleKey: 'restaurant1Title'
+  },
+  {
+    id: 33,
+    src: '/bitez/Restaurant/genel4.jpg',
+    alt: 'Restaurant',
+    category: 'restaurant',
+    titleKey: 'restaurant1Title'
+  },
+  {
+    id: 34,
+    src: '/bitez/Restaurant/genel5.jpg',
+    alt: 'Restaurant',
+    category: 'restaurant',
+    titleKey: 'restaurant1Title'
+  },
+  {
+    id: 35,
+    src: '/bitez/Restaurant/genel6.jpg',
+    alt: 'Restaurant',
+    category: 'restaurant',
+    titleKey: 'restaurant1Title'
+  },
+  {
+    id: 36,
+    src: '/bitez/Restaurant/genel7.jpg',
+    alt: 'Restaurant',
+    category: 'restaurant',
+    titleKey: 'restaurant1Title'
+  },
+  {
+    id: 37,
+    src: '/bitez/Restaurant/genel8.jpg',
+    alt: 'Restaurant',
+    category: 'restaurant',
+    titleKey: 'restaurant1Title'
+  },
+  {
+    id: 38,
+    src: '/bitez/Restaurant/genel9.jpg',
+    alt: 'Restaurant',
+    category: 'restaurant',
+    titleKey: 'restaurant1Title'
+  },
+  {
+    id: 39,
+    src: '/bitez/Restaurant/genel10.jpg',
+    alt: 'Restaurant',
+    category: 'restaurant',
+    titleKey: 'restaurant1Title'
+  },
+  {
+    id: 41,
+    src: '/bitez/Restaurant/genel12.jpg',
+    alt: 'Restaurant',
+    category: 'restaurant',
+    titleKey: 'restaurant1Title'
+  },
+  {
+    id: 42,
+    src: '/bitez/Restaurant/genel13.jpg',
+    alt: 'Restaurant',
+    category: 'restaurant',
+    titleKey: 'restaurant1Title'
+  },
+  {
+    id: 43,
+    src: '/bitez/Restaurant/genel14.jpg',
+    alt: 'Restaurant',
+    category: 'restaurant',
+    titleKey: 'restaurant1Title'
+  },
+  {
+    id: 44,
+    src: '/bitez/Restaurant/genel15.jpg',
+    alt: 'Restaurant',
+    category: 'restaurant',
+    titleKey: 'restaurant1Title'
+  },
+  {
+    id: 45,
+    src: '/bitez/Restaurant/genel16.jpg',
+    alt: 'Restaurant',
+    category: 'restaurant',
+    titleKey: 'restaurant1Title'
+  },
+  {
+    id: 46,
+    src: '/bitez/Restaurant/genel17.jpg',
+    alt: 'Restaurant',
+    category: 'restaurant',
+    titleKey: 'restaurant1Title'
+  },
+  {
+    id: 47,
+    src: '/bitez/Restaurant/genel18.jpg',
+    alt: 'Restaurant',
+    category: 'restaurant',
+    titleKey: 'restaurant1Title'
+  },
+  {
+    id: 48,
+    src: '/bitez/Restaurant/genel19.jpg',
+    alt: 'Restaurant',
+    category: 'restaurant',
+    titleKey: 'restaurant1Title'
+  },
+  {
+    id: 49,
+    src: '/bitez/Restaurant/genel20.jpg',
+    alt: 'Restaurant',
+    category: 'restaurant',
+    titleKey: 'restaurant1Title'
+  },
+  {
+    id: 50,
+    src: '/bitez/Restaurant/genel23.jpg',
+    alt: 'Restaurant',
+    category: 'restaurant',
+    titleKey: 'restaurant1Title'
+  },
+  {
+    id: 51,
+    src: '/bitez/Restaurant/genel24.jpg',
+    alt: 'Restaurant',
+    category: 'restaurant',
+    titleKey: 'restaurant1Title'
+  },
+  {
+    id: 52,
+    src: '/bitez/Restaurant/genel21.jpg',
+    alt: 'Restaurant',
+    category: 'restaurant',
+    titleKey: 'restaurant1Title'
+  },
+  {
+    id: 53,
+    src: '/bitez/Restaurant/genel22.jpg',
+    alt: 'Restaurant',
+    category: 'restaurant',
+    titleKey: 'restaurant1Title'
+  },
+  {
+    id: 54,
+    src: '/bitez/Restaurant/genel25.jpg',
+    alt: 'Restaurant',
+    category: 'restaurant',
+    titleKey: 'restaurant1Title'
+  },
+  {
+    id: 55,
+    src: '/bitez/Restaurant/genel26.jpg',
+    alt: 'Restaurant',
+    category: 'restaurant',
+    titleKey: 'restaurant1Title'
+  },
+  {
+    id: 56,
+    src: '/bitez/Restaurant/genel27.jpg',
+    alt: 'Restaurant',
+    category: 'restaurant',
+    titleKey: 'restaurant1Title'
+  },
+  {
+    id: 57,
+    src: '/bitez/Restaurant/genel28.jpg',
+    alt: 'Restaurant',
+    category: 'restaurant',
+    titleKey: 'restaurant1Title'
+  },
+  {
+    id: 58,
+    src: '/bitez/Restaurant/genel29.jpg',
+    alt: 'Restaurant',
+    category: 'restaurant',
+    titleKey: 'restaurant1Title'
+  },
+  {
+    id: 59,
+    src: '/bitez/Restaurant/genel30.jpg',
+    alt: 'Restaurant',
+    category: 'restaurant',
+    titleKey: 'restaurant1Title'
+  },
+  {
+    id: 60,
+    src: '/bitez/Restaurant/genel31.jpg',
+    alt: 'Restaurant',
+    category: 'restaurant',
+    titleKey: 'restaurant1Title'
+  },
+  {
+    id: 61,
+    src: '/bitez/Restaurant/genel32.jpg',
+    alt: 'Restaurant',
+    category: 'restaurant',
+    titleKey: 'restaurant1Title'
+  },
+  {
+    id: 62,
+    src: '/bitez/Restaurant/genel33.jpg',
+    alt: 'Restaurant',
+    category: 'restaurant',
+    titleKey: 'restaurant1Title'
+  },
+  {
+    id: 63,
+    src: '/bitez/Restaurant/genel34.jpg',
+    alt: 'Restaurant',
+    category: 'restaurant',
+    titleKey: 'restaurant1Title'
+  },
+  {
+    id: 64,
+    src: '/bitez/Restaurant/genel35.jpg',
+    alt: 'Restaurant',
+    category: 'restaurant',
+    titleKey: 'restaurant1Title'
+  },
+  {
+    id: 65,
+    src: '/bitez/Restaurant/genel36.jpg',
+    alt: 'Restaurant',
+    category: 'restaurant',
+    titleKey: 'restaurant1Title'
+  },
+  {
+    id: 66,
+    src: '/bitez/Restaurant/genel37.jpg',
+    alt: 'Restaurant',
+    category: 'restaurant',
+    titleKey: 'restaurant1Title'
+  },
+  {
+    id: 67,
+    src: '/bitez/Restaurant/genel38.jpg',
+    alt: 'Restaurant',
+    category: 'restaurant',
+    titleKey: 'restaurant1Title'
+  },
+  {
+    id: 68,
+    src: '/bitez/Restaurant/genel39.jpg',
+    alt: 'Restaurant',
+    category: 'restaurant',
+    titleKey: 'restaurant1Title'
+  },
+  {
+    id: 69,
+    src: '/bitez/Restaurant/genel40.jpg',
+    alt: 'Restaurant',
+    category: 'restaurant',
+    titleKey: 'restaurant1Title'
+  },
+  {
+    id: 70,
+    src: '/bitez/Restaurant/genel41.jpg',
+    alt: 'Restaurant',
+    category: 'restaurant',
+    titleKey: 'restaurant1Title'
+  },
+  {
+    id: 71,
+    src: '/bitez/Restaurant/genel42.jpg',
+    alt: 'Restaurant',
+    category: 'restaurant',
+    titleKey: 'restaurant1Title'
+  },
+  {
+    id: 72,
+    src: '/bitez/Restaurant/genel43.jpg',
+    alt: 'Restaurant',
+    category: 'restaurant',
+    titleKey: 'restaurant1Title'
+  },
+
+  {
+    id: 73,
+    src: '/bitez/Restaurant/genel44.jpg',
+    alt: 'Restaurant',
+    category: 'restaurant',
+    titleKey: 'restaurant1Title'
+  },
+
+  {
+    id: 74,
+    src: '/bitez/Restaurant/genel45.jpg',
+    alt: 'Restaurant',
+    category: 'restaurant',
+    titleKey: 'restaurant1Title'
+  },
+
+  {
+    id: 75,
+    src: '/bitez/Restaurant/genel46.jpg',
+    alt: 'Restaurant',
+    category: 'restaurant',
+    titleKey: 'restaurant1Title'
+  },
+
+  {
+    id: 76,
+    src: '/bitez/Restaurant/genel47.jpg',
+    alt: 'Restaurant',
+    category: 'restaurant',
+    titleKey: 'restaurant1Title'
+  },
+
+  {
+    id: 77,
+    src: '/bitez/Restaurant/genel48.jpg',
+    alt: 'Restaurant',
+    category: 'restaurant',
+    titleKey: 'restaurant1Title'
+  },
+
+  {
+    id: 78,
+    src: '/bitez/Restaurant/genel49.jpg',
+    alt: 'Restaurant',
+    category: 'restaurant',
+    titleKey: 'restaurant1Title'
+  },
+
+  {
+    id: 79,
+    src: '/bitez/Restaurant/genel50.jpg',
+    alt: 'Restaurant',
+    category: 'restaurant',
+    titleKey: 'restaurant1Title'
+  },
+
+  {
+    id: 80,
+    src: '/bitez/Restaurant/genel51.jpg',
+    alt: 'Restaurant',
+    category: 'restaurant',
+    titleKey: 'restaurant1Title'
+  },
+
+  {
+    id: 81,
+    src: '/bitez/Restaurant/genel52.jpg',
+    alt: 'Restaurant',
+    category: 'restaurant',
+    titleKey: 'restaurant1Title'
+  },
+
+  {
+    id: 82,
+    src: '/bitez/Restaurant/genel53.jpg',
+    alt: 'Restaurant',
+    category: 'restaurant',
+    titleKey: 'restaurant1Title'
+  },
+
+  {
+    id: 83,
+    src: '/bitez/Restaurant/genel54.jpg',
+    alt: 'Restaurant',
+    category: 'restaurant',
+    titleKey: 'restaurant1Title'
+  },
+
+  {
+    id: 84,
+    src: '/bitez/Restaurant/genel55.jpg',
+    alt: 'Restaurant',
+    category: 'restaurant',
+    titleKey: 'restaurant1Title'
+  },
+
+  {
+    id: 85,
+    src: '/bitez/Restaurant/genel56.jpg',
+    alt: 'Restaurant',
+    category: 'restaurant',
+    titleKey: 'restaurant1Title'
+  },
+
+  {
+    id: 86,
+    src: '/bitez/Restaurant/genel57.jpg',
+    alt: 'Restaurant',
+    category: 'restaurant',
+    titleKey: 'restaurant1Title'
+  },
+
+  {
+    id: 87,
+    src: '/bitez/Restaurant/genel58.jpg',
+    alt: 'Restaurant',
+    category: 'restaurant',
+    titleKey: 'restaurant1Title'
+  },
+
+  {
+    id: 88,
+    src: '/bitez/Restaurant/genel59.jpg',
+    alt: 'Restaurant',
+    category: 'restaurant',
+    titleKey: 'restaurant1Title'
+  },
+
+  {
+    id: 89,
+    src: '/bitez/Restaurant/genel60.jpg',
+    alt: 'Restaurant',
+    category: 'restaurant',
+    titleKey: 'restaurant1Title'
+  },
+
+  {
+    id: 90,
+    src: '/bitez/Restaurant/genel61.jpg',
+    alt: 'Restaurant',
+    category: 'restaurant',
+    titleKey: 'restaurant1Title'
+  },
+
+  {
+    id: 91,
+    src: '/bitez/Restaurant/genel62.jpg',
+    alt: 'Restaurant',
+    category: 'restaurant',
+    titleKey: 'restaurant1Title'
+  },
+
+  {
+    id: 92,
+    src: '/bitez/Restaurant/genel63.jpg',
+    alt: 'Restaurant',
+    category: 'restaurant',
+    titleKey: 'restaurant1Title'
+  },
+
+  {
+    id: 93,
+    src: '/bitez/Restaurant/genel64.jpg',
+    alt: 'Restaurant',
+    category: 'restaurant',
+    titleKey: 'restaurant1Title'
+  },
+
+  {
+    id: 94,
+    src: '/bitez/Restaurant/genel65.jpg',
+    alt: 'Restaurant',
+    category: 'restaurant',
+    titleKey: 'restaurant1Title'
+  },
+
+  {
+    id: 95,
+    src: '/bitez/Restaurant/genel66.jpg',
+    alt: 'Restaurant',
+    category: 'restaurant',
+    titleKey: 'restaurant1Title'
+  },
+
+  {
+    id: 96,
+    src: '/bitez/Restaurant/genel67.jpg',
+    alt: 'Restaurant',
+    category: 'restaurant',
+    titleKey: 'restaurant1Title'
+  },
+
+  {
+    id: 97,
+    src: '/bitez/Restaurant/genel68.jpg',
+    alt: 'Restaurant',
+    category: 'restaurant',
+    titleKey: 'restaurant1Title'
+  },
+
+  {
+    id: 98,
+    src: '/bitez/Restaurant/genel69.jpg',
+    alt: 'Restaurant',
+    category: 'restaurant',
+    titleKey: 'restaurant1Title'
+  },
+
+  {
+    id: 99,
+    src: '/bitez/Restaurant/genel70.jpg',
+    alt: 'Restaurant',
+    category: 'restaurant',
+    titleKey: 'restaurant1Title'
+  },
+
+  {
+    id: 100,
+    src: '/bitez/Restaurant/genel71.jpg',
+    alt: 'Restaurant',
+    category: 'restaurant',
+    titleKey: 'restaurant1Title'
+  },
+
+  {
+    id: 101,
+    src: '/bitez/Restaurant/genel72.jpg',
+    alt: 'Restaurant',
+    category: 'restaurant',
+    titleKey: 'restaurant1Title'
+  },
+
+  {
+    id: 102,
+    src: '/bitez/Restaurant/genel73.jpg',
+    alt: 'Restaurant',
+    category: 'restaurant',
+    titleKey: 'restaurant1Title'
+  },
+
+  {
+    id: 103,
+    src: '/bitez/Restaurant/genel74.jpg',
+    alt: 'Restaurant',
+    category: 'restaurant',
+    titleKey: 'restaurant1Title'
+  },
+
+  {
+    id: 104,
+    src: '/bitez/Restaurant/genel75.jpg',
+    alt: 'Restaurant',
+    category: 'restaurant',
+    titleKey: 'restaurant1Title'
+  },
+
+  {
+    id: 105,
+    src: '/bitez/Restaurant/genel76.jpg',
+    alt: 'Restaurant',
+    category: 'restaurant',
+    titleKey: 'restaurant1Title'
+  },
+
+  {
+    id: 106,
+    src: '/bitez/Restaurant/genel77.jpg',
+    alt: 'Restaurant',
+    category: 'restaurant',
+    titleKey: 'restaurant1Title'
+  },
+
 
   {
     id: 22,
@@ -364,7 +924,7 @@ const galleryImages = [
             )}
 
             {/* Image */}
-            <div className="relative w-full h-full max-w-4xl max-h-[80vh]">
+            <div className="relative w-[90vh] h-[80vh] max-w-4xl mx-auto">
               <Image
                 src={selectedImage.src}
                 alt={selectedImage.alt}

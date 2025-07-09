@@ -327,11 +327,11 @@
         "rooms": "Zimmer",
         "restaurant": "Restaurant",
         "general": "Allgemein",
-        "viewImage": "Ansicht",
+        "viewImage": "Ansehen",
         "room1Title": "Deluxe Zimmer",
         "room2Title": "Suite Zimmer",
         "restaurant1Title": "Hauptrestaurant",
         "generalTitle": "Allgemeine Ansicht"
-      }
+    }
       
 }
