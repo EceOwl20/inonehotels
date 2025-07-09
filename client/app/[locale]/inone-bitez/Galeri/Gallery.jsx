@@ -825,16 +825,17 @@ const galleryImages = [
   };
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-white -mt-24">
       
       {/* Hero Section */}
-      <section className="relative h-64 sm:h-80 lg:h-96 bg-gradient-to-r from-gray-900 to-gray-700">
+      <section className="relative h-80 sm:h-96 lg:h-[650px] bg-gradient-to-r bg-cover bg-center bg-no-repeat from-gray-900 to-gray-700"
+      style={{ backgroundImage: "url('/bitez/General/Genel2.jpg')" }}>
         <div className="absolute inset-0 bg-black/40"></div>
         <div className="relative h-full flex items-center justify-center text-center px-4">
           <div>
-            <h1 className="font-cormorant font-light text-3xl sm:text-4xl lg:text-6xl text-white mb-4">
+            {/* <h1 className="font-cormorant font-light text-3xl sm:text-4xl lg:text-6xl text-white mb-4">
               {t('title')}
-            </h1>
+            </h1> */}
             <p className="font-jost text-base sm:text-lg text-white/90 max-w-2xl">
               {t('subtitle')}
             </p>
