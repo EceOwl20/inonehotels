@@ -10,7 +10,6 @@ export default function Home() {
     <div className="w-full">
       <VideoSection />
       <WelcomeSection />
-      <MobileBookNowButton />
       <HeroSection />
       <HotelsInfo />
       <ContactUs />

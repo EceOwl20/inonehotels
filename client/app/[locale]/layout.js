@@ -6,6 +6,7 @@ import { routing } from "@/i18n/routing";
 import { getMessages, setRequestLocale } from 'next-intl/server'
 import Header from "./Components/Header/Header";
 import Footer from "./Components/Footer/Footer";
+import MobileBookNowButton from "./Components/HomePage/MobileBookNowButton";
 
 
 export function generateStaticParams() {
@@ -34,6 +35,7 @@ export default async function RootLayout({ children, params }) {
           <NextIntlClientProvider locale={locale} messages={messages}>
             <Header />
         {children}
+            <MobileBookNowButton />
             <Footer />
         </NextIntlClientProvider>
       </body>
