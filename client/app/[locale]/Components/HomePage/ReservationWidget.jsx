@@ -12,7 +12,7 @@ export default function ReservationWidget() {
 
   const handleBookNow = () => {
     // Rezervasyon sitesine yönlendir
-    window.open('https://inonebitez.rezervasyonal.com/', '_blank');
+    window.open('https://inonemuchoselectionhotel.rezervasyonal.com/', '_blank');
   };
 
   const handleSubmit = (e) => {
