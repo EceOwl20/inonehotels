@@ -28,7 +28,7 @@ export default function LiveChat() {
   const handleChatToggle = () => {
     setIsChatOpen(!isChatOpen);
     
-    // Chat açılırken body scroll'unu engelle (mobil için)
+    // Chat açılırken body scroll'unu engelle (tablet/desktop için)
     if (!isChatOpen) {
       document.body.style.overflow = 'hidden';
     } else {
@@ -53,11 +53,11 @@ export default function LiveChat() {
       {/* Connexease Script'ini yükle (görünmez) */}
       <Connexease />
       
-      {/* Chat Button - Sağ Alt Köşe */}
-      <div className="fixed bottom-6 right-6 z-[9998]">
+      {/* Chat Button - Sağ Alt Köşe (Sadece Tablet/Desktop) */}
+      <div className="hidden md:block fixed bottom-6 right-6 z-[9998]">
         <button
           onClick={handleChatToggle}
-          className="bg-white  text-black p-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 flex items-center justify-center group relative"
+          className="bg-white text-black p-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 flex items-center justify-center group relative"
           aria-label="Live Chat"
         >
           {/* Online/Offline Indicator */}
@@ -70,18 +70,12 @@ export default function LiveChat() {
         </button>
       </div>
 
-      {/* Chat Modal */}
+      {/* Chat Modal (Sadece Tablet/Desktop'ta açılabilir) */}
       {isChatOpen && (
-        <div className="fixed inset-0 z-[9999] flex items-center justify-center md:items-end md:justify-end p-4 md:p-6">
-          
-          {/* Overlay (sadece mobil) */}
-          <div 
-            className="absolute inset-0 bg-black/50 md:hidden"
-            onClick={handleChatClose}
-          ></div>
+        <div className="hidden md:flex fixed inset-0 z-[9999] items-end justify-end p-6">
           
           {/* Chat Container */}
-          <div className="relative bg-white rounded-lg shadow-2xl w-full max-w-md h-[600px] md:w-[400px] md:h-[600px] md:max-h-[calc(100vh-100px)] overflow-hidden">
+          <div className="relative bg-white rounded-lg shadow-2xl w-[400px] h-[600px] max-h-[calc(100vh-100px)] overflow-hidden">
             
             {/* Header */}
             <div className="flex items-center justify-between p-4 bg-white text-black">
@@ -95,7 +89,7 @@ export default function LiveChat() {
               
               <button
                 onClick={handleChatClose}
-                className="text-white hover:text-gray-200 transition-colors p-1"
+                className="text-black hover:text-gray-600 transition-colors p-1"
                 aria-label="Close chat"
               >
                 <FaTimes className="w-5 h-5" />
