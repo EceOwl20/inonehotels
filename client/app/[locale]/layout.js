@@ -8,6 +8,7 @@ import Header from "./Components/Header/Header";
 import Footer from "./Components/Footer/Footer";
 import MobileBookNowButton from "./Components/HomePage/MobileBookNowButton";
 import Phone from "@/app/[locale]/Components/HomePage/Phone"
+import LiveChat from "./Components/HomePage/LiveChat";
 
 
 export function generateStaticParams() {
@@ -39,6 +40,7 @@ export default async function RootLayout({ children, params }) {
             <MobileBookNowButton />
             <Phone />
             <Footer />
+            <LiveChat />
         </NextIntlClientProvider>
       </body>
     </html>
