@@ -30,7 +30,7 @@ export default function Sidebar({ isOpen, onClose }) {
         { href: '/inone-bitez', labelKey: 'bitezHome', isActive: pathname === '/inone-bitez' },
         { href: '/inone-bitez/odalar', labelKey: 'bitezRooms', isActive: pathname.includes('/inone-bitez/odalar') },
         { href: '/inone-bitez/olanaklar', labelKey: 'bitezFacilities', isActive: pathname.includes('/olanaklar') },
-        { href: '/inone-bitez/galeri', labelKey: 'bitezGallery', isActive: pathname.includes('/galeri') },
+        { href: '/inone-bitez/Galeri', labelKey: 'bitezGallery', isActive: pathname.includes('/galeri') },
         { href: '/inone-bitez/hakkimizda', labelKey: 'bitezAbout', isActive: pathname.includes('/hakkimizda') },
         { href: '/', labelKey: 'backToMain', isBack: true }
       ];
