@@ -4,6 +4,7 @@ import ContactUs from './Components/Common/ContactFrom';
 import VideoSection from './Components/HomePage/VideoSection';
 import MobileBookNowButton from "./Components/HomePage/MobileBookNowButton"
 import HotelsInfo from './Components/HomePage/HotelsInfo';
+import Bodrum from './Components/HomePage/Bodrum';
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <WelcomeSection />
       <HeroSection />
       <HotelsInfo />
+      <Bodrum/>
       <ContactUs />
     </div>
   );

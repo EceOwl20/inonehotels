@@ -114,3 +114,10 @@
     font-style: normal;
     font-display: swap;
   }
+
+  .parallax {
+    background-attachment: fixed;
+    background-position: top left; /* "start" yerine daha yaygın ve uyumlu bir değer */
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
