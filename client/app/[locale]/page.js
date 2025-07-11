@@ -5,6 +5,7 @@ import VideoSection from './Components/HomePage/VideoSection';
 import MobileBookNowButton from "./Components/HomePage/MobileBookNowButton"
 import HotelsInfo from './Components/HomePage/HotelsInfo';
 import Bodrum from './Components/HomePage/Bodrum';
+import OurPlatforms from './Components/HomePage/OurPlatforms';
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <HotelsInfo />
       <Bodrum/>
       <ContactUs />
+      <OurPlatforms />
     </div>
   );
 }

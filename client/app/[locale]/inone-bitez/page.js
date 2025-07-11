@@ -6,6 +6,7 @@ import BitezLocation from '@/app/[locale]/Components/Bitez/BitezLocation';
 import ReservationWidget from '../Components/HomePage/ReservationWidget';
 import ContactUs from '../Components/Common/ContactFrom';
 import Bodrum from '../Components/HomePage/Bodrum';
+import OurPlatforms from '../Components/HomePage/OurPlatforms';
 
 export default function InoneBitezPage() {
   return (
@@ -17,6 +18,7 @@ export default function InoneBitezPage() {
       <BitezRooms />
       <Bodrum />
       <ContactUs />
+      <OurPlatforms />
     </div>
   );
 }
