@@ -332,6 +332,13 @@
         "room2Title": "Suite Zimmer",
         "restaurant1Title": "Hauptrestaurant",
         "generalTitle": "Allgemeine Ansicht"
+    },
+
+    "reservationWidget": {
+      "checkIn": "Anreise",
+      "checkOut": "Abreise",
+      "adult": "Erwachsene",
+      "bookNow": "JETZT BUCHEN"
     }
       
 }

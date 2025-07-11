@@ -332,5 +332,12 @@
         "room2Title": "Номер Люкс",
         "restaurant1Title": "Основной ресторан",
         "generalTitle": "Общий вид"
+    },
+
+    "reservationWidget": {
+      "checkIn": "Заезд",
+      "checkOut": "Выезд", 
+      "adult": "Взрослый",
+      "bookNow": "ЗАБРОНИРОВАТЬ"
     }
 }

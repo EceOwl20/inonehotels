@@ -334,6 +334,15 @@
         "restaurant1Title": "Ana Restoran",
         "generalTitle": "Genel Görünüm",
         "general1Title": "Genel Görünüm"
+    },
+
+    "reservationWidget": {
+      "checkIn": "Giriş",
+      "checkOut": "Çıkış", 
+      "adult": "Yetişkin",
+      "bookNow": "REZERVASYON YAP"
     }
+
+    
 }
 

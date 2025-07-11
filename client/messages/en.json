@@ -332,5 +332,12 @@
     "room2Title": "Suite Room",
     "restaurant1Title": "Main Restaurant",
     "generalTitle": "General View"
+},
+"reservationWidget": {
+  "checkIn": "Check In",
+  "checkOut": "Check Out",
+  "adult": "Adult",
+  "bookNow": "BOOK NOW"
 }
+
 }  
