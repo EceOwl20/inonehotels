@@ -1,5 +1,5 @@
 'use client';
-import { useState } from 'react';
+import { useState, useRef } from 'react';
 import { UserIcon } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 import Image from 'next/image';
@@ -11,6 +11,12 @@ export default function ReservationWidget() {
   const [checkOut, setCheckOut] = useState('');
   const [adults, setAdults] = useState(2);
   const t = useTranslations('reservationWidget');
+  
+  // Input referansları
+  const checkInRef = useRef(null);
+  const checkOutRef = useRef(null);
+  const checkInTabletRef = useRef(null);
+  const checkOutTabletRef = useRef(null);
 
   const handleBookNow = () => {
     // Rezervasyon sitesine yönlendir
@@ -24,6 +30,14 @@ export default function ReservationWidget() {
     handleBookNow();
   };
 
+  const handleCalendarClick = (inputRef) => {
+    if (inputRef.current) {
+      inputRef.current.type = 'date';
+      inputRef.current.focus();
+      inputRef.current.showPicker(); // Bu satır takvimi direkt açar
+    }
+  };
+
   return (
     <div className="hidden md:block">
       {/* Desktop Version - Original Design */}
@@ -35,6 +49,7 @@ export default function ReservationWidget() {
             <div className='flex flex-col w-40 px-4 h-full justify-center'>
               <div className="relative">
                 <input
+                  ref={checkInRef}
                   type="text"
                   value={checkIn}
                   onChange={(e) => setCheckIn(e.target.value)}
@@ -55,7 +70,8 @@ export default function ReservationWidget() {
                   alt="Calendar" 
                   width={24} 
                   height={24}
-                  className="absolute right-2 top-1/2 transform -translate-y-1/2 text-gray-400 pointer-events-none"
+                  className="absolute right-2 top-1/2 transform -translate-y-1/2 text-gray-400 cursor-pointer hover:text-gray-600 transition-colors"
+                  onClick={() => handleCalendarClick(checkInRef)}
                 />
               </div>
             </div>
@@ -64,6 +80,7 @@ export default function ReservationWidget() {
             <div className='flex flex-col w-40 px-4 h-full justify-center'>
               <div className="relative">
                 <input
+                  ref={checkOutRef}
                   type="text"
                   value={checkOut}
                   onChange={(e) => setCheckOut(e.target.value)}
@@ -84,7 +101,8 @@ export default function ReservationWidget() {
                   alt="Calendar" 
                   width={24} 
                   height={24}
-                  className="absolute right-2 top-1/2 transform -translate-y-1/2 text-gray-400 pointer-events-none"
+                  className="absolute right-2 top-1/2 transform -translate-y-1/2 text-gray-400 cursor-pointer hover:text-gray-600 transition-colors"
+                  onClick={() => handleCalendarClick(checkOutRef)}
                 />
               </div>
             </div>
@@ -137,6 +155,7 @@ export default function ReservationWidget() {
               <div className='flex flex-col flex-1 px-4 h-full justify-center'>
                 <div className="relative">
                   <input
+                    ref={checkInTabletRef}
                     type="text"
                     value={checkIn}
                     onChange={(e) => setCheckIn(e.target.value)}
@@ -157,7 +176,8 @@ export default function ReservationWidget() {
                     alt="Calendar" 
                     width={18} 
                     height={18}
-                    className="absolute right-2 top-1/2 transform -translate-y-1/2 text-gray-400 pointer-events-none"
+                    className="absolute right-2 top-1/2 transform -translate-y-1/2 text-gray-400 cursor-pointer hover:text-gray-600 transition-colors"
+                    onClick={() => handleCalendarClick(checkInTabletRef)}
                   />
                 </div>
               </div>
@@ -166,6 +186,7 @@ export default function ReservationWidget() {
               <div className='flex flex-col flex-1 px-4 h-full justify-center'>
                 <div className="relative">
                   <input
+                    ref={checkOutTabletRef}
                     type="text"
                     value={checkOut}
                     onChange={(e) => setCheckOut(e.target.value)}
@@ -177,7 +198,7 @@ export default function ReservationWidget() {
                     onBlur={(e) => {
                       if (!e.target.value) {
                         e.target.type = 'text';
-                      }
+                    }
                     }}
                     className="font-jost font-bold w-full text-sm focus:outline-none bg-transparent placeholder:text-black text-black pr-7 text-center"
                   />
@@ -186,7 +207,8 @@ export default function ReservationWidget() {
                     alt="Calendar" 
                     width={18} 
                     height={18}
-                    className="absolute right-2 top-1/2 transform -translate-y-1/2 text-gray-400 pointer-events-none"
+                    className="absolute right-2 top-1/2 transform -translate-y-1/2 text-gray-400 cursor-pointer hover:text-gray-600 transition-colors"
+                    onClick={() => handleCalendarClick(checkOutTabletRef)}
                   />
                 </div>
               </div>
