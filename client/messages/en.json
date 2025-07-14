@@ -338,6 +338,36 @@
   "checkOut": "Check Out",
   "adult": "Adult",
   "bookNow": "BOOK NOW"
+},
+
+"offersHero": {
+  "tabs": {
+    "genel": "General",
+    "restaurant": "Restaurant",
+    "odalar": "Rooms"
+  },
+  "offers": {
+    "earlyBooking": {
+      "title": "Early Booking",
+      "description": "Book 30 days in advance and get 20% discount",
+      "button": "BOOK NOW"
+    },
+    "longStay": {
+      "title": "Long Stay",
+      "description": "3rd night free for stays of 7 nights or more", 
+      "button": "CALL NOW"
+    },
+    "honeymoon": {
+      "title": "Honeymoon Package",
+      "description": "Create unforgettable memories with our romantic honeymoon package",
+      "button": "CONTACT NOW"
+    }
+  },
+  "gallery": {
+    "general": "Hotel General View",
+    "restaurant": "Restaurant", 
+    "room": "Room"
+  }
 }
 
 }  

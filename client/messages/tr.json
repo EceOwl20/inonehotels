@@ -341,6 +341,36 @@
       "checkOut": "Çıkış", 
       "adult": "Yetişkin",
       "bookNow": "REZERVASYON YAP"
+    },
+
+    "offersHero": {
+      "tabs": {
+        "genel": "Genel",
+        "restaurant": "Restaurant", 
+        "odalar": "Odalar"
+      },
+      "offers": {
+        "earlyBooking": {
+          "title": "Erken Rezervasyon",
+          "description": "30 gün önceden rezervasyon yapın, %20 indirim kazanın",
+          "button": "HEMEN REZERVASYON YAPIN"
+        },
+        "longStay": {
+          "title": "Uzun Konaklama", 
+          "description": "7 gece ve üzeri konaklamalarda 3. gece bedava",
+          "button": "HEMEN ARA"
+        },
+        "honeymoon": {
+          "title": "Balayı Paketi",
+          "description": "Romantik balayı paketimizle unutulmaz anılar yaşayın", 
+          "button": "ŞİMDİ İLETİŞİME GEÇ"
+        }
+      },
+      "gallery": {
+        "general": "Hotel Genel Görünüm",
+        "restaurant": "Restaurant",
+        "room": "Oda"
+      }
     }
 
     

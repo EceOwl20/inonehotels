@@ -339,6 +339,36 @@
       "checkOut": "Abreise",
       "adult": "Erwachsene",
       "bookNow": "JETZT BUCHEN"
+    },
+
+    "offersHero": {
+      "tabs": {
+        "genel": "Allgemein",
+        "restaurant": "Restaurant",
+        "odalar": "Zimmer"
+      },
+      "offers": {
+        "earlyBooking": {
+          "title": "Frühbucher",
+          "description": "Buchen Sie 30 Tage im Voraus und erhalten Sie 20% Rabatt",
+          "button": "JETZT BUCHEN"
+        },
+        "longStay": {
+          "title": "Langzeitaufenthalt",
+          "description": "3. Nacht kostenlos bei Aufenthalten ab 7 Nächten", 
+          "button": "JETZT ANRUFEN"
+        },
+        "honeymoon": {
+          "title": "Honeymoon-Paket",
+          "description": "Schaffen Sie unvergessliche Erinnerungen mit unserem romantischen Paket",
+          "button": "JETZT KONTAKTIEREN"
+        }
+      },
+      "gallery": {
+        "general": "Hotel Allgemeine Ansicht",
+        "restaurant": "Restaurant",
+        "room": "Zimmer"
+      }
     }
       
 }
