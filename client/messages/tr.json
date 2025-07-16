@@ -370,6 +370,12 @@
         "general": "Hotel Genel Görünüm",
         "restaurant": "Restaurant",
         "room": "Oda"
+      },
+
+      "hotel": {
+        "title": "Otel Hakkında",
+        "description1": "Muhteşem deniz manzaralı otelimizde unutulmaz bir tatil deneyimi yaşayın. Modern konforu geleneksel misafirperverlikle buluşturan tesisimizde, her detay sizin rahatlığınız için düşünülmüştür.",
+        "description2": "Spa merkezimiz, açık havuz kompleksimiz ve özel plajımızla size mükemmel bir tatil sunuyoruz. Konforlu odalarımızda dinlenin, lezzetli yemeklerimizin tadını çıkarın."
       }
     }
 

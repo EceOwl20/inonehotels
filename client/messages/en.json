@@ -367,6 +367,12 @@
     "general": "Hotel General View",
     "restaurant": "Restaurant", 
     "room": "Room"
+  },
+
+  "hotel": {
+    "title": "About Hotel",
+    "description1": "Experience an unforgettable holiday experience in our hotel with magnificent sea views. In our facility where modern comfort meets traditional hospitality, every detail is designed for your comfort.",
+    "description2": "We offer you a perfect holiday with our spa center, open pool complex and private beach. Rest in our comfortable rooms and enjoy our delicious meals."
   }
 }
 

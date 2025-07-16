@@ -3,55 +3,50 @@ import React, { useState, useEffect } from 'react'
 import Image from 'next/image'
 import { useTranslations } from 'next-intl';
 
-const OffersHero = ({ translations, language = 'tr' }) => {
+const OffersHero = ({ language = '' }) => {
   const [activeTab, setActiveTab] = useState('genel')
   const [isModalOpen, setIsModalOpen] = useState(false)
   const [currentImageIndex, setCurrentImageIndex] = useState(0)
   
-  // Çeviri objesi - dil kontrolü eklendi
+  // Çeviri hook'unu doğru kullan
   const t = useTranslations('offersHero');
-  
-  // Debug için - bu satırı geçici olarak ekleyebilirsiniz
-  console.log('Current language:', language);
-  console.log('Translations:', translations);
-  console.log('Current translations (t):', t);
   
   // Galeri resimleri
   const galleryImages = {
     genel: [
-      { id: 1, src: '/bitez/General/Genel1.jpg', alt: `${t.gallery?.general || 'Hotel Genel Görünüm'} 1` },
-      { id: 2, src: '/bitez/General/Genel2.jpg', alt: `${t.gallery?.general || 'Hotel Genel Görünüm'} 2` },
-      { id: 3, src: '/bitez/General/Genel3.jpg', alt: `${t.gallery?.general || 'Hotel Genel Görünüm'} 3` },
-      { id: 4, src: '/bitez/General/Genel4.jpg', alt: `${t.gallery?.general || 'Hotel Genel Görünüm'} 4` },
-      { id: 5, src: '/bitez/General/Genel5.jpg', alt: `${t.gallery?.general || 'Hotel Genel Görünüm'} 5` },
-      { id: 6, src: '/bitez/General/Genel6.jpg', alt: `${t.gallery?.general || 'Hotel Genel Görünüm'} 6` },
-      { id: 7, src: '/bitez/General/Genel7.jpg', alt: `${t.gallery?.general || 'Hotel Genel Görünüm'} 7` },
-      { id: 8, src: '/bitez/General/Genel8.jpg', alt: `${t.gallery?.general || 'Hotel Genel Görünüm'} 8` },
-      { id: 9, src: '/bitez/General/Genel9.jpg', alt: `${t.gallery?.general || 'Hotel Genel Görünüm'} 9` },
+      { id: 1, src: '/bitez/General/Genel1.jpg', alt: `${t('gallery.general')} 1` },
+      { id: 2, src: '/bitez/General/Genel2.jpg', alt: `${t('gallery.general')} 2` },
+      { id: 3, src: '/bitez/General/Genel3.jpg', alt: `${t('gallery.general')} 3` },
+      { id: 4, src: '/bitez/General/Genel4.jpg', alt: `${t('gallery.general')} 4` },
+      { id: 5, src: '/bitez/General/Genel5.jpg', alt: `${t('gallery.general')} 5` },
+      { id: 6, src: '/bitez/General/Genel6.jpg', alt: `${t('gallery.general')} 6` },
+      { id: 7, src: '/bitez/General/Genel7.jpg', alt: `${t('gallery.general')} 7` },
+      { id: 8, src: '/bitez/General/Genel8.jpg', alt: `${t('gallery.general')} 8` },
+      { id: 9, src: '/bitez/General/Genel9.jpg', alt: `${t('gallery.general')} 9` },
     ],
     restaurant: [
-      { id: 1, src: '/bitez/Restaurant/Genel1.jpg', alt: `${t.gallery?.restaurant || 'Restaurant'} 1` },
-      { id: 2, src: '/bitez/Restaurant/Genel2.jpg', alt: `${t.gallery?.restaurant || 'Restaurant'} 2` },
-      { id: 3, src: '/bitez/Restaurant/Genel3.jpg', alt: `${t.gallery?.restaurant || 'Restaurant'} 3` },
-      { id: 4, src: '/bitez/Restaurant/Genel4.jpg', alt: `${t.gallery?.restaurant || 'Restaurant'} 4` },
-      { id: 5, src: '/bitez/Restaurant/Genel5.jpg', alt: `${t.gallery?.restaurant || 'Restaurant'} 5` },
-      { id: 6, src: '/bitez/Restaurant/Genel6.jpg', alt: `${t.gallery?.restaurant || 'Restaurant'} 6` },
-      { id: 7, src: '/bitez/Restaurant/Genel7.jpg', alt: `${t.gallery?.restaurant || 'Restaurant'} 7` },
-      { id: 8, src: '/bitez/Restaurant/Genel8.jpg', alt: `${t.gallery?.restaurant || 'Restaurant'} 8` },
-      { id: 9, src: '/bitez/Restaurant/Genel9.jpg', alt: `${t.gallery?.restaurant || 'Restaurant'} 9` },
-      { id: 10, src: '/bitez/Restaurant/Genel10.jpg', alt: `${t.gallery?.restaurant || 'Restaurant'} 10` },
+      { id: 1, src: '/bitez/Restaurant/Genel1.jpg', alt: `${t('gallery.restaurant')} 1` },
+      { id: 2, src: '/bitez/Restaurant/Genel2.jpg', alt: `${t('gallery.restaurant')} 2` },
+      { id: 3, src: '/bitez/Restaurant/Genel3.jpg', alt: `${t('gallery.restaurant')} 3` },
+      { id: 4, src: '/bitez/Restaurant/Genel4.jpg', alt: `${t('gallery.restaurant')} 4` },
+      { id: 5, src: '/bitez/Restaurant/Genel5.jpg', alt: `${t('gallery.restaurant')} 5` },
+      { id: 6, src: '/bitez/Restaurant/Genel6.jpg', alt: `${t('gallery.restaurant')} 6` },
+      { id: 7, src: '/bitez/Restaurant/Genel7.jpg', alt: `${t('gallery.restaurant')} 7` },
+      { id: 8, src: '/bitez/Restaurant/Genel8.jpg', alt: `${t('gallery.restaurant')} 8` },
+      { id: 9, src: '/bitez/Restaurant/Genel9.jpg', alt: `${t('gallery.restaurant')} 9` },
+      { id: 10, src: '/bitez/Restaurant/Genel10.jpg', alt: `${t('gallery.restaurant')} 10` },
     ],
     odalar: [
-      { id: 1, src: '/bitez/Odalar/Deluxe/Oda1.webp', alt: `${t.gallery?.room || 'Oda'} 1` },
-      { id: 2, src: '/bitez/Odalar/Deluxe/Oda2.webp', alt: `${t.gallery?.room || 'Oda'} 2` },
-      { id: 3, src: '/bitez/Odalar/Deluxe/Oda3.webp', alt: `${t.gallery?.room || 'Oda'} 3` },
-      { id: 4, src: '/bitez/Odalar/Deluxe/Oda4.webp', alt: `${t.gallery?.room || 'Oda'} 4` },
-      { id: 5, src: '/bitez/Odalar/Deluxe/Oda5.webp', alt: `${t.gallery?.room || 'Oda'} 5` },
-      { id: 6, src: '/bitez/Odalar/Deluxe/Oda6.webp', alt: `${t.gallery?.room || 'Oda'} 6` },
-      { id: 7, src: '/bitez/Odalar/Deluxe/Oda7.webp', alt: `${t.gallery?.room || 'Oda'} 7` },
-      { id: 8, src: '/bitez/Odalar/Suite/Oda1.webp', alt: `${t.gallery?.room || 'Oda'} 8` },
-      { id: 9, src: '/bitez/Odalar/Suite/Oda2.webp', alt: `${t.gallery?.room || 'Oda'} 9` },
-      { id: 10, src: '/bitez/Odalar/Suite/Oda3.webp', alt: `${t.gallery?.room || 'Oda'} 10` },
+      { id: 1, src: '/bitez/Odalar/Deluxe/Oda1.webp', alt: `${t('gallery.room')} 1` },
+      { id: 2, src: '/bitez/Odalar/Deluxe/Oda2.webp', alt: `${t('gallery.room')} 2` },
+      { id: 3, src: '/bitez/Odalar/Deluxe/Oda3.webp', alt: `${t('gallery.room')} 3` },
+      { id: 4, src: '/bitez/Odalar/Deluxe/Oda4.webp', alt: `${t('gallery.room')} 4` },
+      { id: 5, src: '/bitez/Odalar/Deluxe/Oda5.webp', alt: `${t('gallery.room')} 5` },
+      { id: 6, src: '/bitez/Odalar/Deluxe/Oda6.webp', alt: `${t('gallery.room')} 6` },
+      { id: 7, src: '/bitez/Odalar/Deluxe/Oda7.webp', alt: `${t('gallery.room')} 7` },
+      { id: 8, src: '/bitez/Odalar/Suite/Oda1.webp', alt: `${t('gallery.room')} 8` },
+      { id: 9, src: '/bitez/Odalar/Suite/Oda2.webp', alt: `${t('gallery.room')} 9` },
+      { id: 10, src: '/bitez/Odalar/Suite/Oda3.webp', alt: `${t('gallery.room')} 10` },
     ]
   }
 
@@ -165,7 +160,7 @@ const OffersHero = ({ translations, language = 'tr' }) => {
                 <div className="relative w-32 h-20 md:w-36 md:h-24">
                   <Image
                     src="/bitez/General/Genel1.jpg"
-                    alt={t.tabs?.genel || 'Genel'}
+                    alt={t('tabs.genel')}
                     fill
                     className="object-cover"
                   />
@@ -176,7 +171,7 @@ const OffersHero = ({ translations, language = 'tr' }) => {
                   }`}></div>
                   <div className="absolute inset-0 flex items-center justify-center">
                     <span className="text-white text-xs md:text-sm font-bold text-center">
-                      {t.tabs?.genel || 'Genel'}
+                      {t('tabs.genel')}
                     </span>
                   </div>
                 </div>
@@ -193,7 +188,7 @@ const OffersHero = ({ translations, language = 'tr' }) => {
                 <div className="relative w-32 h-20 md:w-36 md:h-24">
                   <Image
                     src="/bitez/Restaurant/Genel1.jpg"
-                    alt={t.tabs?.restaurant || 'Restaurant'}
+                    alt={t('tabs.restaurant')}
                     fill
                     className="object-cover"
                   />
@@ -204,7 +199,7 @@ const OffersHero = ({ translations, language = 'tr' }) => {
                   }`}></div>
                   <div className="absolute inset-0 flex items-center justify-center">
                     <span className="text-white text-xs md:text-sm font-bold text-center">
-                      {t.tabs?.restaurant || 'Restaurant'}
+                      {t('tabs.restaurant')}
                     </span>
                   </div>
                 </div>
@@ -221,7 +216,7 @@ const OffersHero = ({ translations, language = 'tr' }) => {
                 <div className="relative w-32 h-20 md:w-36 md:h-24">
                   <Image
                     src="/bitez/Odalar/Deluxe/Oda1.webp"
-                    alt={t.tabs?.odalar || 'Odalar'}
+                    alt={t('tabs.odalar')}
                     fill
                     className="object-cover"
                   />
@@ -232,7 +227,7 @@ const OffersHero = ({ translations, language = 'tr' }) => {
                   }`}></div>
                   <div className="absolute inset-0 flex items-center justify-center">
                     <span className="text-white text-xs md:text-sm font-bold text-center">
-                      {t.tabs?.odalar || 'Odalar'}
+                      {t('tabs.odalar')}
                     </span>
                   </div>
                 </div>
@@ -248,7 +243,7 @@ const OffersHero = ({ translations, language = 'tr' }) => {
                 <div className="relative h-48 md:h-52 lg:h-[200px]">
                   <Image
                     src="/offers/offer-1.jpg"
-                    alt={t.offers?.earlyBooking?.title || 'Erken Rezervasyon'}
+                    alt={t('offers.earlyBooking.title')}
                     fill
                     className="object-cover"
                   />
@@ -256,10 +251,10 @@ const OffersHero = ({ translations, language = 'tr' }) => {
                 </div>
                 <div className="absolute inset-0 flex items-center">
                   <div className="p-6 text-white max-w-xs">
-                    <h3 className="text-xl font-bold mb-2">{t.offers?.earlyBooking?.title || 'Erken Rezervasyon'}</h3>
-                    <p className="text-sm opacity-90 mb-4">{t.offers?.earlyBooking?.description || '30 gün önceden rezervasyon yapın, %20 indirim kazanın'}</p>
+                    <h3 className="text-xl font-bold mb-2">{t('offers.earlyBooking.title')}</h3>
+                    <p className="text-sm opacity-90 mb-4">{t('offers.earlyBooking.description')}</p>
                     <button className="bg-white text-black px-4 py-2 rounded-full text-sm font-semibold hover:bg-gray-100 transition-colors">
-                      {t.offers?.earlyBooking?.button || 'HEMEN REZERVASYON YAPIN'}
+                      {t('offers.earlyBooking.button')}
                     </button>
                   </div>
                 </div>
@@ -270,7 +265,7 @@ const OffersHero = ({ translations, language = 'tr' }) => {
                 <div className="relative h-48 md:h-52 lg:h-[200px]">
                   <Image
                     src="/offers/offer-2.jpg"
-                    alt={t.offers?.longStay?.title || 'Uzun Konaklama'}
+                    alt={t('offers.longStay.title')}
                     fill
                     className="object-cover"
                   />
@@ -278,10 +273,10 @@ const OffersHero = ({ translations, language = 'tr' }) => {
                 </div>
                 <div className="absolute inset-0 flex items-center">
                   <div className="p-6 text-white max-w-xs">
-                    <h3 className="text-xl font-bold mb-2">{t.offers?.longStay?.title || 'Uzun Konaklama'}</h3>
-                    <p className="text-sm opacity-90 mb-4">{t.offers?.longStay?.description || '7 gece ve üzeri konaklamalarda 3. gece bedava'}</p>
+                    <h3 className="text-xl font-bold mb-2">{t('offers.longStay.title')}</h3>
+                    <p className="text-sm opacity-90 mb-4">{t('offers.longStay.description')}</p>
                     <button className="bg-white text-black px-4 py-2 rounded-full text-sm font-semibold hover:bg-gray-100 transition-colors">
-                      {t.offers?.longStay?.button || 'HEMEN ARA'}
+                      {t('offers.longStay.button')}
                     </button>
                   </div>
                 </div>
@@ -292,7 +287,7 @@ const OffersHero = ({ translations, language = 'tr' }) => {
                 <div className="relative h-48 md:h-52 lg:h-[200px]">
                   <Image
                     src="/offers/offer-3.jpg"
-                    alt={t.offers?.honeymoon?.title || 'Balayı Paketi'}
+                    alt={t('offers.honeymoon.title')}
                     fill
                     className="object-cover"
                   />
@@ -300,10 +295,10 @@ const OffersHero = ({ translations, language = 'tr' }) => {
                 </div>
                 <div className="absolute inset-0 flex items-center">
                   <div className="p-6 text-white max-w-xs">
-                    <h3 className="text-xl font-bold mb-2">{t.offers?.honeymoon?.title || 'Balayı Paketi'}</h3>
-                    <p className="text-sm opacity-90 mb-4">{t.offers?.honeymoon?.description || 'Romantik balayı paketimizle unutulmaz anılar yaşayın'}</p>
+                    <h3 className="text-xl font-bold mb-2">{t('offers.honeymoon.title')}</h3>
+                    <p className="text-sm opacity-90 mb-4">{t('offers.honeymoon.description')}</p>
                     <button className="bg-white text-black px-4 py-2 rounded-full text-sm font-semibold hover:bg-gray-100 transition-colors">
-                      {t.offers?.honeymoon?.button || 'ŞİMDİ İLETİŞİME GEÇ'}
+                      {t('offers.honeymoon.button')}
                     </button>
                   </div>
                 </div>

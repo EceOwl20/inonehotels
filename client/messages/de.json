@@ -368,6 +368,12 @@
         "general": "Hotel Allgemeine Ansicht",
         "restaurant": "Restaurant",
         "room": "Zimmer"
+      },
+
+      "hotel": {
+        "title": "Über das Hotel",
+        "description1": "Erleben Sie ein unvergessliches Urlaubserlebnis in unserem Hotel mit herrlichem Meerblick. In unserer Einrichtung, wo moderner Komfort auf traditionelle Gastfreundschaft trifft, ist jedes Detail für Ihren Komfort durchdacht.",
+        "description2": "Wir bieten Ihnen einen perfekten Urlaub mit unserem Spa-Zentrum, unserem offenen Poolkomplex und unserem privaten Strand. Entspannen Sie sich in unseren komfortablen Zimmern und genießen Sie unsere köstlichen Mahlzeiten."
       }
     }
       
