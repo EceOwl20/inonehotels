@@ -13,7 +13,6 @@ export default function InoneBitezPage() {
     <div className="min-h-screen bg-white">
       <BitezHero />
       <ReservationWidget />
-      <BitezAbout />
       <BitezFeatures />
       <BitezRooms />
       <Bodrum />

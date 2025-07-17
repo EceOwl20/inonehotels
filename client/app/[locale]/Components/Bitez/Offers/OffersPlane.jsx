@@ -122,20 +122,20 @@ const OffersPlane = () => {
             <img 
               src='/bitez/Offers/Vector5.png' 
               alt='Uçak İllüstrasyonu'
-              className='w-80 h-64 sm:w-96 sm:h-72 object-contain'
+              className='w-[30rem] h-96 sm:w-[36rem] sm:h-[30rem] lg:w-[42rem] lg:h-[36rem] xl:w-[48rem] xl:h-[40rem] object-contain'
               onError={(e) => {
                 e.target.style.display = 'none';
                 e.target.nextSibling.style.display = 'flex';
               }}
             />
             {/* Placeholder if image fails to load */}
-            <div className='hidden w-80 h-64 sm:w-96 sm:h-72 flex items-center justify-center'>
+            <div className='hidden w-[30rem] h-96 sm:w-[36rem] sm:h-[30rem] lg:w-[42rem] lg:h-[36rem] xl:w-[48rem] xl:h-[40rem] flex items-center justify-center'>
               <div className='text-center text-gray-600'>
-                <svg className='w-16 h-16 mx-auto mb-2 text-blue-400' fill="currentColor" viewBox="0 0 20 20">
+                <svg className='w-24 h-24 mx-auto mb-2 text-blue-400' fill="currentColor" viewBox="0 0 20 20">
                   <path d="M10 12a2 2 0 100-4 2 2 0 000 4z"/>
                   <path fillRule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clipRule="evenodd"/>
                 </svg>
-                <p className='text-sm'>Uçak Resmi</p>
+                <p className='text-lg'>Uçak Resmi</p>
               </div>
             </div>
           </div>
