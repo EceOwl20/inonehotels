@@ -6,11 +6,13 @@ import MobileBookNowButton from "./Components/HomePage/MobileBookNowButton"
 import HotelsInfo from './Components/HomePage/HotelsInfo';
 import Bodrum from './Components/HomePage/Bodrum';
 import OurPlatforms from './Components/HomePage/OurPlatforms';
+import ReservationWidget from './Components/HomePage/ReservationWidget';
 
 export default function Home() {
   return (
     <div className="w-full">
       <VideoSection />
+      <ReservationWidget />
       <WelcomeSection />
       <HeroSection />
       <HotelsInfo />

@@ -29,7 +29,7 @@ export default function Sidebar({ isOpen, onClose }) {
       return [
         { href: '/inone-bitez', labelKey: 'bitezHome', isActive: pathname === '/inone-bitez' },
         { href: '/inone-bitez/odalar', labelKey: 'bitezRooms', isActive: pathname.includes('/inone-bitez/odalar') },
-        { href: '/inone-bitez/olanaklar', labelKey: 'bitezFacilities', isActive: pathname.includes('/olanaklar') },
+        { href: '/inone-bitez/offers', labelKey: 'bitezOffers', isActive: pathname.includes('/offers') },
         { href: '/inone-bitez/Galeri', labelKey: 'bitezGallery', isActive: pathname.includes('/galeri') },
         { href: '/inone-bitez/hakkimizda', labelKey: 'bitezAbout', isActive: pathname.includes('/hakkimizda') },
         { href: '/', labelKey: 'backToMain', isBack: true }
@@ -40,7 +40,7 @@ export default function Sidebar({ isOpen, onClose }) {
       return [
         { href: '/inone-mucho', labelKey: 'muchoHome', isActive: pathname === '/inone-mucho' },
         { href: '/inone-mucho/odalar', labelKey: 'muchoRooms', isActive: pathname.includes('/inone-mucho/odalar') },
-        { href: '/inone-mucho/olanaklar', labelKey: 'muchoFacilities', isActive: pathname.includes('/olanaklar') },
+        { href: '/inone-mucho/offers', labelKey: 'muchoOffers', isActive: pathname.includes('/offers') },
         { href: '/inone-mucho/galeri', labelKey: 'muchoGallery', isActive: pathname.includes('/galeri') },
         { href: '/inone-mucho/hakkimizda', labelKey: 'muchoAbout', isActive: pathname.includes('/hakkimizda') },
         { href: '/', labelKey: 'backToMain', isBack: true }

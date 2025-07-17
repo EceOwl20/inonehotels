@@ -16,7 +16,7 @@ export default function MobileBookNowButton() {
 
   const handleBookNow = () => {
     // Rezervasyon sitesine yönlendir
-    window.open('https://inonemuchoselectionhotel.rezervasyonal.com/', '_blank');
+    window.open('https://inonemuchoselectionhotel.rezervasyonal.com/mcho.html?language=tr', '_blank');
   };
 
   const handleCall = () => {
