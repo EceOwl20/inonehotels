@@ -9,27 +9,32 @@ const OffersPlane = () => {
     {
       name: 'Pegasus',
       logo: '/bitez/Offers/pegasus.webp',
-      alt: 'Pegasus Airlines'
+      alt: 'Pegasus Airlines',
+      url: 'https://www.flypgs.com/en/cities/flights-to-bodrum'
     },
     {
       name: 'Turkish Airlines',
       logo: '/bitez/Offers/thy.webp',
-      alt: 'Turkish Airlines'
+      alt: 'Turkish Airlines',
+      url: 'https://www.turkishairlines.com/en-int/flights/flights-to-bodrum/'
     },
     {
       name: 'Corendon',
       logo: '/bitez/Offers/corendon.webp',
-      alt: 'Corendon Airlines'
+      alt: 'Corendon Airlines',
+      url: 'https://www.corendonairlines.com/turkey/flights-to-bodrum'
     },
     {
       name: 'Skyscanner',
       logo: '/bitez/Offers/skyscanner.webp',
-      alt: 'Skyscanner'
+      alt: 'Skyscanner',
+      url: 'https://www.skyscanner.net/flights-to/bjv/cheap-flights-to-milas%e2%80%93bodrum-airport.html'
     },
     {
       name: 'Aviasales',
       logo: '/bitez/Offers/aviasales.webp',
-      alt: 'Aviasales'
+      alt: 'Aviasales',
+      url: 'https://www.aviasales.ru/cities/bodrum-milas-bjv'
     }
   ];
 
