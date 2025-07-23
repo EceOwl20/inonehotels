@@ -33,14 +33,13 @@ export default function SuiteRoomDetailPage() {
   const roomFeatures = [
     { icon: '📐', labelKey: 'size', value: '55 m²' },
     { icon: '👥', labelKey: 'capacity', value: '3-4' },
-    { icon: '🏖️', labelKey: 'view', value: 'seaView' },
     { icon: '🛏️', labelKey: 'bedType', value: 'kingBed' },
     { icon: '🛁', labelKey: 'bathroom', value: 'jacuzziBathroom' },
     { icon: '🏠', labelKey: 'layout', value: 'separateRooms' }
   ];
 
   const amenities = [
-    'separateBedroom', 'livingRoom', 'privateBalcony', 'seaView', 'jacuzziBath', 
+    'separateBedroom', 'livingRoom', 'privateBalcony', 'jacuzziBath', 
     'smartTV', 'soundSystem', 'minibar', 'safe', 'wifi', 'airConditioning', 
     'heating', 'bathrobes', 'hairdryer', 'toiletries', 'roomService', 
     'housekeeping', 'concierge', 'beachAccess', 'poolAccess', 'vipServices'
