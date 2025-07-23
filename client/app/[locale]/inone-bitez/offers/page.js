@@ -16,7 +16,7 @@ const page = () => {
         </div>
         <OffersPlane />
         <ContactUs />
-        <OurPlatforms />4
+        <OurPlatforms />
     </div>
   )
 }
