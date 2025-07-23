@@ -108,17 +108,16 @@
         "view": "Manzara",
         "amenities": "Özellikler",
         
-        "seaView": "Deniz",
         
         "deluxeRoom": "Deluxe Room",
-        "deluxeRoomDescription": "Geniş ve ferah tasarımıyla öne çıkan deluxe odalarımız, panoramik deniz manzarası eşliğinde lüks bir konaklama deneyimi sunar. Premium amenitiler ve zarif dekoru ile konforun zirvesini yaşayın.",
-        "deluxeRoomFeature1": "Özel balkon ile deniz manzarası",
+        "deluxeRoomDescription": "Geniş ve ferah tasarımıyla öne çıkan deluxe odalarımız, lüks bir konaklama deneyimi sunar. Premium amenitiler ve zarif dekoru ile konforun zirvesini yaşayın.",
+        "deluxeRoomFeature1": "Özel balkon",
         "deluxeRoomFeature2": "Premium banyo amenitileri",
         "deluxeRoomFeature3": "Smart TV ve ses sistemi",
         "deluxeRoomFeature4": "Özel mini bar seçenekleri",
         
         "suiteRoom": "Suite Room",
-        "suiteRoomDescription": "Lüks ve konforun mükemmel birleşimi olan suite odalarımızda, geniş yaşam alanları ve VIP amenitiler ile özel bir konaklama deneyimi yaşayın. Panoramik deniz manzarası eşliğinde unutulmaz anılar biriktirin.",
+        "suiteRoomDescription": "Lüks ve konforun mükemmel birleşimi olan suite odalarımızda, geniş yaşam alanları ve VIP amenitiler ile özel bir konaklama deneyimi yaşayın.",
         "suiteRoomFeature1": "Ayrı yatak odası ve salon",
         "suiteRoomFeature2": "Jakuzili özel banyo",
         "suiteRoomFeature3": "VIP amenitiler ve hizmetler",
@@ -151,7 +150,7 @@
         "entertainment": "Eğlence",
         "rooms": "Odalar",
         "deluxeRoom": "Deluxe Room",
-        "heroDescription": "Panoramik deniz manzarası ile lüks ve konforun mükemmel uyumunu sunan Deluxe Room'umuzda unutulmaz bir konaklama deneyimi yaşayın.",
+        "heroDescription": "Lüks ve konforun mükemmel uyumunu sunan Deluxe Room’umuzda unutulmaz bir konaklama deneyimi yaşayın.",
         
         "roomDetails": "Oda Detayları",
         "roomDescription": "35 m² genişliğindeki Deluxe Room'umuz, özel balkonundan Akdeniz'in büyüleyici manzarasını izleme imkânı sunar. Modern tasarımı, premium amenitileri ve zarif dekoru ile konforun zirvesini deneyimleyin. Jakuzili banyosu, akıllı TV sistemi ve özel mini bar seçenekleri ile lüks bir tatil geçirin.",
@@ -163,7 +162,7 @@
         "bathroom": "Banyo",
         "climate": "Klima",
         
-        "seaView": "Deniz Manzarası",
+
         "doubleBed": "Çift Kişilik Yatak",
         "privateBathroom": "Özel Banyo",
         "airConditioning": "Klima Sistemi",
@@ -215,7 +214,7 @@
         "bathroom": "Banyo",
         "layout": "Düzenleme",
         
-        "seaView": "Deniz Manzarası",
+       
         "kingBed": "King Size Yatak",
         "jacuzziBathroom": "Jakuzili Banyo",
         "separateRooms": "Ayrı Odalar",
@@ -300,7 +299,7 @@
         "strongWifi": "Güçlü Wi-Fi",
         "welcomeGift": "Hoşgeldin Hediyesi",
         "petFriendly": "Evcil Hayvan Dostu",
-        "beachfront": "Denize Sıfır",
+         "closeToBeach": "Plaja Yakın",
         "dailyCleaning": "Günlük Oda Temizliği"
       },
 
@@ -316,7 +315,7 @@
         "muchoFeatures": "Huzurlu atmosfer, Özel plaj erişimi, Spa & wellness merkezi, Organik bahçe, Yerel lezzetler, Kişisel hizmet",
         "bitezLocation": "Bodrum",
         "bitezDescription": "Ege'nin turkuaz sularına nazır, Bodrum'un büyüleyici manzarasında yer alan Inone Hotel, lüks ve konforun mükemmel uyumunu sunar. Butik otel anlayışıyla tasarlanmış her detayı, misafirlerimize özel ve unutulmaz bir tatil deneyimi yaşatır.",
-        "bitezFeatures": "Deniz manzaralı odalar, Gourmet restoran, Spa & wellness merkezi, Özel plaj, Concierge hizmetleri, Premium aktiviteler",
+       "bitezFeatures": "Gourmet restoran, Spa & wellness merkezi, Özel plaj, Concierge hizmetleri, Premium aktiviteler",
         "visitWebsite": "OTELİ KEŞFET",
         "exploreHotel": "OTELİ KEŞFET"
     },
@@ -374,7 +373,7 @@
 
       "hotel": {
         "title": "Otel Hakkında",
-        "description1": "Muhteşem deniz manzaralı otelimizde unutulmaz bir tatil deneyimi yaşayın. Modern konforu geleneksel misafirperverlikle buluşturan tesisimizde, her detay sizin rahatlığınız için düşünülmüştür.",
+       "description1": "Muhteşem otelimizde unutulmaz bir tatil deneyimi yaşayın. Modern konforu geleneksel misafirperverlikle buluşturan tesisimizde, her detay sizin rahatlığınız için düşünülmüştür.",
         "description2": "Spa merkezimiz, açık havuz kompleksimiz ve özel plajımızla size mükemmel bir tatil sunuyoruz. Konforlu odalarımızda dinlenin, lezzetli yemeklerimizin tadını çıkarın."
       },
 

@@ -107,17 +107,17 @@
         "view": "Aussicht",
         "amenities": "Ausstattung",
         
-        "seaView": "Meer",
+       
         
         "deluxeRoom": "Deluxe Zimmer",
-        "deluxeRoomDescription": "Unsere Deluxe-Zimmer mit geräumigem und luftigem Design bieten ein luxuriöses Unterkunftserlebnis mit Panorama-Meerblick. Erleben Sie den Gipfel des Komforts mit Premium-Annehmlichkeiten und eleganter Einrichtung.",
-        "deluxeRoomFeature1": "Privater Balkon mit Meerblick",
+         "deluxeRoomDescription": "Unsere Deluxe-Zimmer, die sich durch ihr geräumiges und luftiges Design auszeichnen, bieten ein luxuriöses Unterkunftserlebnis. Genießen Sie höchsten Komfort mit erstklassigen Annehmlichkeiten und elegantem Dekor.",
+  "deluxeRoomFeature1": "Privatbalkon",
         "deluxeRoomFeature2": "Premium-Badezimmerausstattung",
         "deluxeRoomFeature3": "Smart TV und Soundsystem",
         "deluxeRoomFeature4": "Spezielle Minibar-Optionen",
         
         "suiteRoom": "Suite Zimmer",
-        "suiteRoomDescription": "Erleben Sie eine besondere Unterkunft mit geräumigen Wohnbereichen und VIP-Annehmlichkeiten in unseren Suite-Zimmern - der perfekten Kombination aus Luxus und Komfort. Schaffen Sie unvergessliche Erinnerungen mit Panorama-Meerblick.",
+        "suiteRoomDescription": "Genießen Sie einen besonderen Aufenthalt in unseren Suiten, in denen Luxus und Komfort perfekt mit großzügigen Wohnbereichen und VIP-Annehmlichkeiten verschmelzen.",
         "suiteRoomFeature1": "Separates Schlafzimmer und Wohnzimmer",
         "suiteRoomFeature2": "Eigenes Bad mit Whirlpool",
         "suiteRoomFeature3": "VIP-Annehmlichkeiten und -Services",
@@ -150,7 +150,7 @@
         "entertainment": "Unterhaltung",
         "rooms": "Zimmer",
         "deluxeRoom": "Deluxe Zimmer",
-        "heroDescription": "Erleben Sie einen unvergesslichen Aufenthalt in unserem Deluxe Zimmer, das die perfekte Harmonie von Luxus und Komfort mit Panorama-Meerblick bietet.",
+       "heroDescription": "Erleben Sie einen unvergesslichen Aufenthalt in unserem Deluxe Room, in dem Luxus und Komfort perfekt harmonieren.",
         
         "roomDetails": "Zimmerdetails",
         "roomDescription": "Unser 35 m² großes Deluxe Zimmer bietet die Möglichkeit, von seinem privaten Balkon aus die faszinierende Aussicht auf das Mittelmeer zu genießen. Erleben Sie den Gipfel des Komforts mit seinem modernen Design, Premium-Annehmlichkeiten und eleganter Einrichtung. Genießen Sie einen luxuriösen Urlaub mit Whirlpool-Bad, Smart-TV-System und speziellen Minibar-Optionen.",
@@ -162,7 +162,7 @@
         "bathroom": "Badezimmer",
         "climate": "Klima",
         
-        "seaView": "Meerblick",
+       
         "doubleBed": "Doppelbett",
         "privateBathroom": "Eigenes Badezimmer",
         "airConditioning": "Klimaanlage",
@@ -214,7 +214,7 @@
         "bathroom": "Badezimmer",
         "layout": "Aufteilung",
         
-        "seaView": "Meerblick",
+      
         "kingBed": "King-Size-Bett",
         "jacuzziBathroom": "Whirlpool-Badezimmer",
         "separateRooms": "Getrennte Räume",
@@ -299,7 +299,7 @@
         "strongWifi": "Starkes WLAN",
         "welcomeGift": "Willkommensgeschenk",
         "petFriendly": "Haustierfreundlich",
-        "beachfront": "Direkt am Strand",
+       "closeToBeach": "In Strandnähe",
         "dailyCleaning": "Tägliche Reinigung"
       },
 
@@ -315,7 +315,7 @@
         "muchoFeatures": "Ruhige Atmosphäre, Privater Strandzugang, Spa & Wellness-Center, Bio-Garten, Lokale Köstlichkeiten, Persönlicher Service",
         "bitezLocation": "Bodrum",
         "bitezDescription": "Mit Blick auf das türkisfarbene Wasser der Ägäis, inmitten der bezaubernden Landschaft von Bodrum gelegen, bietet das Inone Hotel die perfekte Harmonie von Luxus und Komfort. Jedes Detail, das im Boutique-Hotel-Konzept gestaltet wurde, bietet unseren Gästen ein besonderes und unvergessliches Urlaubserlebnis.",
-        "bitezFeatures": "Zimmer mit Meerblick, Gourmet-Restaurant, Spa & Wellness-Center, Privater Strand, Concierge-Services, Premium-Aktivitäten",
+        "bitezFeatures": "Gourmet-Restaurant, Spa- & Wellnessbereich, Privatstrand, Concierge-Services, Premium-Aktivitäten",
         "visitWebsite": "HOTEL ENTDECKEN",
         "exploreHotel": "HOTEL ENTDECKEN"
     },
@@ -372,7 +372,7 @@
 
       "hotel": {
         "title": "Über das Hotel",
-        "description1": "Erleben Sie ein unvergessliches Urlaubserlebnis in unserem Hotel mit herrlichem Meerblick. In unserer Einrichtung, wo moderner Komfort auf traditionelle Gastfreundschaft trifft, ist jedes Detail für Ihren Komfort durchdacht.",
+        "description1": "Erleben Sie unvergessliche Ferien in unserem Hotel. In unserer Einrichtung, die modernen Komfort mit traditioneller Gastfreundschaft vereint, ist jedes Detail auf Ihr Wohlbefinden ausgerichtet.",
         "description2": "Wir bieten Ihnen einen perfekten Urlaub mit unserem Spa-Zentrum, unserem offenen Poolkomplex und unserem privaten Strand. Entspannen Sie sich in unseren komfortablen Zimmern und genießen Sie unsere köstlichen Mahlzeiten."
       },
 

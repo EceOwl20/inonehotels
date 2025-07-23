@@ -107,17 +107,17 @@
     "view": "View",
     "amenities": "Features",
     
-    "seaView": "Sea",
+
     
     "deluxeRoom": "Deluxe Room",
-    "deluxeRoomDescription": "Our deluxe rooms, featuring spacious and airy design, offer a luxurious accommodation experience with panoramic sea views. Experience the pinnacle of comfort with premium amenities and elegant decor.",
-    "deluxeRoomFeature1": "Private balcony with sea view",
+   "deluxeRoomDescription": "Our deluxe rooms, featuring a spacious and airy design, offer a luxurious accommodation experience. Enjoy the pinnacle of comfort with premium amenities and elegant décor.",
+  "deluxeRoomFeature1": "Private balcony",
     "deluxeRoomFeature2": "Premium bathroom amenities",
     "deluxeRoomFeature3": "Smart TV and sound system",
     "deluxeRoomFeature4": "Special mini bar options",
     
     "suiteRoom": "Suite Room",
-    "suiteRoomDescription": "Experience a special accommodation with spacious living areas and VIP amenities in our suite rooms, the perfect combination of luxury and comfort. Create unforgettable memories with panoramic sea views.",
+   "suiteRoomDescription": "Enjoy a special stay in our suites, where luxury and comfort perfectly combine with spacious living areas and VIP amenities.",
     "suiteRoomFeature1": "Separate bedroom and living room",
     "suiteRoomFeature2": "Private bathroom with jacuzzi",
     "suiteRoomFeature3": "VIP amenities and services",
@@ -150,7 +150,7 @@
     "entertainment": "Entertainment",
     "rooms": "Rooms",
     "deluxeRoom": "Deluxe Room",
-    "heroDescription": "Experience an unforgettable accommodation in our Deluxe Room, offering the perfect harmony of luxury and comfort with panoramic sea views.",
+    "heroDescription": "Experience an unforgettable stay in our Deluxe Room, where luxury and comfort harmonize perfectly.",
     
     "roomDetails": "Room Details",
     "roomDescription": "Our 35 m² Deluxe Room offers the opportunity to watch the mesmerizing view of the Mediterranean from its private balcony. Experience the pinnacle of comfort with its modern design, premium amenities and elegant decor. Enjoy a luxurious vacation with jacuzzi bathroom, smart TV system and special mini bar options.",
@@ -162,7 +162,7 @@
     "bathroom": "Bathroom",
     "climate": "Climate",
     
-    "seaView": "Sea View",
+
     "doubleBed": "Double Bed",
     "privateBathroom": "Private Bathroom",
     "airConditioning": "Air Conditioning",
@@ -214,7 +214,7 @@
     "bathroom": "Bathroom",
     "layout": "Layout",
     
-    "seaView": "Sea View",
+    
     "kingBed": "King Size Bed",
     "jacuzziBathroom": "Jacuzzi Bathroom",
     "separateRooms": "Separate Rooms",
@@ -299,7 +299,7 @@
     "strongWifi": "Strong Wi-Fi",
     "welcomeGift": "Welcome Gift",
     "petFriendly": "Pet Friendly",
-    "beachfront": "Beachfront",
+   "closeToBeach": "Close to the beach",
     "dailyCleaning": "Daily Housekeeping"
   },
 
@@ -315,7 +315,7 @@
     "muchoFeatures": "Peaceful atmosphere, Private beach access, Spa & wellness center, Organic garden, Local flavors, Personal service",
     "bitezLocation": "Bodrum",
     "bitezDescription": "Overlooking the turquoise waters of the Aegean, located in Bodrum's enchanting landscape, Inone Hotel offers the perfect harmony of luxury and comfort. Every detail designed with a boutique hotel concept provides our guests with a special and unforgettable vacation experience.",
-    "bitezFeatures": "Sea view rooms, Gourmet restaurant, Spa & wellness center, Private beach, Concierge services, Premium activities",
+    "bitezFeatures": "Gourmet restaurant, Spa & wellness center, Private beach, Concierge services, Premium activities",
     "visitWebsite": "DISCOVER THE HOTEL",
     "exploreHotel": "DISCOVER THE HOTEL"
 },
@@ -371,7 +371,7 @@
 
   "hotel": {
     "title": "About Hotel",
-    "description1": "Experience an unforgettable holiday experience in our hotel with magnificent sea views. In our facility where modern comfort meets traditional hospitality, every detail is designed for your comfort.",
+   "description1": "Experience an unforgettable vacation at our hotel. Combining modern comfort with traditional hospitality, our property is designed with every detail for your comfort.",
     "description2": "We offer you a perfect holiday with our spa center, open pool complex and private beach. Rest in our comfortable rooms and enjoy our delicious meals."
   },
 
