@@ -1,386 +1,386 @@
 {
-    "LocaleSwitcher": {
-      "label": "Sprache ändern",
-      "locale": "{locale, select, en {EN} tr {TR} ru {RU} de {DE} other {Unbekannt}}"
+  "LocaleSwitcher": {
+    "label": "Sprache ändern",
+    "locale": "{locale, select, en {EN} tr {TR} ru {RU} de {DE} other {Unbekannt}}"
+  },
+
+  "Header": {
+      "title": "Seitentitel",
+      "reservation": "RESERVIERUNG"
     },
-
-    "Header": {
-        "title": "Seitentitel",
-        "reservation": "RESERVIERUNG"
-      },
-      "Sidebar": {
-        "mainNavigation": "Hauptmenü",
-        "bitezNavigation": "Bitez Hotel",
-        "muchoNavigation": "Mucho Selection",
-        
-        "home": "Startseite",
-        "bitezHotel": "Bitez Hotel",
-        "muchoHotel": "Mucho Selection", 
-        "sustainability": "Nachhaltigkeit",
-        "contact": "Kontakt",
-        
-        "bitezHome": "Startseite",
-        "bitezRooms": "Zimmer",
-        "bitezFacilities": "Einrichtungen",
-        "bitezGallery": "Galerie",
-        "bitezAbout": "Über uns",
-        
-        "muchoHome": "Startseite",
-        "muchoRooms": "Zimmer",
-        "muchoFacilities": "Einrichtungen",
-        "muchoGallery": "Galerie", 
-        "muchoAbout": "Über uns",
-        
-        "backToMain": "Zurück zur Hauptseite"
-      },
-
-      "heroSection": {
-        "muchoDescription": "Einzigartiges Erlebnis, wo Luxus auf Komfort trifft",
-        "bitezDescription": "Ruhiger Urlaub im Herzen der Natur",
-        "discover": "Entdecken"
-      },
-      "Welcome": {
-        "title": "Wir Warten Auf Sie",
-        "description": "Im InOne Hotels bieten wir Ihnen ein einzigartiges Urlaubserlebnis."
-      },
-      "Featured": {
-        "title": "INONE HOTELS",
-        "description": "Erleben Sie die Pracht der Inone Hotelkette, eine Oase an der Mittelmeerküste, die Luxus mit ihren 'Ultra All Inclusive' Services auf ein neues Niveau hebt."
-      },
-
-      "Contact": {
-        "title": "KONTAKTIEREN SIE UNS",
-        "description": "Erreichen Sie uns per Telefon oder E-Mail oder über den Chat in der unteren rechten Ecke. Klicken Sie auf 'Rückruf' für einen Rückruf.",
-        "callCenter": "Call Center",
-        "callCenterEmail": "Call Center E-Mail",
-        "button": "RÜCKRUF",
-        "locationTitle": "BODRUM / MUĞLA",
-        "locationDescription": "Entdecken Sie die Schönheiten von Bodrum, einem der führenden Urlaubsziele der Türkei und sogar der Welt mit seinen kristallklaren Buchten und historischer Struktur."
-      },
-
-      "footer": {
-        "aboutUs": "ÜBER UNS",
-        "contactUs": "KONTAKT",
-        "gallery": "GALERIE",
-        "cookiePolicy": "COOKIE-RICHTLINIE",
-        "privacyPolicy": "DATENSCHUTZERKLÄRUNG",
-        "contact": "Kontakt",
-        "phone": "+90 252 319 40 48",
-        "email": "info@inonehotel.com",
-        "address": "Bodrum / Muğla",
-        "socialMedia": "Folgen Sie uns"
-      },
-
-      "inoneBitez": {
-        "heroSubtitle": "Ein einzigartiges Erlebnis, wo Luxus und Ruhe in der unvergleichlichen Schönheit des Mittelmeers aufeinandertreffen",
-        "aboutTitle": "LUXUS-ERLEBNIS IN BITEZ",
-        "aboutDescription1": "Unser Hotel liegt in Bitez, einer der prestigeträchtigsten Buchten von Bodrum, und verbindet modernen Luxus harmonisch mit der zeitlosen Schönheit des Mittelmeers. An diesem einzigartigen Ort, umgeben von kristallklarem Wasser, schaffen wir unvergessliche Erinnerungen für unsere Gäste.",
-        "aboutDescription2": "Mit jedem sorgfältig gestalteten Detail werden Sie einen Urlaub im Einklang mit der Natur erleben. Wir sind stolz darauf, mit unserem professionellen Team und unserem Premium-Service-Ansatz Unterkünfte anzubieten, die Ihre Erwartungen übertreffen.",
-        "exploreButton": "ENTDECKUNG BEGINNEN",
-        "experienceTitle": "EINZIGARTIGE ERLEBNISSE",
-        "feature1Title": "Privatstrand",
-        "feature1Description": "Exklusiver Strandbereich nur für unsere Gäste, mit kristallklarem Mittelmeer direkt vor der Tür",
-        "feature2Title": "Gourmet-Küche",
-        "feature2Description": "Spezielle Menüs, wo Weltküche auf lokale Bodrum-Aromen mit exquisiten Geschmäckern trifft",
-        "feature3Title": "Spa & Wellness",
-        "feature3Description": "Komplette Erneuerungserfahrung mit modernen Spa-Einrichtungen und ganzheitlichen Wellness-Programmen",
-        "feature4Title": "Premium-Aktivitäten",
-        "feature4Description": "Aktives Urlaubsprogramm voller Wassersport, Yoga-Sessions und besonderen Veranstaltungen",
-        "roomsTitle": "KOMFORTABLE UNTERKUNFT",
-        "roomsDescription": "Erleben Sie den Gipfel des Komforts in modernen Zimmern und Suiten in der friedlichen Atmosphäre von Bitez",
-        "room1Title": "Deluxe Zimmer",
-        "room1Description": "Geräumige Zimmer mit modernem Design und eleganten Details, die alle Ihre Komfortbedürfnisse erfüllen.",
-        "room2Title": "Suite Zimmer",
-        "room2Description": "Unsere Premium-Suiten mit geräumigen Wohnbereichen und separaten Sitzecken für ein luxuriöses Komforterlebnis.",
-        "learnMore": "Details anzeigen",
-        "locationTitle": "BODRUM BITEZ",
-        "locationDescription": "Wir befinden uns in Bitez, einer der schönsten Buchten der Halbinsel Bodrum, in ruhiger und dennoch zentraler Lage. Nur 15 Minuten vom Stadtzentrum Bodrum und eine komfortable 45-minütige Fahrt zum Flughafen entfernt.",
-        "address": "Bitez Mahallesi, 48400 Bodrum/Muğla"
-    },
-
-      "bitezRooms": {
-        "pageTitle": "ZIMMER",
-        "clickToView": "Klicken Sie für Details",
-        "pageDescription": "Erleben Sie einen unvergesslichen Aufenthalt in unseren Zimmern, wo moderner Komfort auf die einzigartige Schönheit des Mittelmeers trifft",
-        
-        "guests": "Gast",
-        "view": "Aussicht",
-        "amenities": "Ausstattung",
-        
-       
-        
-        "deluxeRoom": "Deluxe Zimmer",
-         "deluxeRoomDescription": "Unsere Deluxe-Zimmer, die sich durch ihr geräumiges und luftiges Design auszeichnen, bieten ein luxuriöses Unterkunftserlebnis. Genießen Sie höchsten Komfort mit erstklassigen Annehmlichkeiten und elegantem Dekor.",
-  "deluxeRoomFeature1": "Privatbalkon",
-        "deluxeRoomFeature2": "Premium-Badezimmerausstattung",
-        "deluxeRoomFeature3": "Smart TV und Soundsystem",
-        "deluxeRoomFeature4": "Spezielle Minibar-Optionen",
-        
-        "suiteRoom": "Suite Zimmer",
-        "suiteRoomDescription": "Genießen Sie einen besonderen Aufenthalt in unseren Suiten, in denen Luxus und Komfort perfekt mit großzügigen Wohnbereichen und VIP-Annehmlichkeiten verschmelzen.",
-        "suiteRoomFeature1": "Separates Schlafzimmer und Wohnzimmer",
-        "suiteRoomFeature2": "Eigenes Bad mit Whirlpool",
-        "suiteRoomFeature3": "VIP-Annehmlichkeiten und -Services",
-        "suiteRoomFeature4": "Große private Terrasse",
-        
-        "viewDetails": "DETAILS ANZEIGEN",
-        "bookNow": "JETZT BUCHEN",
-        
-        "servicesTitle": "UNSERE DIENSTLEISTUNGEN",
-        "servicesDescription": "Erleben Sie einen unvergesslichen Aufenthalt mit unseren Premium-Services, die Ihren Aufenthalt noch spezieller machen",
-        
-        "beachServiceTitle": "Strand-Service",
-        "beachServiceDescription": "Sonnenliegen, Sonnenschirme und Strand-Services in unserem privaten Strandbereich",
-        
-        "roomServiceTitle": "Zimmerservice",
-        "roomServiceDescription": "24/7 Zimmerservice mit köstlichen Mahlzeiten, wann immer Sie möchten",
-        
-        "housekeepingTitle": "Reinigungsservice",
-        "housekeepingDescription": "Tägliche Reinigung und spezielle Reinigungsservices",
-        
-        "spaServiceTitle": "Spa-Service",
-        "spaServiceDescription": "Professionelle Massage- und Spa-Behandlungen",
-        
-        "contactTitle": "RESERVIERUNG",
-        "contactDescription": "Kontaktieren Sie uns für detaillierte Informationen über unsere Zimmer und zur Reservierung"
-      },
-
-      "deluxeRoomDetail": {
-        "home": "Startseite",
-        "entertainment": "Unterhaltung",
-        "rooms": "Zimmer",
-        "deluxeRoom": "Deluxe Zimmer",
-       "heroDescription": "Erleben Sie einen unvergesslichen Aufenthalt in unserem Deluxe Room, in dem Luxus und Komfort perfekt harmonieren.",
-        
-        "roomDetails": "Zimmerdetails",
-        "roomDescription": "Unser 35 m² großes Deluxe Zimmer bietet die Möglichkeit, von seinem privaten Balkon aus die faszinierende Aussicht auf das Mittelmeer zu genießen. Erleben Sie den Gipfel des Komforts mit seinem modernen Design, Premium-Annehmlichkeiten und eleganter Einrichtung. Genießen Sie einen luxuriösen Urlaub mit Whirlpool-Bad, Smart-TV-System und speziellen Minibar-Optionen.",
-        
-        "size": "Größe",
-        "capacity": "Kapazität",
-        "view": "Aussicht",
-        "bedType": "Betttyp",
-        "bathroom": "Badezimmer",
-        "climate": "Klima",
-        
-       
-        "doubleBed": "Doppelbett",
-        "privateBathroom": "Eigenes Badezimmer",
-        "airConditioning": "Klimaanlage",
-        
-        "amenities": "Zimmerausstattung",
-        "privateBalcony": "Privater Balkon",
-        "smartTV": "Smart TV",
-        "minibar": "Minibar",
-        "safe": "Safe",
-        "wifi": "Kostenloses WLAN",
-        "heating": "Heizungssystem",
-        "bathrobes": "Bademäntel",
-        "hairdryer": "Haartrockner",
-        "toiletries": "Pflegeartikel",
-        "roomService": "Zimmerservice",
-        "housekeeping": "Reinigungsservice",
-        "concierge": "Concierge-Service",
-        "beachAccess": "Strandzugang",
-        "poolAccess": "Pool-Zugang",
-        
-        "bookNow": "JETZT BUCHEN",
-        "virtualTour": "VIRTUELLE TOUR",
-        
-        "includedServices": "Inkludierte Services",
-        "beachServiceTitle": "Strand-Service",
-        "beachServiceDescription": "Sonnenliegen, Sonnenschirme und Strand-Services im privaten Strandbereich",
-        "roomServiceTitle": "Zimmerservice",
-        "roomServiceDescription": "24/7 Zimmerservice mit köstlichen Mahlzeiten",
-        "conciergeServiceTitle": "Concierge-Service",
-        "conciergeServiceDescription": "Professionelle Unterstützung für Ihre besonderen Wünsche",
-        
-        "makeReservation": "Reservierung vornehmen",
-        "reservationDescription": "Reservieren Sie jetzt, um einen unvergesslichen Urlaub in unserem Deluxe Zimmer zu verbringen. Wir erwarten Sie mit Bestpreisgarantie."
-      },
-
-      "suiteRoomDetail": {
-        "home": "Startseite",
-        "rooms": "Zimmer",
-        "suiteRoom": "Suite Zimmer",
-        "heroDescription": "Erleben Sie eine besondere Unterkunft mit geräumigen Wohnbereichen und VIP-Annehmlichkeiten in unserem Suite Zimmer, der perfekten Kombination aus Luxus und Komfort.",
-        
-        "roomDetails": "Zimmerdetails",
-        "roomDescription": "Unser 55 m² großes Suite Zimmer bietet geräumige Wohnbereiche mit separatem Schlafzimmer und Wohnzimmer. Erleben Sie einen unvergesslichen Urlaub mit Whirlpool-Privatbad, Panorama-Mittelmeerblick von der großen privaten Terrasse und VIP-Annehmlichkeiten. Entdecken Sie den Gipfel des Luxus mit modernem Soundsystem und Premium-Services.",
-        
-        "size": "Größe",
-        "capacity": "Kapazität",
-        "view": "Aussicht",
-        "bedType": "Betttyp",
-        "bathroom": "Badezimmer",
-        "layout": "Aufteilung",
-        
+    "Sidebar": {
+      "mainNavigation": "Hauptmenü",
+      "bitezNavigation": "Bitez Hotel",
+      "muchoNavigation": "Mucho Selection",
       
-        "kingBed": "King-Size-Bett",
-        "jacuzziBathroom": "Whirlpool-Badezimmer",
-        "separateRooms": "Getrennte Räume",
-        
-        "amenities": "Zimmerausstattung",
-        "separateBedroom": "Separates Schlafzimmer",
-        "livingRoom": "Wohnzimmer",
-        "privateBalcony": "Privater Balkon",
-        "jacuzziBath": "Whirlpool-Bad",
-        "smartTV": "Smart TV",
-        "soundSystem": "Soundsystem",
-        "minibar": "Premium Minibar",
-        "safe": "Digitaler Safe",
-        "wifi": "Kostenloses WLAN",
-        "airConditioning": "Klimaanlage",
-        "heating": "Heizungssystem",
-        "bathrobes": "Luxus-Bademäntel",
-        "hairdryer": "Haartrockner",
-        "toiletries": "Premium-Pflegeartikel",
-        "roomService": "24/7 Zimmerservice",
-        "housekeeping": "Täglicher Reinigungsservice",
-        "concierge": "Persönlicher Concierge",
-        "beachAccess": "Privater Strandzugang",
-        "poolAccess": "VIP-Pool-Zugang",
-        "vipServices": "VIP-Services",
-        
-        "bookNow": "JETZT BUCHEN",
-        "virtualTour": "VIRTUELLE TOUR",
-        
-        "includedServices": "Inkludierte Services",
-        "beachServiceTitle": "VIP-Strand-Service",
-        "beachServiceDescription": "VIP-Sonnenliegen, privater Service und Premium-Strand-Services im privaten Strandbereich",
-        "roomServiceTitle": "Premium-Zimmerservice",
-        "roomServiceDescription": "24/7 Premium-Zimmerservice mit exquisiten Geschmäckern aus speziellen Menüs",
-        "conciergeServiceTitle": "Persönlicher Concierge",
-        "conciergeServiceDescription": "24/7 professionelle Unterstützung für Ihre besonderen Wünsche mit persönlichem Concierge",
-        
-        "makeReservation": "Reservierung vornehmen",
-        "reservationDescription": "Reservieren Sie jetzt, um einen VIP-Urlaub in unserem Suite Zimmer zu verbringen. Wir erwarten Sie mit besonderen Rabatten und Bestpreisgarantie."
-      },
-
-      "aboutUs": {
-        "pageTitle": "ÜBER UNS",
-        "heroDescription": "Im Herzen des Mittelmeers sind wir stolz darauf, unseren Gästen unvergessliche Erlebnisse in der einzigartigen Schönheit von Bitez zu bieten",
-
-        "storyTitle": "UNSERE GESCHICHTE",
-        "storyDescription1": "Inone Bitez ist ein Boutique-Hotel in Bitez, einer der schönsten Buchten von Bodrum, das die perfekte Harmonie der bezaubernden Schönheit der Natur mit modernem Luxus bietet. Wir wurden gegründet, um unvergessliche Erinnerungen für unsere Gäste an unserem Standort direkt an den türkisfarbenen Gewässern des Mittelmeers zu schaffen.",
-        "storyDescription2": "Unser Hotel, das Sorgfalt in jedem Detail enthält, verbindet traditionelle türkische Gastfreundschaft mit zeitgemäßem Komfortverständnis und bietet unseren Gästen ein einzigartiges Urlaubserlebnis. Mit unseren Nachhaltigkeitsprinzipien und umweltfreundlichen Ansatz stellen wir immer die Wichtigkeit der Erhaltung natürlicher Schönheiten in den Vordergrund.",
-        "establishedYear": "2025",
-        "established": "Gegründet",
-        "roomCount": "15",
-        "rooms": "Zimmer",
-        
-        "valuesTitle": "UNSERE WERTE",
-        "valuesDescription": "Die Grundwerte, die wir befolgen, um unseren Gästen den besten Service zu bieten",
-        "excellenceTitle": "Exzellenz",
-        "excellenceDescription": "Wir bieten Service über die Erwartungen hinaus, indem wir in jedem Detail nach Exzellenz streben",
-        "hospitalityTitle": "Gastfreundschaft",
-        "hospitalityDescription": "Wir verbinden traditionelle türkische Gastfreundschaft mit modernem Verständnis",
-        "sustainabilityTitle": "Nachhaltigkeit",
-        "sustainabilityDescription": "Wir geben natürliche Schönheiten mit umweltfreundlichen Praktiken an zukünftige Generationen weiter",
-        "luxuryTitle": "Luxus",
-        "luxuryDescription": "Wir bringen Komfort und Eleganz zusammen, um die wahre Bedeutung von Luxus zu erleben",
-        
-        "locationTitle": "UNSERE LAGE",
-        "locationDescription1": "Unsere Unterkunft befindet sich in Bitez, einer der schönsten Buchten der Halbinsel Bodrum, in ruhiger und dennoch zentraler Lage. Mit unserer Position am Atatürk Boulevard bieten wir Bitez's natürliche Schönheit und unsere Nähe zum Meer zusammen.",
-        "locationDescription2": "Nur 15 Minuten vom Stadtzentrum Bodrum und eine komfortable 45-minütige Fahrt zum Flughafen Bodrum-Milas entfernt. Wir bieten einfachen Zugang zu umliegenden antiken Städten, Marina, Einkaufszentren und Unterhaltungsmöglichkeiten.",
-        "beachDistance": "Fußweg zum Strand",
-        "cityDistance": "15 Minuten zum Zentrum Bodrum",
-        "airportDistance": "45 Minuten zum Flughafen",
-        
-        "teamTitle": "UNSER TEAM",
-        "teamDescription": "Unser erfahrenes Team, das leidenschaftlich daran arbeitet, unseren Gästen den besten Service zu bieten",
-        "generalManagerTitle": "Geschäftsführer",
-        "guestRelationsTitle": "Gästebetreuungsleiter",
-        "chefTitle": "Küchenchef"
-      },
-
-      "bitezFeatures": {
-        "title": "AUSSTATTUNG",
-        "ageRestriction": "12+ Jahre",
-        "strongWifi": "Starkes WLAN",
-        "welcomeGift": "Willkommensgeschenk",
-        "petFriendly": "Haustierfreundlich",
-       "closeToBeach": "In Strandnähe",
-        "dailyCleaning": "Tägliche Reinigung"
-      },
-
-      "MobileBookButton": {
-        "bookNow": "JETZT BUCHEN"
-      },
-
-      "HotelsInfo": {
-        "title": "UNSER HOTEL",
-        "subtitle": "Ein einzigartiges Erlebnis in Bodrum. Unvergessliche Erinnerungen und friedliche Momente erwarten Sie.",
-        "muchoLocation": "Bodrum",
-        "muchoDescription": "Das Inone Hotel liegt in einer der ruhigsten Buchten von Bodrum und ist die ideale Wahl für Gäste, die einen ruhigen Urlaub im Einklang mit der Natur suchen. In diesem besonderen Ort, wo moderner Komfort auf traditionelle ägäische Gastfreundschaft trifft, werden Sie Ruhe finden.",
-        "muchoFeatures": "Ruhige Atmosphäre, Privater Strandzugang, Spa & Wellness-Center, Bio-Garten, Lokale Köstlichkeiten, Persönlicher Service",
-        "bitezLocation": "Bodrum",
-        "bitezDescription": "Mit Blick auf das türkisfarbene Wasser der Ägäis, inmitten der bezaubernden Landschaft von Bodrum gelegen, bietet das Inone Hotel die perfekte Harmonie von Luxus und Komfort. Jedes Detail, das im Boutique-Hotel-Konzept gestaltet wurde, bietet unseren Gästen ein besonderes und unvergessliches Urlaubserlebnis.",
-        "bitezFeatures": "Gourmet-Restaurant, Spa- & Wellnessbereich, Privatstrand, Concierge-Services, Premium-Aktivitäten",
-        "visitWebsite": "HOTEL ENTDECKEN",
-        "exploreHotel": "HOTEL ENTDECKEN"
+      "home": "Startseite",
+      "bitezHotel": "Bitez Hotel",
+      "muchoHotel": "Mucho Selection", 
+      "sustainability": "Nachhaltigkeit",
+      "contact": "Kontakt",
+      
+      "bitezHome": "Startseite",
+      "bitezRooms": "Zimmer",
+      "bitezFacilities": "Einrichtungen",
+      "bitezGallery": "Galerie",
+      "bitezAbout": "Über uns",
+      
+      "muchoHome": "Startseite",
+      "muchoRooms": "Zimmer",
+      "muchoFacilities": "Einrichtungen",
+      "muchoGallery": "Galerie", 
+      "muchoAbout": "Über uns",
+      
+      "backToMain": "Zurück zur Hauptseite"
     },
 
-      "Gallery": {
-        "title": "GALERIE",
-        "subtitle": "Entdecken Sie die bezaubernde Atmosphäre, das moderne Design und die natürliche Schönheit von Inone Bitez",
-        "all": "Alle",
-        "rooms": "Zimmer",
-        "restaurant": "Restaurant",
-        "general": "Allgemein",
-        "viewImage": "Ansehen",
-        "room1Title": "Deluxe Zimmer",
-        "room2Title": "Suite Zimmer",
-        "restaurant1Title": "Hauptrestaurant",
-        "generalTitle": "Allgemeine Ansicht"
+    "heroSection": {
+      "muchoDescription": "Einzigartiges Erlebnis, wo Luxus auf Komfort trifft",
+      "bitezDescription": "Ruhiger Urlaub im Herzen der Natur",
+      "discover": "Entdecken"
+    },
+    "Welcome": {
+      "title": "Wir Warten Auf Sie",
+      "description": "Im InOne Hotels bieten wir Ihnen ein einzigartiges Urlaubserlebnis."
+    },
+    "Featured": {
+      "title": "INONE HOTELS",
+      "description": "Erleben Sie die Pracht der Inone Hotelkette an der Ägäisküste, die Luxus mit ihrem Frühstück inklusive Konzept auf ein neues Niveau hebt."
     },
 
-    "reservationWidget": {
-      "checkIn": "Anreise",
-      "checkOut": "Abreise",
-      "adult": "Erwachsene",
+    "Contact": {
+      "title": "KONTAKTIEREN SIE UNS",
+      "description": "Erreichen Sie uns per Telefon oder E-Mail oder über den Chat in der unteren rechten Ecke. Klicken Sie auf 'Rückruf' für einen Rückruf.",
+      "callCenter": "Call Center",
+      "callCenterEmail": "Call Center E-Mail",
+      "button": "RÜCKRUF",
+      "locationTitle": "BODRUM / MUĞLA",
+      "locationDescription": "Entdecken Sie die Schönheiten von Bodrum, einem der führenden Urlaubsziele der Türkei und sogar der Welt mit seinen kristallklaren Buchten und historischer Struktur."
+    },
+
+    "footer": {
+      "aboutUs": "ÜBER UNS",
+      "contactUs": "KONTAKT",
+      "gallery": "GALERIE",
+      "cookiePolicy": "COOKIE-RICHTLINIE",
+      "privacyPolicy": "DATENSCHUTZERKLÄRUNG",
+      "contact": "Kontakt",
+      "phone": "+90 252 319 40 48",
+      "email": "info@inonehotel.com",
+      "address": "Bodrum / Muğla",
+      "socialMedia": "Folgen Sie uns"
+    },
+
+    "inoneBitez": {
+      "heroSubtitle": "Ein einzigartiges Erlebnis, wo Luxus und Ruhe in der unvergleichlichen Schönheit der Ägäis aufeinandertreffen",
+      "aboutTitle": "LUXUS-ERLEBNIS IN BITEZ",
+      "aboutDescription1": "Unser Hotel liegt in Bitez, einer der prestigeträchtigsten Buchten von Bodrum, und verbindet modernen Luxus harmonisch mit der zeitlosen Schönheit der Ägäis. An diesem einzigartigen Ort schaffen wir unvergessliche Erinnerungen für unsere Gäste.",
+      "aboutDescription2": "Mit jedem sorgfältig gestalteten Detail werden Sie einen Urlaub im Einklang mit der Natur erleben. Wir sind stolz darauf, mit unserem professionellen Team und unserem Premium-Service-Ansatz Unterkünfte anzubieten, die Ihre Erwartungen übertreffen.",
+      "exploreButton": "ENTDECKUNG BEGINNEN",
+      "experienceTitle": "EINZIGARTIGE ERLEBNISSE",
+      "feature1Title": "Naturverbundenheit",
+      "feature1Description": "Ruhige Gartenbereiche, in denen Sie die natürliche Schönheit von Bitez genießen können",
+      "feature2Title": "Frühstück inklusive",
+      "feature2Description": "Reichhaltiges Frühstücksbuffet, wo Weltküche auf lokale Bodrum-Aromen mit exquisiten Geschmäckern trifft",
+      "feature3Title": "Spa & Wellness",
+      "feature3Description": "Komplette Erneuerungserfahrung mit modernen Spa-Einrichtungen und ganzheitlichen Wellness-Programmen",
+      "feature4Title": "Premium-Aktivitäten",
+      "feature4Description": "Aktives Urlaubsprogramm mit Yoga-Sessions, Kunstworkshops und besonderen Veranstaltungen",
+      "roomsTitle": "KOMFORTABLE UNTERKUNFT",
+      "roomsDescription": "Erleben Sie den Gipfel des Komforts in modernen Zimmern und Suiten in der friedlichen Atmosphäre von Bitez",
+      "room1Title": "Deluxe Zimmer",
+      "room1Description": "Geräumige Zimmer mit modernem Design und eleganten Details, die alle Ihre Komfortbedürfnisse erfüllen.",
+      "room2Title": "Suite Zimmer",
+      "room2Description": "Unsere Premium-Suiten mit geräumigen Wohnbereichen und separaten Sitzecken für ein luxuriöses Komforterlebnis.",
+      "learnMore": "Details anzeigen",
+      "locationTitle": "BODRUM BITEZ",
+      "locationDescription": "Wir befinden uns in Bitez, einer der schönsten Buchten der Halbinsel Bodrum, in ruhiger und dennoch zentraler Lage. Nur 15 Minuten vom Stadtzentrum Bodrum und eine komfortable 45-minütige Fahrt zum Flughafen entfernt.",
+      "address": "Bitez Mahallesi, 48400 Bodrum/Muğla"
+  },
+
+    "bitezRooms": {
+      "pageTitle": "ZIMMER",
+      "clickToView": "Klicken Sie für Details",
+      "pageDescription": "Erleben Sie einen unvergesslichen Aufenthalt in unseren Zimmern, wo moderner Komfort auf die einzigartige Schönheit der Ägäis trifft",
+      
+      "guests": "Gast",
+      "view": "Aussicht",
+      "amenities": "Ausstattung",
+      
+     
+      
+      "deluxeRoom": "Deluxe Zimmer",
+       "deluxeRoomDescription": "Unsere Deluxe-Zimmer, die sich durch ihr geräumiges und luftiges Design auszeichnen, bieten ein luxuriöses Unterkunftserlebnis. Genießen Sie höchsten Komfort mit erstklassigen Annehmlichkeiten und elegantem Dekor.",
+"deluxeRoomFeature1": "Geräumiger Balkon",
+      "deluxeRoomFeature2": "Premium-Badezimmerausstattung",
+      "deluxeRoomFeature3": "Smart TV und Soundsystem",
+      "deluxeRoomFeature4": "Spezielle Minibar-Optionen",
+      
+      "suiteRoom": "Suite Zimmer",
+      "suiteRoomDescription": "Genießen Sie einen besonderen Aufenthalt in unseren Suiten, in denen Luxus und Komfort perfekt mit großzügigen Wohnbereichen und VIP-Annehmlichkeiten verschmelzen.",
+      "suiteRoomFeature1": "Separates Schlafzimmer und Wohnzimmer",
+      "suiteRoomFeature2": "Eigenes Bad mit Whirlpool",
+      "suiteRoomFeature3": "VIP-Annehmlichkeiten und -Services",
+      "suiteRoomFeature4": "Große Terrasse",
+      
+      "viewDetails": "DETAILS ANZEIGEN",
+      "bookNow": "JETZT BUCHEN",
+      
+      "servicesTitle": "UNSERE DIENSTLEISTUNGEN",
+      "servicesDescription": "Erleben Sie einen unvergesslichen Aufenthalt mit unseren Premium-Services, die Ihren Aufenthalt noch spezieller machen",
+      
+      "beachServiceTitle": "Garten-Service",
+      "beachServiceDescription": "Sonnenliegen, Sonnenschirme und Entspannungsservices in unserem großzügigen Gartenbereich",
+      
+      "roomServiceTitle": "Frühstücks-Service",
+      "roomServiceDescription": "Reichhaltiges Frühstücksbuffet und optionale Zimmerfrühstück-Services",
+      
+      "housekeepingTitle": "Reinigungsservice",
+      "housekeepingDescription": "Tägliche Reinigung und spezielle Reinigungsservices",
+      
+      "spaServiceTitle": "Spa-Service",
+      "spaServiceDescription": "Professionelle Massage- und Spa-Behandlungen",
+      
+      "contactTitle": "RESERVIERUNG",
+      "contactDescription": "Kontaktieren Sie uns für detaillierte Informationen über unsere Zimmer und zur Reservierung"
+    },
+
+    "deluxeRoomDetail": {
+      "home": "Startseite",
+      "entertainment": "Unterhaltung",
+      "rooms": "Zimmer",
+      "deluxeRoom": "Deluxe Zimmer",
+     "heroDescription": "Erleben Sie einen unvergesslichen Aufenthalt in unserem Deluxe Room, in dem Luxus und Komfort perfekt harmonieren.",
+      
+      "roomDetails": "Zimmerdetails",
+      "roomDescription": "Unser 35 m² großes Deluxe Zimmer bietet die Möglichkeit, von seinem geräumigen Balkon aus die natürliche Schönheit von Bitez zu genießen. Erleben Sie den Gipfel des Komforts mit seinem modernen Design, Premium-Annehmlichkeiten und eleganter Einrichtung. Genießen Sie einen luxuriösen Urlaub mit Whirlpool-Bad, Smart-TV-System und speziellen Minibar-Optionen.",
+      
+      "size": "Größe",
+      "capacity": "Kapazität",
+      "view": "Aussicht",
+      "bedType": "Betttyp",
+      "bathroom": "Badezimmer",
+      "climate": "Klima",
+      
+     
+      "doubleBett": "Doppelbett",
+      "privateBathroom": "Eigenes Badezimmer",
+      "airConditioning": "Klimaanlage",
+      
+      "amenities": "Zimmerausstattung",
+      "privateBalcony": "Geräumiger Balkon",
+      "smartTV": "Smart TV",
+      "minibar": "Minibar",
+      "safe": "Safe",
+      "wifi": "Kostenloses WLAN",
+      "heating": "Heizungssystem",
+      "bathrobes": "Bademäntel",
+      "hairdryer": "Haartrockner",
+      "toiletries": "Pflegeartikel",
+      "roomService": "Frühstücks-Service",
+      "housekeeping": "Reinigungsservice",
+      "concierge": "Concierge-Service",
+      "beachAccess": "Garten-Zugang",
+      "poolAccess": "Pool-Zugang",
+      
+      "bookNow": "JETZT BUCHEN",
+      "virtualTour": "VIRTUELLE TOUR",
+      
+      "includedServices": "Inkludierte Services",
+      "beachServiceTitle": "Garten-Service",
+      "beachServiceDescription": "Sonnenliegen, Sonnenschirme und Entspannungsservices im großzügigen Gartenbereich",
+      "roomServiceTitle": "Frühstücks-Service",
+      "roomServiceDescription": "Reichhaltiges Frühstücksbuffet und Zimmerfrühstück-Optionen",
+      "conciergeServiceTitle": "Concierge-Service",
+      "conciergeServiceDescription": "Professionelle Unterstützung für Ihre besonderen Wünsche",
+      
+      "makeReservation": "Reservierung vornehmen",
+      "reservationDescription": "Reservieren Sie jetzt, um einen unvergesslichen Urlaub in unserem Deluxe Zimmer zu verbringen. Wir erwarten Sie mit Bestpreisgarantie."
+    },
+
+    "suiteRoomDetail": {
+      "home": "Startseite",
+      "rooms": "Zimmer",
+      "suiteRoom": "Suite Zimmer",
+      "heroDescription": "Erleben Sie eine besondere Unterkunft mit geräumigen Wohnbereichen und VIP-Annehmlichkeiten in unserem Suite Zimmer, der perfekten Kombination aus Luxus und Komfort.",
+      
+      "roomDetails": "Zimmerdetails",
+      "roomDescription": "Unser 55 m² großes Suite Zimmer bietet geräumige Wohnbereiche mit separatem Schlafzimmer und Wohnzimmer. Erleben Sie einen unvergesslichen Urlaub mit Whirlpool-Privatbad, ruhiger Atmosphäre von Bitez von der großen Terrasse und VIP-Annehmlichkeiten. Entdecken Sie den Gipfel des Luxus mit modernem Soundsystem und Premium-Services.",
+      
+      "size": "Größe",
+      "capacity": "Kapazität",
+      "view": "Aussicht",
+      "bedType": "Betttyp",
+      "bathroom": "Badezimmer",
+      "layout": "Aufteilung",
+      
+    
+      "kingBed": "King-Size-Bett",
+      "jacuzziBathroom": "Whirlpool-Badezimmer",
+      "separateRooms": "Getrennte Räume",
+      
+      "amenities": "Zimmerausstattung",
+      "separateBedroom": "Separates Schlafzimmer",
+      "livingRoom": "Wohnzimmer",
+      "privateBalcony": "Große Terrasse",
+      "jacuzziBath": "Whirlpool-Bad",
+      "smartTV": "Smart TV",
+      "soundSystem": "Soundsystem",
+      "minibar": "Premium Minibar",
+      "safe": "Digitaler Safe",
+      "wifi": "Kostenloses WLAN",
+      "airConditioning": "Klimaanlage",
+      "heating": "Heizungssystem",
+      "bathrobes": "Luxus-Bademäntel",
+      "hairdryer": "Haartrockner",
+      "toiletries": "Premium-Pflegeartikel",
+      "roomService": "24/7 Frühstücks-Service",
+      "housekeeping": "Täglicher Reinigungsservice",
+      "concierge": "Persönlicher Concierge",
+      "beachAccess": "Garten-Zugang",
+      "poolAccess": "VIP-Pool-Zugang",
+      "vipServices": "VIP-Services",
+      
+      "bookNow": "JETZT BUCHEN",
+      "virtualTour": "VIRTUELLE TOUR",
+      
+      "includedServices": "Inkludierte Services",
+      "beachServiceTitle": "VIP-Garten-Service",
+      "beachServiceDescription": "VIP-Sonnenliegen, privater Service und Premium-Entspannungsservices im großzügigen Gartenbereich",
+      "roomServiceTitle": "Premium-Frühstücks-Service",
+      "roomServiceDescription": "Reichhaltiges Frühstücksbuffet und spezielle Zimmerfrühstück-Menüs",
+      "conciergeServiceTitle": "Persönlicher Concierge",
+      "conciergeServiceDescription": "24/7 professionelle Unterstützung für Ihre besonderen Wünsche mit persönlichem Concierge",
+      
+      "makeReservation": "Reservierung vornehmen",
+      "reservationDescription": "Reservieren Sie jetzt, um einen VIP-Urlaub in unserem Suite Zimmer zu verbringen. Wir erwarten Sie mit besonderen Rabatten und Bestpreisgarantie."
+    },
+
+    "aboutUs": {
+      "pageTitle": "ÜBER UNS",
+      "heroDescription": "Im Herzen der Ägäis sind wir stolz darauf, unseren Gästen unvergessliche Erlebnisse in der einzigartigen Schönheit von Bitez zu bieten",
+
+      "storyTitle": "UNSERE GESCHICHTE",
+      "storyDescription1": "Inone Bitez ist ein Boutique-Hotel in Bitez, einer der schönsten Buchten von Bodrum, das die perfekte Harmonie der bezaubernden Schönheit der Natur mit modernem Luxus bietet. Wir wurden gegründet, um unvergessliche Erinnerungen für unsere Gäste in der ruhigen Atmosphäre von Bitez zu schaffen.",
+      "storyDescription2": "Unser Hotel, das Sorgfalt in jedem Detail enthält, verbindet traditionelle türkische Gastfreundschaft mit zeitgemäßem Komfortverständnis und bietet unseren Gästen ein einzigartiges Urlaubserlebnis. Mit unseren Nachhaltigkeitsprinzipien und umweltfreundlichen Ansatz stellen wir immer die Wichtigkeit der Erhaltung natürlicher Schönheiten in den Vordergrund.",
+      "establishedYear": "2025",
+      "established": "Gegründet",
+      "roomCount": "15",
+      "rooms": "Zimmer",
+      
+      "valuesTitle": "UNSERE WERTE",
+      "valuesDescription": "Die Grundwerte, die wir befolgen, um unseren Gästen den besten Service zu bieten",
+      "excellenceTitle": "Exzellenz",
+      "excellenceDescription": "Wir bieten Service über die Erwartungen hinaus, indem wir in jedem Detail nach Exzellenz streben",
+      "hospitalityTitle": "Gastfreundschaft",
+      "hospitalityDescription": "Wir verbinden traditionelle türkische Gastfreundschaft mit modernem Verständnis",
+      "sustainabilityTitle": "Nachhaltigkeit",
+      "sustainabilityDescription": "Wir geben natürliche Schönheiten mit umweltfreundlichen Praktiken an zukünftige Generationen weiter",
+      "luxuryTitle": "Luxus",
+      "luxuryDescription": "Wir bringen Komfort und Eleganz zusammen, um die wahre Bedeutung von Luxus zu erleben",
+      
+      "locationTitle": "UNSERE LAGE",
+      "locationDescription1": "Unsere Unterkunft befindet sich in Bitez, einer der schönsten Buchten der Halbinsel Bodrum, in ruhiger und dennoch zentraler Lage. Mit unserer Position am Atatürk Boulevard bieten wir Bitez's natürliche Schönheit und regionalen Komfort zusammen.",
+      "locationDescription2": "Nur 15 Minuten vom Stadtzentrum Bodrum und eine komfortable 45-minütige Fahrt zum Flughafen Bodrum-Milas entfernt. Wir bieten einfachen Zugang zu umliegenden antiken Städten, Marina, Einkaufszentren und Unterhaltungsmöglichkeiten.",
+      "beachDistance": "Fußweg zu Naturgebieten",
+      "cityDistance": "15 Minuten zum Zentrum Bodrum",
+      "airportDistance": "45 Minuten zum Flughafen",
+      
+      "teamTitle": "UNSER TEAM",
+      "teamDescription": "Unser erfahrenes Team, das leidenschaftlich daran arbeitet, unseren Gästen den besten Service zu bieten",
+      "generalManagerTitle": "Geschäftsführer",
+      "guestRelationsTitle": "Gästebetreuungsleiter",
+      "chefTitle": "Küchenchef"
+    },
+
+    "bitezFeatures": {
+      "title": "AUSSTATTUNG",
+      "ageRestriction": "12+ Jahre",
+      "strongWifi": "Starkes WLAN",
+      "welcomeGift": "Willkommensgeschenk",
+      "petFriendly": "Haustierfreundlich",
+     "closeToNature": "Naturnah",
+      "dailyCleaning": "Tägliche Reinigung"
+    },
+
+    "MobileBookButton": {
       "bookNow": "JETZT BUCHEN"
     },
 
-    "offersHero": {
-      "tabs": {
-        "genel": "Allgemein",
-        "restaurant": "Restaurant",
-        "odalar": "Zimmer"
-      },
-      "offers": {
-        "earlyBooking": {
-          "title": "Frühbucher",
-          "description": "Buchen Sie 30 Tage im Voraus und erhalten Sie 20% Rabatt",
-          "button": "JETZT BUCHEN"
-        },
-        "longStay": {
-          "title": "Langzeitaufenthalt",
-          "description": "3. Nacht kostenlos bei Aufenthalten ab 7 Nächten", 
-          "button": "JETZT ANRUFEN"
-        },
-        "honeymoon": {
-          "title": "Honeymoon-Paket",
-          "description": "Schaffen Sie unvergessliche Erinnerungen mit unserem romantischen Paket",
-          "button": "JETZT KONTAKTIEREN"
-        }
-      },
-      "gallery": {
-        "general": "Hotel Allgemeine Ansicht",
-        "restaurant": "Restaurant",
-        "room": "Zimmer"
-      },
+    "HotelsInfo": {
+      "title": "UNSER HOTEL",
+      "subtitle": "Ein einzigartiges Erlebnis in Bodrum. Unvergessliche Erinnerungen und friedliche Momente erwarten Sie.",
+      "muchoLocation": "Bodrum",
+      "muchoDescription": "Das Inone Hotel liegt in einer der ruhigsten Buchten von Bodrum und ist die ideale Wahl für Gäste, die einen ruhigen Urlaub im Einklang mit der Natur suchen. In diesem besonderen Ort, wo moderner Komfort auf traditionelle ägäische Gastfreundschaft trifft, werden Sie Ruhe finden.",
+      "muchoFeatures": "Ruhige Atmosphäre, Naturgebiete, Spa & Wellness-Center, Bio-Garten, Frühstück inklusive, Persönlicher Service",
+      "bitezLocation": "Bodrum",
+      "bitezDescription": "In der bezaubernden Atmosphäre der Ägäis gelegen, bietet das Inone Hotel die perfekte Harmonie von Luxus und Komfort. Jedes Detail, das im Boutique-Hotel-Konzept gestaltet wurde, bietet unseren Gästen ein besonderes und unvergessliches Urlaubserlebnis.",
+      "bitezFeatures": "Unterkunft mit Frühstück, Spa- & Wellnessbereich, Naturgarten, Concierge-Services, Premium-Aktivitäten",
+      "visitWebsite": "HOTEL ENTDECKEN",
+      "exploreHotel": "HOTEL ENTDECKEN"
+  },
 
-      "hotel": {
-        "title": "Über das Hotel",
-        "description1": "Erleben Sie unvergessliche Ferien in unserem Hotel. In unserer Einrichtung, die modernen Komfort mit traditioneller Gastfreundschaft vereint, ist jedes Detail auf Ihr Wohlbefinden ausgerichtet.",
-        "description2": "Wir bieten Ihnen einen perfekten Urlaub mit unserem Spa-Zentrum, unserem offenen Poolkomplex und unserem privaten Strand. Entspannen Sie sich in unseren komfortablen Zimmern und genießen Sie unsere köstlichen Mahlzeiten."
-      },
+    "Gallery": {
+      "title": "GALERIE",
+      "subtitle": "Entdecken Sie die bezaubernde Atmosphäre, das moderne Design und die natürliche Schönheit von Inone Bitez",
+      "all": "Alle",
+      "rooms": "Zimmer",
+      "restaurant": "Restaurant",
+      "general": "Allgemein",
+      "viewImage": "Ansehen",
+      "room1Title": "Deluxe Zimmer",
+      "room2Title": "Suite Zimmer",
+      "restaurant1Title": "Hauptrestaurant",
+      "generalTitle": "Allgemeine Ansicht"
+  },
 
-      "plane": {
-        "title": "BUCHEN SIE JETZT IHR FLUGTICKET",
-        "subtitle": "Buchen Sie Flugtickets zu den günstigsten Preisen mit zuverlässigen Airline-Partnern.",
-        "bottomText": "Sie können alle Ihre Buchungstransaktionen sicher durchführen und die für Sie am besten geeigneten Flugoptionen finden. Verwirklichen Sie Ihre Reisepläne einfach mit sofortigen Preisupdates und einem benutzerfreundlichen Buchungssystem."
+  "reservationWidget": {
+    "checkIn": "Anreise",
+    "checkOut": "Abreise",
+    "adult": "Erwachsene",
+    "bookNow": "JETZT BUCHEN"
+  },
+
+  "offersHero": {
+    "tabs": {
+      "genel": "Allgemein",
+      "restaurant": "Restaurant",
+      "odalar": "Zimmer"
+    },
+    "offers": {
+      "earlyBooking": {
+        "title": "Frühbucher",
+        "description": "Buchen Sie 30 Tage im Voraus und erhalten Sie 20% Rabatt",
+        "button": "JETZT BUCHEN"
+      },
+      "longStay": {
+        "title": "Langzeitaufenthalt",
+        "description": "3. Nacht kostenlos bei Aufenthalten ab 7 Nächten", 
+        "button": "JETZT ANRUFEN"
+      },
+      "honeymoon": {
+        "title": "Honeymoon-Paket",
+        "description": "Schaffen Sie unvergessliche Erinnerungen mit unserem romantischen Paket",
+        "button": "JETZT KONTAKTIEREN"
       }
+    },
+    "gallery": {
+      "general": "Hotel Allgemeine Ansicht",
+      "restaurant": "Restaurant",
+      "room": "Zimmer"
+    },
+
+    "hotel": {
+      "title": "Über das Hotel",
+      "description1": "Erleben Sie unvergessliche Ferien in unserem Hotel. In unserer Einrichtung, die modernen Komfort mit traditioneller Gastfreundschaft vereint, ist jedes Detail auf Ihr Wohlbefinden ausgerichtet.",
+      "description2": "Wir bieten Ihnen einen perfekten Urlaub mit unserem Spa-Zentrum, unserem offenen Poolkomplex und unseren natürlichen Gartenbereichen. Entspannen Sie sich in unseren komfortablen Zimmern und genießen Sie unser reichhaltiges Frühstück."
+    },
+
+    "plane": {
+      "title": "BUCHEN SIE JETZT IHR FLUGTICKET",
+      "subtitle": "Buchen Sie Flugtickets zu den günstigsten Preisen mit zuverlässigen Airline-Partnern.",
+      "bottomText": "Sie können alle Ihre Buchungstransaktionen sicher durchführen und die für Sie am besten geeigneten Flugoptionen finden. Verwirklichen Sie Ihre Reisepläne einfach mit sofortigen Preisupdates und einem benutzerfreundlichen Buchungssystem."
     }
-      
+  }
+    
 }
