@@ -12,8 +12,8 @@ const VideoSection = () => {
         playsInline
         preload="auto"
       >
-        <source src="/HomePage/Video/HomePageVideo.mp4" type="video/mp4" />
-        <source src="/HomePage/Video/HomePageVideo.mp4" type="video/webm" />
+        <source src="/HomePage/Video/HomePageVideo1.mp4" type="video/mp4" />
+        <source src="/HomePage/Video/HomePageVideo1.mp4" type="video/webm" />
       </video>
       
       {/* Overlay */}
