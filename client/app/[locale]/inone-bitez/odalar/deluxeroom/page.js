@@ -13,6 +13,7 @@ import Oda7 from "@/public/bitez/Odalar/Deluxe/Oda7.webp"
 import ReservationWidget from '@/app/[locale]/Components/HomePage/ReservationWidget';
 import BitezFeatures from '@/app/[locale]/Components/Bitez/BitezFeatures';
 import ContactUs from '@/app/[locale]/Components/Common/ContactFrom';
+import Tour from '@/app/[locale]/Components/Bitez/Odalar/Tour';
 
 export default function DeluxeRoomDetailPage() {
   const roomType = 'deluxeRoom';
@@ -24,6 +25,8 @@ export default function DeluxeRoomDetailPage() {
   const roomImages = [
     Oda1, Oda2, Oda3, Oda4, Oda5, Oda6, Oda7,
   ];
+
+  const tourUrl = "https://kuula.co/share/collection/71x6v?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1";
 
   const roomFeatures = [
     { icon: '📐', labelKey: 'size', value: '35 m²' },
@@ -46,6 +49,7 @@ export default function DeluxeRoomDetailPage() {
       <ReservationWidget/>
       <RoomGallery roomType={roomType} images={roomImages} />
       <RoomDetails roomType={roomType} features={roomFeatures} amenities={amenities} />
+      <Tour iframeUrl={tourUrl} />
       <BitezFeatures />
       <ContactUs />
     </div>

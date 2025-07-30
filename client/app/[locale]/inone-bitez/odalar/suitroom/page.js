@@ -20,6 +20,7 @@ import Oda12 from "@/public/bitez/Odalar/Suite/Oda12.webp"
 import Oda13 from "@/public/bitez/Odalar/Suite/Oda13.webp"
 import BitezFeatures from '@/app/[locale]/Components/Bitez/BitezFeatures';
 import ContactUs from '@/app/[locale]/Components/Common/ContactFrom';
+import Tour from '@/app/[locale]/Components/Bitez/Odalar/Tour';
 
 export default function SuiteRoomDetailPage() {
   const roomType = 'suiteRoom';
@@ -37,6 +38,8 @@ export default function SuiteRoomDetailPage() {
     { icon: '🛁', labelKey: 'bathroom', value: 'jacuzziBathroom' },
     { icon: '🏠', labelKey: 'layout', value: 'separateRooms' }
   ];
+
+  const tourUrl = "https://kuula.co/share/collection/71xxS?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1";
 
   const amenities = [
     'separateBedroom', 'livingRoom', 'privateBalcony', 'jacuzziBath', 
@@ -58,6 +61,7 @@ export default function SuiteRoomDetailPage() {
       
       {/* Room details */}
       <RoomDetails roomType={roomType} features={roomFeatures} amenities={amenities} />
+      <Tour iframeUrl={tourUrl} />
       
       <BitezFeatures />
       <ContactUs />
