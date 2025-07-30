@@ -381,6 +381,33 @@
       "subtitle": "Erreichen Sie unser Hotel, 39 km vom Flughafen Bodrum-Milas entfernt, einfach mit zuverlässigen Airline-Partnern.",
       "bottomText": "Sie können alle Ihre Reservierungstransaktionen sicher durchführen und die am besten geeigneten Flugoptionen nach Bodrum finden. Machen Sie eine komfortable Reise vom Flughafen zu unserem Hotel mit unserem VIP-Transfer-Service."
     }
-  }
+
+    
+  },
+
+  "contactPage": {
+    "title": "KONTAKT",
+    "subtitle": "Unser dynamisches Team hilft Ihnen gerne bei Reservierungen, der Bereitstellung von Informationen über angebotene Dienstleistungen oder bei der Erfüllung Ihrer individuellen Bedürfnisse. Ihr Komfort und Ihre Zufriedenheit stehen für uns an erster Stelle, und wir freuen uns, immer mit Ihnen in Kontakt zu bleiben.",
+    "getInTouch": "KONTAKT AUFNEHMEN",
+    "hotelReservation": "Hotel Reservierung",
+    "callCenterMail": "Call Center E-Mail", 
+    "beachReservation": "Strand Reservierung",
+    "hotelMail": "Hotel E-Mail",
+    "followUs": "FOLGEN SIE UNS",
+    "youtube": "YouTube",
+    "instagram": "Instagram", 
+    "facebook": "Facebook",
+    "google": "Google",
+    "tripadvisor": "TripAdvisor",
+    "location": "STANDORT",
+    "address": "Bitez Viertel, İnönü Straße Nr:123, Bodrum/Muğla, Türkei",
+    "exploreLocation": "Erkunden Sie Unseren Standort",
+    "phone": "TELEFON",
+    "email": "E-MAIL",
+    "officeHours": "Öffnungszeiten",
+    "officeHoursText": "Montag - Sonntag: 09:00 - 22:00",
+    "emergencyContact": "Notfallkontakt",
+    "emergencyText": "24/7 für Notfälle erreichbar"
+}
 
 }

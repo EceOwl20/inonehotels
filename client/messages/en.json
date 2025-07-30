@@ -381,6 +381,33 @@
       "subtitle": "Easily reach our hotel 39 km from Bodrum-Milas Airport with reliable airline partners.",
       "bottomText": "You can safely make all your reservation transactions and find the most suitable flight options to Bodrum. Make a comfortable journey from the airport to our hotel with our VIP transfer service."
     }
-  }
+
+    
+  },
+
+  "contactPage": {
+    "title": "CONTACT",
+    "subtitle": "Our dynamic team will be happy to assist you with making reservations, providing information about the services offered, or meeting your individual needs. Your comfort and satisfaction are our priority, and we are always happy to stay in touch with you.",
+    "getInTouch": "GET IN TOUCH",
+    "hotelReservation": "Hotel Reservation",
+    "callCenterMail": "Call Center Mail", 
+    "beachReservation": "Beach Reservation",
+    "hotelMail": "Hotel Mail",
+    "followUs": "FOLLOW US",
+    "youtube": "YouTube",
+    "instagram": "Instagram", 
+    "facebook": "Facebook",
+    "google": "Google",
+    "tripadvisor": "TripAdvisor",
+    "location": "LOCATION",
+    "address": "Bitez Neighborhood, İnönü Street No:123, Bodrum/Muğla, Turkey",
+    "exploreLocation": "Explore Our Location",
+    "phone": "PHONE",
+    "email": "EMAIL",
+    "officeHours": "Office Hours",
+    "officeHoursText": "Monday - Sunday: 09:00 - 22:00",
+    "emergencyContact": "Emergency Contact",
+    "emergencyText": "Available 24/7 for emergencies"
+}
 
 }

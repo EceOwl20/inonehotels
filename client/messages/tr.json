@@ -381,7 +381,34 @@
       "subtitle": "Bodrum-Milas Havaalanı'na 39 km mesafedeki otelimize güvenilir havayolu partnerleri ile kolayca ulaşın.",
       "bottomText": "Tüm rezervasyon işlemlerinizi güvenle yapabilir, Bodrum'a en uygun uçuş seçeneklerini bulabilirsiniz. VIP transfer hizmetimizle havaalanından otelimize konforlu yolculuk yapın."
     }
-  }
+
+    
+  },
+
+  "contactPage": {
+    "title": "İLETİŞİM",
+    "subtitle": "Dinamik ekibimiz rezervasyon yapma, sunulan hizmetler hakkında bilgi verme veya bireysel ihtiyaçlarınızı karşılama konularında size yardımcı olmaktan mutluluk duyacaktır. Önceliğimiz sizin rahatınız ve memnuniyetinizdir ve sizinle her zaman iletişim halinde olmaktan mutluluk duyarız.",
+    "getInTouch": "İLETİŞİME GEÇİN",
+    "hotelReservation": "Otel Rezervasyon",
+    "callCenterMail": "Çağrı Merkezi Mail", 
+    "beachReservation": "Beach Rezervasyon",
+    "hotelMail": "Otel Mail",
+    "followUs": "BİZİ TAKİP EDİN",
+    "youtube": "YouTube",
+    "instagram": "Instagram", 
+    "facebook": "Facebook",
+    "google": "Google",
+    "tripadvisor": "TripAdvisor",
+    "location": "KONUM",
+    "address": "Bitez Mahallesi, İnönü Caddesi No:123, Bodrum/Muğla, Türkiye",
+    "exploreLocation": "Konumumuzu Keşfedin",
+    "phone": "TELEFON",
+    "email": "E-POSTA",
+    "officeHours": "Çalışma Saatleri",
+    "officeHoursText": "Pazartesi - Pazar: 09:00 - 22:00",
+    "emergencyContact": "Acil Durum İletişim",
+    "emergencyText": "Acil durumlar için 7/24 ulaşabilirsiniz"
+}
 
   
 }
