@@ -6,7 +6,7 @@
 
   "Header": {
       "reservation": "REZERVASYON",
-      "title": "Site Başlığı"
+      "title": "INONE HOTELS"
     },
     "Sidebar": {
       "mainNavigation": "Ana Menü",
@@ -36,16 +36,16 @@
 
     "heroSection": {
       "muchoDescription": "Lüks ve konforun buluştuğu eşsiz deneyim",
-      "bitezDescription": "Doğanın kalbinde huzurlu tatil",
+      "bitezDescription": "Ege'nin eşsiz güzelliğinde lüks ve huzurun buluştuğu özel deneyim",
       "discover": "Keşfet"
     },
     "Welcome": {
-      "title": "Sizi Bekliyoruz",
-      "description": "InOne Hotels olarak benzersiz bir tatil deneyimi yaşamanız için buradayız."
+      "title": "INONE BITEZ'E HOŞGELDİNİZ",
+      "description": "Bodrum'un en prestijli koylarından Bitez'de, adult only konseptiyle benzersiz bir tatil deneyimi yaşamanız için buradayız."
     },
     "Featured": {
-      "title": "INONE HOTELS",
-      "description": "Ege kıyılarında lüksü kahvaltı dahil konseptiyle birleştiren Inone otel zincirinin büyüleyici atmosferini deneyimleyin."
+      "title": "INONE BITEZ HOTEL",
+      "description": "Ege kıyılarında adult only lüksü BB ve HB konseptiyle birleştiren Inone Bitez'in büyüleyici atmosferini deneyimleyin. Doğanın kalbinde huzurlu tatil."
     },
 
     "Contact": {
@@ -66,42 +66,42 @@
       "privacyPolicy": "GİZLİLİK POLİTİKASI",
       "contact": "İletişim",
       "phone": "+90 252 319 40 48",
-      "email": "info@inonehotel.com",
-      "address": "Bodrum / Muğla",
+      "email": "reservation@inonehotel.com",
+      "address": "Adliye Cd, Kanberoğlu Sk. No:85, 48400 Bodrum/Muğla",
       "socialMedia": "Bizi Takip Edin"
     },
 
     "inoneBitez": {
       "heroSubtitle": "Ege'nin eşsiz güzelliğinde lüks ve huzurun buluştuğu özel deneyim",
-      "aboutTitle": "BİTEZ'DE LÜKS DENEYİM",
-      "aboutDescription1": "Bodrum'un en prestijli koylarından biri olan Bitez'de konumlanan otelimiz, modern lüksü Ege'nin zamansız güzelliğiyle harmanlıyor. Bu eşsiz lokasyonda, misafirlerimize unutulmaz anılar sunuyoruz.",
-      "aboutDescription2": "Özenle tasarlanmış her detayıyla, doğayla iç içe bir tatil deneyimi yaşayacaksınız. Profesyonel ekibimiz ve premium hizmet anlayışımızla, beklentilerinizin ötesinde bir konaklama sunmaktan gurur duyuyoruz.",
+      "aboutTitle": "BİTEZ'DE ADULT ONLY DENEYİM",
+      "aboutDescription1": "Bodrum'un en prestijli koylarından biri olan Bitez'de konumlanan otelimiz, adult only konseptiyle modern lüksü Ege'nin zamansız güzelliğiyla harmanlıyor. 16+ yaş sınırlamasıyla sadece yetişkinlere özel bu eşsiz lokasyonda, misafirlerimize unutulmaz anılar sunuyoruz.",
+      "aboutDescription2": "2770 m² alan üzerinde özenle tasarlanmış her detayıyla, doğayla iç içe bir tatil deneyimi yaşayacaksınız. In One+ asistan hizmetimiz ve premium hizmet anlayışımızla, beklentilerinizin ötesinde bir konaklama sunmaktan gurur duyuyoruz.",
       "exploreButton": "KEŞFETMEYE BAŞLAYIN",
       "experienceTitle": "EŞSİZ DENEYİMLER",
-      "feature1Title": "Doğa ile İç İçe",
-      "feature1Description": "Bitez'in doğal güzelliklerinden yararlanabileceğiniz huzurlu bahçe alanları",
-      "feature2Title": "Kahvaltı Dahil",
-      "feature2Description": "Dünya mutfağından seçkin lezzetler ve yerel Bodrum tatlarının buluştuğu zengin kahvaltı buffesi",
-      "feature3Title": "Spa & Wellness",
-      "feature3Description": "Modern spa tesisleri ve holistik wellness programlarıyla tam bir yenilenme deneyimi",
-      "feature4Title": "Premium Aktiviteler",
-      "feature4Description": "Yoga seansları, sanat atölyeleri ve özel etkinliklerle dolu aktif tatil programı",
+      "feature1Title": "Adult Only Konsept",
+      "feature1Description": "16+ yaş sınırlamasıyla sadece yetişkinlere özel huzurlu ve sakin atmosfer",
+      "feature2Title": "BB & HB Seçenekleri",
+      "feature2Description": "Bed & Breakfast ve Half Board seçenekleri ile Maria's Garden Restaurant deneyimi",
+      "feature3Title": "In One+ Hizmet",
+      "feature3Description": "Kişisel asistan hizmetiyle tatilinizdeki tüm detaylar sizin için düşünülüyor",
+      "feature4Title": "Pet Friendly",
+      "feature4Description": "10 kg'a kadar evcil hayvanlarınızla birlikte tatil yapabileceğiniz özel imkanlar",
       "roomsTitle": "KONFORLU KONAKLAMA",
       "roomsDescription": "Bitez'in huzurlu atmosferinde tasarlanmış modern odalar ve süitlerde konforun zirvesini yaşayın",
-      "room1Title": "Deluxe Oda",
-      "room1Description": "Modern tasarım ve zarif detaylarla döşenmiş, tüm konfor ihtiyaçlarınızı karşılayan geniş odalarımız.",
-      "room2Title": "Süit Oda",
-      "room2Description": "Geniş yaşam alanları ve ayrı oturma köşeleriyle, premium konfor deneyimi sunan süitlerimiz.",
+      "room1Title": "Deluxe Room",
+      "room1Description": "20m² alanda bahçe-park manzaralı, 2 yetişkin kapasiteli modern tasarım odalarımız.",
+      "room2Title": "Suite Room",
+      "room2Description": "35m² alanda bahçe manzaralı, 3 yetişkin kapasiteli, ayrı oturma alanı bulunan süitlerimiz.",
       "learnMore": "Detayları Görün",
       "locationTitle": "BODRUM BİTEZ",
-      "locationDescription": "Bodrum yarımadasının en güzel koylarından biri olan Bitez'de, hem huzurlu hem de merkezi bir konumda yer alıyoruz. Bodrum şehir merkezine sadece 15 dakika mesafede, havaalanına ise 45 dakikalık konforlu bir yolculukla ulaşabilirsiniz.",
-      "address": "Bitez Mahallesi, 48400 Bodrum/Muğla"
+      "locationDescription": "Bodrum şehir merkezine 7 km, Bodrum-Milas Havaalanına 39 km mesafede ideal konumda yer alıyoruz. Bodrum Kalesi, Halikarnas Mozolesi gibi tarihi yerlere de kolayca ulaşabilirsiniz.",
+      "address": "Adliye Cd, Kanberoğlu Sk. No:85, 48400 Bodrum/Muğla"
   },
 
     "bitezRooms": {
       "pageTitle": "ODALAR",
       "clickToView": "Detayları Görmek İçin Tıklayın",
-      "pageDescription": "Modern konfor ve Ege'nin eşsiz güzelliğinin buluştuğu odalarımızda unutulmaz bir konaklama deneyimi yaşayın",
+      "pageDescription": "Adult only konseptiyle modern konfor ve Ege'nin eşsiz güzelliğinin buluştuğu odalarımızda unutulmaz bir konaklama deneyimi yaşayın",
       
       "guests": "Misafir",
       "view": "Görünüm",
@@ -109,18 +109,18 @@
       
       
       "deluxeRoom": "Deluxe Room",
-      "deluxeRoomDescription": "Geniş ve ferah tasarımıyla öne çıkan deluxe odalarımız, lüks bir konaklama deneyimi sunar. Premium amenitiler ve zarif dekoru ile konforun zirvesini yaşayın.",
-      "deluxeRoomFeature1": "Geniş balkon",
-      "deluxeRoomFeature2": "Premium banyo amenitileri",
-      "deluxeRoomFeature3": "Smart TV ve ses sistemi",
-      "deluxeRoomFeature4": "Özel mini bar seçenekleri",
+      "deluxeRoomDescription": "20m² alanda bahçe-park manzaralı deluxe odalarımız, King Size yatak, LCD TV, mermer zemin ve özel mini bar ile lüks bir konaklama deneyimi sunar.",
+      "deluxeRoomFeature1": "King Size yatak (1.80m x 2m)",
+      "deluxeRoomFeature2": "Bahçe-park manzarası",
+      "deluxeRoomFeature3": "LCD TV ve klima sistemi",
+      "deluxeRoomFeature4": "Alkolsüz içecekli mini bar",
       
       "suiteRoom": "Suite Room",
-      "suiteRoomDescription": "Lüks ve konforun mükemmel birleşimi olan suite odalarımızda, geniş yaşam alanları ve VIP amenitiler ile özel bir konaklama deneyimi yaşayın.",
-      "suiteRoomFeature1": "Ayrı yatak odası ve salon",
-      "suiteRoomFeature2": "Jakuzili özel banyo",
-      "suiteRoomFeature3": "VIP amenitiler ve hizmetler",
-      "suiteRoomFeature4": "Geniş teras alanı",
+      "suiteRoomDescription": "35m² alanda bahçe manzaralı suite odalarımızda King Size yatak, ayrı oturma alanı, LCD TV ve premium amenitiler ile konforun zirvesini yaşayın.",
+      "suiteRoomFeature1": "King Size yatak + kanepe",
+      "suiteRoomFeature2": "Ayrı oturma alanı",
+      "suiteRoomFeature3": "Bahçe manzarası",
+      "suiteRoomFeature4": "Premium amenitiler",
       
       "viewDetails": "DETAYLARI GÖRÜN",
       "bookNow": "REZERVASYON YAP",
@@ -128,17 +128,17 @@
       "servicesTitle": "HİZMETLERİMİZ",
       "servicesDescription": "Konaklamanızı daha da özel kılmak için sunduğumuz premium hizmetlerimizle unutulmaz bir deneyim yaşayın",
       
-      "beachServiceTitle": "Bahçe Hizmeti",
-      "beachServiceDescription": "Geniş bahçe alanımızda şezlong, şemsiye ve dinlenme hizmetleri",
+      "beachServiceTitle": "In One+ Hizmet",
+      "beachServiceDescription": "Kişisel asistan hizmetiyle tatilinizdeki tüm ihtiyaçlarınız karşılanıyor",
       
-      "roomServiceTitle": "Kahvaltı Servisi",
-      "roomServiceDescription": "Zengin kahvaltı buffesi ve isteğe bağlı oda kahvaltısı hizmetleri",
+      "roomServiceTitle": "Hoşgeldin Hizmetleri",
+      "roomServiceDescription": "Özel karşılama içecekleri, ücretsiz vale park ve oda rehberliği",
       
-      "housekeepingTitle": "Temizlik Hizmeti",
-      "housekeepingDescription": "Günlük temizlik ve özel temizlik hizmetleri",
+      "housekeepingTitle": "Maria's Garden",
+      "housekeepingDescription": "Akdeniz mutfağının eşsiz lezzetleri Maria's Garden Restaurant'ta",
       
-      "spaServiceTitle": "Spa Hizmeti",
-      "spaServiceDescription": "Profesyonel masaj ve spa tedavileri",
+      "spaServiceTitle": "Yacht Turları",
+      "spaServiceDescription": "In One+ ile Bodrum'un kristal koylarını keşfedin",
       
       "contactTitle": "REZERVASYON",
       "contactDescription": "Odalarımız hakkında detaylı bilgi almak ve rezervasyon yapmak için bizimle iletişime geçin"
@@ -149,10 +149,10 @@
       "entertainment": "Eğlence",
       "rooms": "Odalar",
       "deluxeRoom": "Deluxe Room",
-      "heroDescription": "Lüks ve konforun mükemmel uyumunu sunan Deluxe Room'umuzda unutulmaz bir konaklama deneyimi yaşayın.",
+      "heroDescription": "20m² alanda bahçe-park manzaralı Deluxe Room'umuzda adult only konseptiyle huzurlu bir konaklama deneyimi yaşayın.",
       
       "roomDetails": "Oda Detayları",
-      "roomDescription": "35 m² genişliğindeki Deluxe Room'umuz, geniş balkonundan Bitez'in doğal güzelliklerini izleme imkânı sunar. Modern tasarımı, premium amenitileri ve zarif dekoru ile konforun zirvesini deneyimleyin. Jakuzili banyosu, akıllı TV sistemi ve özel mini bar seçenekleri ile lüks bir tatil geçirin.",
+      "roomDescription": "20m² genişliğindeki Deluxe Room'umuz, bahçe-park manzarası ile doğanın huzurunu odanıza taşır. King Size yatak, LCD TV, mermer zemin ve duş kabini ile modern konforu yaşayın. Klima, su ısıtıcısı ve alkolsüz içecekli mini bar ile konforunuz tam.",
       
       "size": "Boyut",
       "capacity": "Kapasite",
@@ -162,49 +162,49 @@
       "climate": "Klima",
       
 
-      "doubleBed": "Çift Kişilik Yatak",
-      "privateBathroom": "Özel Banyo",
+      "doubleBed": "King Size Yatak",
+      "privateBathroom": "Duş Kabini",
       "airConditioning": "Klima Sistemi",
       
       "amenities": "Oda İmkânları",
-      "privateBalcony": "Geniş Balkon",
-      "smartTV": "Akıllı TV",
-      "minibar": "Mini Bar",
-      "safe": "Kasa",
-      "wifi": "Ücretsiz WiFi",
-      "heating": "Isıtma Sistemi",
-      "bathrobes": "Bornoz",
+      "privateBalcony": "Bahçe-Park Manzarası",
+      "smartTV": "LCD TV",
+      "minibar": "Alkolsüz Mini Bar",
+      "safe": "Dijital Kasa",
+      "wifi": "Yüksek Hızlı WiFi",
+      "heating": "Klima Sistemi",
+      "bathrobes": "Banyo Havlusu",
       "hairdryer": "Saç Kurutma Makinesi",
-      "toiletries": "Banyo Amenitileri",
-      "roomService": "Kahvaltı Servisi",
-      "housekeeping": "Temizlik Hizmeti",
-      "concierge": "Concierge Hizmeti",
-      "beachAccess": "Bahçe Erişimi",
+      "toiletries": "Kozmetik Ürünler",
+      "roomService": "Hoşgeldin Amenitileri",
+      "housekeeping": "Günlük Temizlik",
+      "concierge": "In One+ Asistan",
+      "beachAccess": "Iconic Beach Erişimi",
       "poolAccess": "Havuz Erişimi",
       
       "bookNow": "HEMEN REZERVE ET",
       "virtualTour": "VİRTÜEL TUR",
       
       "includedServices": "Dahil Olan Hizmetler",
-      "beachServiceTitle": "Bahçe Hizmeti",
-      "beachServiceDescription": "Geniş bahçe alanında şezlong, şemsiye ve dinlenme hizmetleri",
-      "roomServiceTitle": "Kahvaltı Servisi",
-      "roomServiceDescription": "Zengin kahvaltı buffesi ve oda kahvaltısı seçenekleri",
-      "conciergeServiceTitle": "Concierge Hizmeti",
-      "conciergeServiceDescription": "Özel istekleriniz için profesyonel destek",
+      "beachServiceTitle": "In One+ Hizmet",
+      "beachServiceDescription": "Kişisel asistan hizmetiyle tüm ihtiyaçlarınız karşılanıyor",
+      "roomServiceTitle": "Hoşgeldin Paket",
+      "roomServiceDescription": "Özel karşılama içecekleri ve hoşgeldin hediyesi",
+      "conciergeServiceTitle": "Erken Giriş/Geç Çıkış",
+      "conciergeServiceDescription": "Iconic Beach'e erişim imkanı",
       
       "makeReservation": "Rezervasyon Yapın",
-      "reservationDescription": "Deluxe Room'umuzda unutulmaz bir tatil geçirmek için hemen rezervasyon yapın. En iyi fiyat garantisi ile sizleri bekliyoruz."
+      "reservationDescription": "Deluxe Room'umuzda unutulmaz bir tatil geçirmek için hemen rezervasyon yapın. Adult only konseptiyle huzurlu bir tatil sizi bekliyor."
     },
 
     "suiteRoomDetail": {
       "home": "Ana Sayfa",
       "rooms": "Odalar",
       "suiteRoom": "Suite Room",
-      "heroDescription": "Geniş yaşam alanları ve VIP amenitiler ile lüks ve konforun mükemmel birleşimi olan Suite Room'umuzda özel bir konaklama deneyimi yaşayın.",
+      "heroDescription": "35m² alanda bahçe manzaralı Suite Room'umuzda ayrı oturma alanı ve premium amenitiler ile lüks bir konaklama deneyimi yaşayın.",
       
       "roomDetails": "Oda Detayları",
-      "roomDescription": "55 m² genişliğindeki Suite Room'umuz, ayrı yatak odası ve salon ile geniş yaşam alanları sunmaktadır. Jakuzili özel banyosu, geniş terasından Bitez'in huzurlu atmosferi ve VIP amenitiler ile unutulmaz bir tatil deneyimi yaşayın. Modern ses sistemi ve premium hizmetler ile lüksün zirvesini keşfedin.",
+      "roomDescription": "35m² genişliğindeki Suite Room'umuz, King Size yatak, ayrı oturma alanı ve bahçe manzarası sunmaktadır. Mermer zemin, LCD TV, özel banyo ve premium amenitiler ile konforun zirvesini keşfedin. In One+ hizmetiyle tüm ihtiyaçlarınız düşünülmüş.",
       
       "size": "Boyut",
       "capacity": "Kapasite",
@@ -215,91 +215,91 @@
       
      
       "kingBed": "King Size Yatak",
-      "jacuzziBathroom": "Jakuzili Banyo",
-      "separateRooms": "Ayrı Odalar",
+      "jacuzziBathroom": "Özel Banyo",
+      "separateRooms": "Ayrı Oturma Alanı",
       
       "amenities": "Oda İmkânları",
-      "separateBedroom": "Ayrı Yatak Odası",
-      "livingRoom": "Oturma Salonu",
-      "privateBalcony": "Geniş Teras",
-      "jacuzziBath": "Jakuzili Banyo",
-      "smartTV": "Akıllı TV",
+      "separateBedroom": "King Size Yatak",
+      "livingRoom": "Ayrı Oturma Alanı",
+      "privateBalcony": "Bahçe Manzarası",
+      "jacuzziBath": "Özel Banyo",
+      "smartTV": "LCD TV",
       "soundSystem": "Ses Sistemi",
-      "minibar": "Premium Mini Bar",
+      "minibar": "Alkolsüz Mini Bar",
       "safe": "Dijital Kasa",
-      "wifi": "Ücretsiz WiFi",
+      "wifi": "Yüksek Hızlı WiFi",
       "airConditioning": "Klima Sistemi",
       "heating": "Isıtma Sistemi",
-      "bathrobes": "Lüks Bornoz",
+      "bathrobes": "Premium Bornoz",
       "hairdryer": "Saç Kurutma Makinesi",
-      "toiletries": "Premium Banyo Amenitileri",
-      "roomService": "7/24 Kahvaltı Servisi",
+      "toiletries": "Özel Hijyen Seti",
+      "roomService": "Hoşgeldin Amenitileri",
       "housekeeping": "Günlük Temizlik",
-      "concierge": "Özel Concierge",
-      "beachAccess": "Bahçe Erişimi",
-      "poolAccess": "VIP Havuz Erişimi",
-      "vipServices": "VIP Hizmetler",
+      "concierge": "In One+ Asistan",
+      "beachAccess": "Iconic Beach Erişimi",
+      "poolAccess": "Havuz Erişimi",
+      "vipServices": "VIP Transferler",
       
       "bookNow": "HEMEN REZERVE ET",
       "virtualTour": "VİRTÜEL TUR",
       
       "includedServices": "Dahil Olan Hizmetler",
-      "beachServiceTitle": "VIP Bahçe Hizmeti",
-      "beachServiceDescription": "Geniş bahçe alanında VIP şezlong, özel servis ve premium dinlenme hizmetleri",
-      "roomServiceTitle": "Premium Kahvaltı Servisi",
-      "roomServiceDescription": "Zengin kahvaltı buffesi ve özel oda kahvaltısı menüleri",
-      "conciergeServiceTitle": "Özel Concierge",
-      "conciergeServiceDescription": "Kişisel concierge ile özel istekleriniz için 7/24 profesyonel destek",
+      "beachServiceTitle": "In One+ Express",
+      "beachServiceDescription": "Hızlı check-in ve kişisel asistan hizmetiyle premium deneyim",
+      "roomServiceTitle": "VIP Transferler",
+      "roomServiceDescription": "Ücretsiz VIP havaalanı transfer hizmeti",
+      "conciergeServiceTitle": "Premium Amenitiler",
+      "conciergeServiceDescription": "Özel hoşgeldin hediyesi ve veda hediyesi",
       
       "makeReservation": "Rezervasyon Yapın",
-      "reservationDescription": "Suite Room'umuzda VIP bir tatil geçirmek için hemen rezervasyon yapın. Özel indirimler ve en iyi fiyat garantisi ile sizleri bekliyoruz."
+      "reservationDescription": "Suite Room'umuzda VIP bir tatil geçirmek için hemen rezervasyon yapın. Adult only konseptiyle özel bir deneyim sizi bekliyor."
     },
 
     "aboutUs": {
       "pageTitle": "HAKKIMIZDA",
-      "heroDescription": "Ege'nin kalbinde, Bitez'in eşsiz güzelliğinde misafirlerimize unutulmaz deneyimler sunmanın gururunu yaşıyoruz",
+      "heroDescription": "Ege'nin kalbinde, Bitez'in eşsiz güzelliğinde adult only konseptiyle misafirlerimize unutulmaz deneyimler sunmanın gururunu yaşıyoruz",
 
       "storyTitle": "HİKAYEMİZ",
-      "storyDescription1": "Inone Bitez, Bodrum'un en güzel koylarından biri olan Bitez'de, doğanın büyüleyici güzellikleri ile modern lüksün mükemmel uyumunu sunan bir boutique oteldir. Bitez'in huzurlu atmosferinde, misafirlerimize unutulmaz anılar yaşatmak için kurulduk.",
-      "storyDescription2": "Her detayında özen barındıran otelimiz, geleneksel Türk misafirperverliğini çağdaş konfor anlayışıyla birleştirerek, konuklarımıza benzersiz bir tatil deneyimi sunmaktadır. Sürdürülebilirlik ilkelerimiz ve çevre dostu yaklaşımımızla, doğal güzellikleri korumanın önemini her zaman ön planda tutuyoruz.",
+      "storyDescription1": "Inone Bitez, Bodrum'un en güzel koylarından biri olan Bitez'de, adult only konseptiyle (16+) tasarlanmış bir boutique oteldir. 2770 m² alan üzerinde, doğanın büyüleyici güzellikleri ile modern lüksün mükemmel uyumunu sunuyoruz.",
+      "storyDescription2": "1 Mayıs - 31 Ekim 2025 sezonunda hizmet veren otelimiz, BB ve HB konseptleriyle misafirlerimize esnek konaklama seçenekleri sunmaktadır. In One+ asistan hizmetimiz ve Maria's Garden Restaurant deneyimimizle, konuklarımıza benzersiz bir tatil yaşatıyoruz.",
       "establishedYear": "2025",
-      "established": "Kuruluş",
-      "roomCount": "15",
-      "rooms": "Oda",
+      "established": "Açılış",
+      "roomCount": "Deluxe & Suite",
+      "rooms": "Oda Seçenekleri",
       
-      "valuesTitle": "DEĞERLERİMİZ",
-      "valuesDescription": "Misafirlerimize en iyi hizmeti sunabilmek için benimsediğimiz temel değerlerimiz",
-      "excellenceTitle": "Mükemmellik",
-      "excellenceDescription": "Her detayda mükemmelliği hedefleyerek, beklentilerin ötesinde hizmet sunuyoruz",
-      "hospitalityTitle": "Misafirperverlik",
-      "hospitalityDescription": "Geleneksel Türk misafirperverliğini modern anlayışla harmanlıyoruz",
-      "sustainabilityTitle": "Sürdürülebilirlik",
-      "sustainabilityDescription": "Çevre dostu uygulamalarla doğal güzellikleri gelecek nesillere aktarıyoruz",
-      "luxuryTitle": "Lüks",
-      "luxuryDescription": "Konfor ve şıklığı bir araya getirerek lüksün gerçek anlamını yaşatıyoruz",
+      "valuesTitle": "ÖZELLİKLERİMİZ",
+      "valuesDescription": "Misafirlerimize en iyi hizmeti sunabilmek için sunduğumuz özel imkanlar",
+      "excellenceTitle": "Adult Only",
+      "excellenceDescription": "16+ yaş sınırlamasıyla sadece yetişkinlere özel huzurlu atmosfer",
+      "hospitalityTitle": "In One+ Hizmet",
+      "hospitalityDescription": "Kişisel asistan hizmetiyle tatilinizdeki tüm detaylar düşünülüyor",
+      "sustainabilityTitle": "Pet Friendly",
+      "sustainabilityDescription": "10 kg'a kadar evcil hayvanlarınızla birlikte tatil imkanı",
+      "luxuryTitle": "Maria's Garden",
+      "luxuryDescription": "Ünlü şef Maria Ekmekçioğlu'nun Akdeniz mutfağı deneyimi",
       
       "locationTitle": "KONUMUMUZ",
-      "locationDescription1": "Bodrum yarımadasının en güzel koylarından Bitez'de yer alan tesisimiz, hem huzurlu hem de merkezi bir konumda bulunmaktadır. Atatürk Bulvarı üzerindeki konumumuzla, Bitez'in doğal güzelliklerini ve bölgenin konforunu bir arada sunuyoruz.",
-      "locationDescription2": "Bodrum şehir merkezine sadece 15 dakika, Bodrum-Milas Havaalanı'na ise 45 dakikalık konforlu bir yolculukla ulaşabilirsiniz. Çevredeki antik şehirler, marina, alışveriş merkezleri ve eğlence mekanlarına kolay erişim imkânı sunuyoruz.",
-      "beachDistance": "Doğal alanlara yürüme mesafesi",
-      "cityDistance": "Bodrum merkeze 15 dakika",
-      "airportDistance": "Havaalanına 45 dakika",
+      "locationDescription1": "Adliye Cd, Kanberoğlu Sk. No:85 adresinde yer alan tesisimiz, Bodrum'un kalbi Bitez'de konumlanmıştır. Bodrum şehir merkezine 7 km, tarihi Bodrum Kalesi'ne 7,2 km mesafedeyiz.",
+      "locationDescription2": "Bodrum-Milas Havaalanı'na 39 km, Yalikavak Marina'ya 15 km mesafede olan otelimiz, bölgenin tüm önemli noktalarına kolay erişim imkânı sunuyor. Halikarnas Mozolesi, Bodrum Marina gibi önemli turistik noktalar da yürüme mesafesinde.",
+      "beachDistance": "Bitez sahile yürüme mesafesi",
+      "cityDistance": "Bodrum merkeze 7 km",
+      "airportDistance": "Havaalanına 39 km",
       
-      "teamTitle": "EKİBİMİZ",
-      "teamDescription": "Misafirlerimize en iyi hizmeti sunmak için tutkuyla çalışan deneyimli ekibimiz",
-      "generalManagerTitle": "Genel Müdür",
-      "guestRelationsTitle": "Misafir İlişkileri Müdürü",
-      "chefTitle": "Baş Aşçı"
+      "teamTitle": "HİZMETLERİMİZ",
+      "teamDescription": "Misafirlerimize en iyi hizmeti sunmak için hazırladığımız özel hizmet paketleri",
+      "generalManagerTitle": "In One+ Asistan",
+      "guestRelationsTitle": "Maria's Garden Restaurant",
+      "chefTitle": "Yacht Turları & VIP Transfer"
     },
 
     "bitezFeatures": {
       "title": "OLANAKLAR",
-      "ageRestriction": "12 Yaş ve Üzeri",
-      "strongWifi": "Güçlü Wi-Fi",
+      "ageRestriction": "Adult Only 16+",
+      "strongWifi": "Yüksek Hızlı Wi-Fi",
       "welcomeGift": "Hoşgeldin Hediyesi",
-      "petFriendly": "Evcil Hayvan Dostu",
-       "closeToNature": "Doğaya Yakın",
-      "dailyCleaning": "Günlük Oda Temizliği"
+      "petFriendly": "Pet Friendly (10kg'a kadar)",
+       "closeToNature": "Bahçe Manzarası",
+      "dailyCleaning": "In One+ Asistan Hizmeti"
     },
 
     "MobileBookButton": {
@@ -307,79 +307,79 @@
     },
 
     "HotelsInfo": {
-      "title": "OTELİMİZ",
-      "subtitle": "Bodrum'da benzersiz bir deneyim. Unutulmaz anılar ve huzur dolu anlar sizi bekliyor.",
-      "muchoLocation": "Bodrum",
-      "muchoDescription": "Bodrum'un en huzurlu koylarında konumlanan Inone Hotel, doğayla iç içe sakin bir tatil arayan misafirlerimiz için ideal bir seçim. Modern konfor ve geleneksel Ege misafirperverliğinin buluştuğu bu özel mekanda huzuru bulacaksınız.",
-      "muchoFeatures": "Huzurlu atmosfer, Doğal alanlar, Spa & wellness merkezi, Organik bahçe, Kahvaltı dahil, Kişisel hizmet",
-      "bitezLocation": "Bodrum",
-      "bitezDescription": "Ege'nin büyüleyici atmosferinde yer alan Inone Hotel, lüks ve konforun mükemmel uyumunu sunar. Butik otel anlayışıyla tasarlanmış her detayı, misafirlerimize özel ve unutulmaz bir tatil deneyimi yaşatır.",
-     "bitezFeatures": "Kahvaltı dahil konaklama, Spa & wellness merkezi, Doğal bahçe, Concierge hizmetleri, Premium aktiviteler",
+      "title": "INONE BITEZ HOTEL",
+      "subtitle": "Bodrum Bitez'de adult only konseptiyle benzersiz bir deneyim. Unutulmaz anılar ve huzur dolu anlar sizi bekliyor.",
+      "muchoLocation": "Bodrum Bitez",
+      "muchoDescription": "Bodrum'un en prestijli koylarından Bitez'de konumlanan Inone Bitez Hotel, adult only konseptiyle (16+) sadece yetişkinlere özel sakin bir tatil deneyimi sunar. 2770 m² alan üzerinde modern konfor ve Ege misafirperverliğinin buluştuğu bu özel mekanda huzuru bulacaksınız.",
+      "muchoFeatures": "Adult Only konsept, Maria's Garden Restaurant, In One+ asistan hizmeti, Pet friendly (10kg), BB & HB seçenekleri, Yacht turları",
+      "bitezLocation": "Bodrum Bitez",
+      "bitezDescription": "Ege'nin büyüleyici atmosferinde yer alan Inone Bitez Hotel, lüks ve konforun mükemmel uyumunu adult only konseptiyle sunar. Boutique otel anlayışıyla tasarlanmış her detayı, 16+ yaş misafirlerimize özel ve unutulmaz bir tatil deneyimi yaşatır.",
+     "bitezFeatures": "BB & HB konaklama, Maria's Garden Restaurant, In One+ kişisel asistan, VIP transferler, Yacht turları, Pet friendly imkanlar",
       "visitWebsite": "OTELİ KEŞFET",
       "exploreHotel": "OTELİ KEŞFET"
   },
 
     "Gallery": {
       "title": "GALERİ",
-      "subtitle": "Inone Bitez'in büyüleyici atmosferini, modern tasarımını ve doğal güzelliklerini keşfedin",
+      "subtitle": "Inone Bitez'in adult only konseptiyle büyüleyici atmosferini, modern tasarımını ve doğal güzelliklerini keşfedin",
       "all": "Tümü",
       "rooms": "Odalar",
-      "restaurant": "Restoran",
+      "restaurant": "Maria's Garden",
       "general": "Genel",
       "viewImage": "Görüntüle",
-      "room1Title": "Deluxe Oda",
-      "room2Title": "Süit Oda",
-      "restaurant1Title": "Ana Restoran",
+      "room1Title": "Deluxe Room",
+      "room2Title": "Suite Room",
+      "restaurant1Title": "Maria's Garden Restaurant",
       "generalTitle": "Genel Görünüm",
-      "general1Title": "Genel Görünüm"
+      "general1Title": "Adult Only Atmosfer"
   },
 
   "reservationWidget": {
     "checkIn": "Giriş",
     "checkOut": "Çıkış", 
-    "adult": "Yetişkin",
+    "adult": "Yetişkin (16+)",
     "bookNow": "REZERVASYON YAP"
   },
 
   "offersHero": {
     "tabs": {
       "genel": "Genel",
-      "restaurant": "Restaurant", 
+      "restaurant": "Maria's Garden", 
       "odalar": "Odalar"
     },
     "offers": {
       "earlyBooking": {
-        "title": "Erken Rezervasyon",
-        "description": "30 gün önceden rezervasyon yapın, %20 indirim kazanın",
+        "title": "Balayı Özel Paketi",
+        "description": "Özel karşılama, oda içi şarap ve romantik Iconic Pier yemeği",
         "button": "HEMEN REZERVASYON YAPIN"
       },
       "longStay": {
-        "title": "Uzun Konaklama", 
-        "description": "7 gece ve üzeri konaklamalarda 3. gece bedava",
+        "title": "Doğum Günü Kutlaması", 
+        "description": "VIP transfer, Iconic Beach'te parti ve özel pasta ile unutulmaz kutlama",
         "button": "HEMEN ARA"
       },
       "honeymoon": {
-        "title": "Balayı Paketi",
-        "description": "Romantik balayı paketimizle unutulmaz anılar yaşayın", 
+        "title": "In One+ Premium",
+        "description": "Kişisel asistan hizmetiyle tüm tatil detaylarınız düşünülüyor", 
         "button": "ŞİMDİ İLETİŞİME GEÇ"
       }
     },
     "gallery": {
-      "general": "Hotel Genel Görünüm",
-      "restaurant": "Restaurant",
-      "room": "Oda"
+      "general": "Adult Only Atmosfer",
+      "restaurant": "Maria's Garden Restaurant",
+      "room": "Modern Odalar"
     },
 
     "hotel": {
       "title": "Otel Hakkında",
-     "description1": "Muhteşem otelimizde unutulmaz bir tatil deneyimi yaşayın. Modern konforu geleneksel misafirperverlikle buluşturan tesisimizde, her detay sizin rahatlığınız için düşünülmüştür.",
-      "description2": "Spa merkezimiz, açık havuz kompleksimiz ve doğal bahçe alanlarımızla size mükemmel bir tatil sunuyoruz. Konforlu odalarımızda dinlenin, zengin kahvaltı menümüzün tadını çıkarın."
+     "description1": "Adult only konseptiyle tasarlanmış otelimizde (16+) unutulmaz bir tatil deneyimi yaşayın. Maria's Garden Restaurant, In One+ asistan hizmeti ve pet friendly imkanlarla her detay sizin rahatlığınız için düşünülmüştür.",
+      "description2": "Iconic Beach erişimi, yacht turları ve VIP transfer hizmetlerimizle size mükemmel bir tatil sunuyoruz. BB & HB seçenekleriyle esnek konaklama imkanları sunan modern odalarımızda dinlenin."
     },
 
     "plane": {
       "title": "HEMEN UÇAK BİLETİNİZİ AYIRTIN",
-      "subtitle": "Güvenilir havayolu partnerleri ile en uygun fiyatlarla uçak bileti rezervasyonu yapın.",
-      "bottomText": "Tüm rezervasyon işlemlerinizi güvenle yapabilir, size en uygun uçuş seçeneklerini bulabilirsiniz. Anlık fiyat güncellemeleri ve kolay rezervasyon sistemi ile seyahat planlarınızı kolayca gerçekleştirin."
+      "subtitle": "Bodrum-Milas Havaalanı'na 39 km mesafedeki otelimize güvenilir havayolu partnerleri ile kolayca ulaşın.",
+      "bottomText": "Tüm rezervasyon işlemlerinizi güvenle yapabilir, Bodrum'a en uygun uçuş seçeneklerini bulabilirsiniz. VIP transfer hizmetimizle havaalanından otelimize konforlu yolculuk yapın."
     }
   }
 

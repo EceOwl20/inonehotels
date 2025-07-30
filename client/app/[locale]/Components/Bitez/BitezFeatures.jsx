@@ -35,10 +35,10 @@ const BitezFeatures = () => {
           <span className='font-jost font-medium text-sm sm:text-base lg:text-lg text-gray-700 leading-tight'>{t('petFriendly')}</span>
         </div>
         
-        <div className='flex flex-col items-center text-center'>
+        {/* <div className='flex flex-col items-center text-center'>
           <FaUmbrellaBeach className='w-8 h-8 sm:w-9 sm:h-9 lg:w-10 lg:h-10 mb-3 sm:mb-4 text-gray-400 opacity-60' />
           <span className='font-jost font-medium text-sm sm:text-base lg:text-lg text-gray-700 leading-tight'>{t('closeToBeach')}</span>
-        </div>
+        </div> */}
         
         <div className='flex flex-col items-center text-center'>
           <GiWashingMachine className='w-8 h-8 sm:w-9 sm:h-9 lg:w-10 lg:h-10 mb-3 sm:mb-4 text-gray-400 opacity-60' />
