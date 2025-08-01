@@ -2,13 +2,6 @@
 import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 import { useState, useEffect } from 'react';
-import Oda1 from "@/public/bitez/Odalar/Deluxe/Oda1.webp"
-import Oda2 from "@/public/bitez/Odalar/Deluxe/Oda2.webp"
-import Oda3 from "@/public/bitez/Odalar/Deluxe/Oda3.webp"
-import Oda4 from "@/public/bitez/Odalar/Deluxe/Oda4.webp"
-import Oda5 from "@/public/bitez/Odalar/Deluxe/Oda5.webp"
-import Oda6 from "@/public/bitez/Odalar/Deluxe/Oda6.webp"
-import Oda7 from "@/public/bitez/Odalar/Deluxe/Oda7.webp"
 
 export default function RoomDetailHero({ roomType, heroImages = [] }) {
   const t = useTranslations(`${roomType}Detail`);
@@ -18,10 +11,9 @@ export default function RoomDetailHero({ roomType, heroImages = [] }) {
   const [isLoading, setIsLoading] = useState(true);
 
   // Default images for deluxe room type
-  const deluxeImages = [Oda1, Oda2, Oda3, Oda4, Oda5, Oda6, Oda7];
   
   // Use provided heroImages or default deluxe images
-  const imagesToUse = heroImages.length > 0 ? heroImages : deluxeImages;
+  const imagesToUse = heroImages || [];
 
   // Auto-play functionality
   useEffect(() => {

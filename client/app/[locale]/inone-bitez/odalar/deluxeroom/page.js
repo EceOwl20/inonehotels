@@ -16,7 +16,9 @@ import ContactUs from '@/app/[locale]/Components/Common/ContactFrom';
 import Tour from '@/app/[locale]/Components/Bitez/Odalar/Tour';
 
 export default function DeluxeRoomDetailPage() {
-  const roomType = 'deluxeRoom';
+  const roomType = 'deluxeRoom'
+
+  const deluxeImages = [Oda1, Oda2, Oda3, Oda4, Oda5, Oda6, Oda7]
   
   // Hero için ana resim (ilk resim)
   const heroImage = Oda1;
@@ -47,7 +49,7 @@ export default function DeluxeRoomDetailPage() {
     <div className="min-h-screen bg-white">
       <RoomDetailHero roomType={roomType} heroImage={heroImage} />
       <ReservationWidget/>
-      <RoomGallery roomType={roomType} images={roomImages} />
+      <RoomGallery roomType="deluxeRoom"  heroImages={deluxeImages}  />
       <RoomDetails roomType={roomType} features={roomFeatures} amenities={amenities} />
       <Tour iframeUrl={tourUrl} />
       <BitezFeatures />

@@ -32,6 +32,7 @@ export default function Sidebar({ isOpen, onClose }) {
         { href: '/inone-bitez/offers', labelKey: 'bitezOffers', isActive: pathname.includes('/offers') },
         { href: '/inone-bitez/Galeri', labelKey: 'bitezGallery', isActive: pathname.includes('/galeri') },
         { href: '/inone-bitez/hakkimizda', labelKey: 'bitezAbout', isActive: pathname.includes('/hakkimizda') },
+        { href: '/inone-bitez/ContactUs', labelKey: 'bitezContact', isActive: pathname.includes('/inone-bitez/ContactUs') },
         { href: '/', labelKey: 'backToMain', isBack: true }
       ];
     }

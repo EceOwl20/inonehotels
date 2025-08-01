@@ -29,7 +29,7 @@ export default function SuiteRoomDetailPage() {
   const heroImage = Oda1;
   
   // Use imported images for gallery
-  const roomImages = [Oda1, Oda2, Oda3, Oda4, Oda5, Oda6, Oda7, Oda8, Oda9, Oda10, Oda11, Oda12, Oda13];
+  const suiteImages = [Oda1, Oda2, Oda3, Oda4, Oda5, Oda6, Oda7, Oda8, Oda9, Oda10, Oda11, Oda12, Oda13];
 
   const roomFeatures = [
     { icon: '📐', labelKey: 'size', value: '55 m²' },
@@ -57,7 +57,7 @@ export default function SuiteRoomDetailPage() {
       <ReservationWidget />
       
       {/* Gallery with all images */}
-      <RoomGallery roomType={roomType} images={roomImages} />
+      <RoomGallery roomType="suiteRoom"  heroImages={suiteImages}  />
       
       {/* Room details */}
       <RoomDetails roomType={roomType} features={roomFeatures} amenities={amenities} />
