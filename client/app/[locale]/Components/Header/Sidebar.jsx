@@ -54,7 +54,7 @@ export default function Sidebar({ isOpen, onClose }) {
       { href: '/inone-bitez', labelKey: 'bitezHotel', isActive: false },
       { href: '/inone-mucho', labelKey: 'muchoHotel', isActive: false },
       { href: '/sustainability', labelKey: 'sustainability', isActive: pathname.includes('/sustainability') },
-      { href: '/contact', labelKey: 'contact', isActive: pathname.includes('/contact') }
+      { href: '/inone-bitez/ContactUs', labelKey: 'contact', isActive: pathname.includes('/ContactUs') } // Contact linki güncellendi
     ];
   };
 

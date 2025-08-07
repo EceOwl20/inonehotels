@@ -164,28 +164,56 @@ const ContactPage = () => {
 
           </div>
           
-          {/* Location Section */}
+          {/* Location Section - Dual Maps */}
           <div className="flex flex-col items-center mt-8 sm:mt-12 mx-auto">
             {/* Location Icon */}
-            <MapPin className="w-12 h-12 sm:w-16 sm:h-16 mr-0 sm:mr-6 lg:mr-12 text-gray-400 mb-2" />
+            <MapPin className="w-12 h-12 sm:w-16 sm:h-16 text-gray-400 mb-6" />
             
-            {/* Address */}
-            <p className="text-xs mt-3 sm:mt-5 font-semibold mr-0 sm:mr-6 lg:mr-12 text-gray-800 text-center px-4">
-              {t('address')}
-            </p>
-            
-            {/* Google Maps */}
-            <div className="mt-6 sm:mt-8 w-full max-w-[95%] sm:max-w-4xl lg:max-w-6xl xl:max-w-12xl px-2 sm:px-4">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d4358.193355153794!2d27.375747856379903!3d37.03697830845594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1str!2str!4v1753879738240!5m2!1str!2str&markers=color:red%7Clabel:H%7C37.036978,27.375748" 
-                width="100%"
-                height="300"
-                className="sm:h-[400px] lg:h-[500px] rounded-lg shadow-md"
-                style={{ border: 0 }}
-                allowFullScreen=""
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-              ></iframe>
+            {/* Maps Container */}
+            <div className="w-full max-w-[95%] sm:max-w-4xl lg:max-w-6xl xl:max-w-7xl">
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                
+                {/* Inone Bitez Map */}
+                <div className="flex flex-col">
+                  <h3 className="text-lg font-semibold text-gray-800 mb-2 text-center">
+                    Inone Bitez Hotel
+                  </h3>
+                  <p className="text-xs font-medium text-gray-600 mb-4 text-center px-2">
+                    Bitez, Pomelan Cd. No:30, 48470 Bodrum/Muğla
+                  </p>
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d4358.193355153794!2d27.375747856379903!3d37.03697830845594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1str!2str!4v1753879738240!5m2!1str!2str&markers=color:red%7Clabel:B%7C37.036978,27.375748" 
+                    width="100%"
+                    height="300"
+                    className="sm:h-[350px] lg:h-[400px]"
+                    style={{ border: 0 }}
+                    allowFullScreen=""
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                  ></iframe>
+                </div>
+
+                {/* Inone Mucho Map */}
+                <div className="flex flex-col">
+                  <h3 className="text-lg font-semibold text-gray-800 mb-2 text-center">
+                    Inone Mucho Selection Hotel
+                  </h3>
+                  <p className="text-xs font-medium text-gray-600 mb-4 text-center px-2">
+                    Gümbet, Adnan Menderes Cd. No:48, 48400 Bodrum/Muğla
+                  </p>
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5313.693877965186!2d27.399654628905935!3d37.02897390637651!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14be6daf56064e07%3A0xdb5d4fd1cc0d4c1c!2sInone%20Mucho%20Selection%20Hotel!5e0!3m2!1str!2str!4v1754561070258!5m2!1str!2str" 
+                    width="100%"
+                    height="300"
+                    className="sm:h-[350px] lg:h-[400px]"
+                    style={{ border: 0 }}
+                    allowFullScreen=""
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                  ></iframe>
+                </div>
+
+              </div>
             </div>
           </div>
         </div>
